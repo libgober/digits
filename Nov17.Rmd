@@ -14,12 +14,11 @@ output: pdf_document
 #load library for reading stata databases
 library(readstata13)
 library(dplyr)
-dump("turkish.election.data","turkish.election.data")
 #set our working directory
 setwd("~/Dropbox/Digit_stats/")
 #load the data
 set.seed(1)
-turkish.election.data <- load("turkish.election.data")
+turkish.election.data <- read.csv("turkish_election.csv")
 #subset to data we are actually interested in fitting 
 data <- turkish.election.data %>%
   filter(type == "parl15_2") %>% #get Nov 2015 election results
