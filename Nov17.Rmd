@@ -1,0 +1,129 @@
+---
+title: "Turkish Fraud"
+author: "Brian Libgober"
+date: "November 17, 2015"
+header-includes:
+   - \usepackage{tikz}
+   - \usetikzlibrary{bayesnet}
+output: pdf_document
+---
+
+#Setup
+
+```{r}
+#load library for reading stata databases
+library(readstata13)
+library(dplyr)
+dump("turkish.election.data","turkish.election.data")
+#set our working directory
+setwd("~/Dropbox/Digit_stats/")
+#load the data
+set.seed(1)
+turkish.election.data <- load("turkish.election.data")
+#subset to data we are actually interested in fitting 
+data <- turkish.election.data %>%
+  filter(type == "parl15_2") %>% #get Nov 2015 election results
+  select(sandikid,valid,akp,mhp,chp) %>% #get unique id, vote total, and major party votes
+  sample_n(10^4) %>% #for speed, sample from a random subset of ballot boxes
+  transform(other = valid - akp - mhp - chp) #create a column for all other votes
+```
+
+#Define the Model
+
+### diagram
+
+\tikz{ %Define the nodes
+        \node[obs] (V) {$\vec{V}_j \in j$}; 
+        \factor[above=0.8 of V] {mult} {Multinomial} {} {};
+        \node[latent,above=of mult] (theta) {$\Theta_j$}; 
+        \node[factor,above=of theta] (norm) [label=$\mathcal{N}$] {};
+        \node[latent,left=of norm] (akp) {$\mu_{AKP},\sigma_{AKP}$};
+        \node[latent,above left=of norm] (mhp) {$\mu_{MHP},\sigma_{MHP}$};
+        \node[latent,above right=of norm] (chp) {$\mu_{CHP},\sigma_{CHP}$};
+        \node[latent,right=of norm] (other) {$\mu_{Other},\sigma_{Other}$};
+      %Connect the edges
+      \factoredge {akp,mhp,chp,other} {norm} {theta};
+      \edge {mult} {V};
+      %add plates
+      \gate {} {(mult)(mult-caption)} {theta};
+      \plate {} {(theta)(mult)(V)} {$j$ ballot boxes in Turkey}; %
+      }
+
+### stan code
+
+```{stan, engine.opts = list(x= 'model1'),eval=F}
+data {
+  int<lower=0> J; // number of precincts 
+  int<lower=0> candidate_votes[J,4]; //4 column matrix of votes for each party
+}
+parameters {
+  real AKP[J]; //untransformed proportion of AKP votes
+  real MHP[J]; //untransformed proportion of MHP votes
+  real CHP[J]; //untransformed proportion of CHP votes
+  real OTHER[J]; //untransformed proportion of OTHER votes
+  real mu_AKP; //hyperparameter of mean of AKP proportions
+  real sigma_AKP; //hyperparameter of sd of AKP proportions
+  real mu_MHP; //
+  real sigma_MHP; //
+  real mu_CHP; //
+  real sigma_CHP; //
+  real mu_OTHER; //
+  real sigma_OTHER; //
+}
+transformed parameters {
+  vector[4] temp[J]; //for storing the pre-transformed proportions
+  simplex[4] proportions[J]; //for storing the post-transformation proportions
+  for (j in 1:J) {
+  temp[j,1] <- AKP[j];
+  temp[j,2] <- MHP[j];
+  temp[j,3] <- CHP[j];
+  temp[j,4] <- OTHER[j];
+  }
+  for (j in 1:J) proportions[j] <- softmax(temp[j]); //transform proportions
+}
+model {
+  for (j in 1:J) AKP[j] ~ normal(mu_AKP,exp(sigma_AKP)); 
+  for (j in 1:J) MHP[j] ~ normal(mu_MHP,exp(sigma_MHP));
+  for (j in 1:J) CHP[j] ~ normal(mu_CHP,exp(sigma_CHP));
+  for (j in 1:J) OTHER[j] ~ normal(mu_OTHER,exp(sigma_OTHER));
+  for (j in 1:J) candidate_votes[j] ~ multinomial(proportions[j]);
+}
+```
+
+# Fitting
+
+```{r}
+library(rstan)
+election_dat <- list(
+  J = nrow(data),
+  candidate_votes = cbind(data$akp,data$mhp,data$chp,data$other)
+)
+fit <- stan(file='first_model.stan',data=election_dat,seed=2,iter=4000,warmup=3000)
+la <- extract(fit,permuted=T)
+```
+
+# Analyzing
+
+```{r}
+simulate_election <- function(sims){
+  draws <- sample(4000,sims)
+  precincts <- nrow(data)
+  results = list()
+  for (i in 1:sims){
+      #simulate an election by drawing from binomial
+    results[[i]] <- t(apply(la$proportions[1,,],MAR=1,function(x,votes){rmultinom(1,votes,x)},votes=data$valid))
+  }
+  return(results)
+}
+results <- simulate_election(100)
+mean.l1.loss <- function(results){
+  entries = prod(dim(results[[1]]))
+  storage = NULL
+  for (i in 1:length(results)){
+    storage[i] = sum(abs(results[[i]] - data[,3:6]))/entries
+    }
+  return(storage)
+}
+hist(mean.l1.loss(results))
+```
+
