@@ -13,12 +13,12 @@ def make_sure_path_exists(path):
     except OSError as exception:
         if exception.errno != errno.EEXIST:
             raise
-            
+
             
 ############# MAIN ##################
 
 #number of sims
-nsims = 100
+nsims = 500
 
 #setup directory name space, Sim Returns is target
 Home = os.path.abspath("/nfs/projects/b/blibgober/digits")
