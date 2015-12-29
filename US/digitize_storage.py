@@ -1,8 +1,17 @@
+"""
+Syntax is like python27 digitize_storage.py filein fileout
+File in is an HDFStore
+FILE
+"""
+
 import pandas as pd
 import os
 import glob
 import numpy as np
 from scipy.spatial import distance
+import sys
+
+_, filein, fileout = sys.argv
 
 def digit_aggregate(table):
     """
@@ -18,7 +27,7 @@ def custom_dist(a,b):
     b = b.fillna(0)
     return(distance.euclidean(a,b))
     
-store = pd.HDFStore("./SimStorage.h5")
+store = pd.HDFStore(filein)
 digits_distances = {}
 for key in store.keys():
     #first load the key key = store.keys()[0]
@@ -48,4 +57,4 @@ for key in store.keys():
     digits_distances[key.replace("/","")] = Distances
 
 out = pd.Panel(digits_distances)
-out.to_pickle("out.pkl")
+out.to_pickle(fileout)
