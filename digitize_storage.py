@@ -30,7 +30,7 @@ def custom_dist(a,b):
 store = pd.HDFStore(filein)
 digits_distances = {}
 for key in store.keys():
-    #first load the key key = store.keys()[0]
+    #first load the key, e.g. key = store.keys()[0]
     panel = store[key]
     #to each datafame or "sheet" in the panel, transform to digit counts
     digit_panel = panel.apply(lambda x: digit_aggregate(x),axis=(1,2))
