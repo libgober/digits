@@ -20,7 +20,7 @@ import pandas as pd
 import numpy as np
 import sys
 
-def simulate_box(counts,inflate=True):
+def simulate_box(counts,inflate=True,debug_mode=False):
     """
     Takes a vector of election counts like
     akp      117
@@ -37,35 +37,39 @@ def simulate_box(counts,inflate=True):
     
     If inflate is turned on, the proportion for AKP would be 117.25/252. 
     If inflate is turned off, the proportion for AKP would be 117/251.
-    """
-    if any(counts < 0):
-		print counts
-		for entry in range(len(counts)):
-		  counts[entry] = None
-		counts.fillna(np.nan)
-		return(counts)
-    if all(~counts.isnull()):
-    #no NAs
-        if inflate is True:
-            counts = counts + 1./len(counts)
-        Total = sum(counts)
-        p = counts/Total
-        return(np.random.multinomial(Total,p))
-    elif all(counts.isnull()):
-		#ALL NAs
-	return(counts)
-    else:
-        good_counts = counts[~counts.isnull()]
-        if inflate is True:
-            good_counts = good_counts + 1./len(good_counts)
-        Total = sum(good_counts)
-        p = good_counts/Total
-        foo = np.random.multinomial(Total,p)
-        counts[~counts.isnull()] = foo
-        return(counts)
     
-def simulate_election(returns,inflate=True):
-    """"
+    NOTE THAT WHATEVER IS FED TO THIS FUNCTION MUST ALREADY BE CLEAN.
+    """
+    if debug_mode:
+        print counts
+    Total = float(sum(counts))
+    if inflate is True:
+        #inflate to give some small chance of 0 entries to be non-zero
+        counts = counts + 1./len(counts)
+        p = counts/(Total+1.)
+    else:
+        p = counts/Total
+    out = np.random.multinomial(Total,p)
+    if sum(out) < 0:
+        print "Input", counts 
+        print out
+        Exception("Something went wrong")
+    return(out)
+    
+def clean(returns):
+    #make sure there are no NAN values, and make sure the returns are integers!
+    returns = returns.fillna(0).astype(int)
+    #make sure that there are no negative vote totals
+    #this would happen if the total column was not correctly entered
+    #we choose to throw out such mistakes rather than throw out the whole election 
+    #we do not make any attempt to impute
+    returns = returns.loc[returns.apply(lambda x: all(x >= 0), axis=1),:]
+    #get rid of all 0 rows
+    returns = returns.loc[returns.apply(lambda x: any(x > 0),axis=1),:]
+    return(returns)
+    
+def simulate_election(returns,inflate=True,debug_mode=False):
+    """
     Takes a pandas dataframe of election returns like
     akp    mhp    chp    other
     128    101    25     2
@@ -77,7 +81,8 @@ def simulate_election(returns,inflate=True):
     
     returns another matrix of election returns
     """
-    return(returns.apply(simulate_box,axis='columns',broadcast=True,inflate=inflate,raw=True)) #note axis is columns applies to each row
+    returns = clean(returns)
+    return(returns.apply(simulate_box,axis='columns',broadcast=False,inflate=inflate,debug_mode=debug_mode,raw=False)) #note axis is columns applies to each row
 
 
 def digit_distro(returns):
