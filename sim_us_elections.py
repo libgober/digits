@@ -28,6 +28,7 @@ SimReturns = os.path.join(Home,"US/Sim_Returns")
 #load the files to work with
 fins = os.listdir(RealReturns)
 #place to store our sims
+fins = [fin for fin in fins if ("GOV" in fin) | ("USS" in fin) | ("USP" in fin)]
 os.chdir(SimReturns)
 store = pd.HDFStore("SimStorage.h5")
 filelist = []
