@@ -8,15 +8,32 @@ Graphs will be produced int the directory from which the file is called
 
 import pandas as pd
 import numpy as np
+import os
 import matplotlib.pyplot as plt
 from matplotlib import collections as mc
 import sys
 
-_, filein = sys.argv
+os.chdir("/Users/brianlibgober/Dropbox/Digit_stats/RawData/Turkey_national/")
+data = pd.read_stata("parl_novjun15_jun11.dta")
+data[
 
+store = pd.HDFStore("/Users/brianlibgober/GitHub/digits/Turkey/Sims_Turkey_2011/Turkey.h5")
+temp = {}
+for key in store.keys():
+    temp[key[1:].replace(".csv","")] = store[key]
+store.close()
+
+
+
+pan = pd.Panel(temp)
+mean = pan.mean(0)
 
 data = pd.read_pickle(filein)
 cols = range(np.shape(data)[2]) #cols = [0,1] for US
+
+
+
+
 pvalues = [90,95,99]
 print "Target Percentile " "Percent Accepted"
 for pvalue in pvalues:
