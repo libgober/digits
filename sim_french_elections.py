@@ -18,20 +18,19 @@ def make_sure_path_exists(path):
 ############# MAIN ##################
 
 #number of sims
-nsims = 100
+nsims = 1
 
 #setup directory name space, Sim Returns is target
 Home = os.path.abspath("/nfs/projects/b/blibgober/digits")
-RealReturns = os.path.join(Home,"US/Real_Returns")
-SimReturns = os.path.join(Home,"US/Sim_Returns")
+RealReturns = os.path.join(Home,"France/Real_Returns")
+SimReturns = os.path.join(Home,"France/Sim_Returns")
 
 #load the files to work with
 fins = os.listdir(RealReturns)
 #place to store our sims
-fins = [fin for fin in fins if ("GOV" in fin) | ("USS" in fin) | ("USP" in fin)]
 os.chdir(SimReturns)
-store = pd.HDFStore("SimStorage.h5")
-filelist = []
+storelocation = "/scratch/blibgober/France/FranceSimStorage.h5"
+store = pd.HDFStore(storelocation)
 for fin in fins:
     print("Starting work on " + fin)
     ###create a folder for the file with storage and ensure write permissions
@@ -81,15 +80,9 @@ for fin in fins:
     for spawned in spawns:
         temp[spawned.replace(".csv","")] = pd.read_csv(spawned) 
     all_sims = pd.Panel(temp)
-    os.chdir(ffolder)
-    fall_sims = join(ffolder,str(nsims) + "_simulated_from_" + fin.replace(".csv",""))  + ".pkl"
-    #save all the sims
-#   all_sims.to_pickle(fall_sims)
     store[fin.replace(".csv","")] = all_sims
-    filelist.append(fall_sims)
-    
+
 store.close()
-os.chdir(SimReturns)
-pd.Series(filelist).to_csv("sim_files_done.csv")
+print "Sims are Stored in ", storelocation
 
 
