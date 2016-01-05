@@ -10,81 +10,112 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import collections as mc
+from matplotlib.colors import ColorConverter, Colormap
 import sys
 import re
 
-filein = 'SwedishDec29.pkl'
+filein = 'SwedenJan4.pkl'
 data = pd.read_pickle(filein)
-election_types = {"Riksdagsval": [0,3,6], "Landstingsval": [2,5], "Kommunval": [1,4]}
-pvalue = 99
+election_types = {
+    "Riksdagsval": data.items[data.items.str.lower().str.contains("riksdagsval")],
+    "Landstingsval": data.items[data.items.str.lower().str.contains("Landstingsval")], 
+    "Kommunval": data.items[data.items.str.lower().str.contains("Landstingsval")]}
+election_years = {
+    "Riksdagsval" : [2002,2010,2014],
+    "Landstingsval" : [2010,2014],
+    "Kommunval" : [2010,2014]
+}
 
-## Riksdagsval
-fig, (ax1, ax2, ax3) = plt.subplots(1,3) #create a 1x3 plot
-j=1
-for itemNumber in election_types["Riksdagsval"]:
-    lines = [] #store information about segments
-    points = [] #store information about points
-    text = [] #store text
-    i = 0 #iterator controlling placement on x
-    for col in (data.ix[itemNumber]).columns: 
-        p = np.percentile(data.ix[itemNumber,1:,col],pvalue) #critical value for the sims.
-        m = np.max(data.ix[itemNumber,:,col]) #max value for sims and real
-        lines.append([(i,np.min(data.ix[itemNumber,:,col])/m),(i,p/m)]) #add segment information, (x1,y1) to (x2,y2)
-        #we will place a point at the observed value
-        points.append((i,data.ix[itemNumber,0,col]/m))
-        if data.ix[itemNumber,0,col] > p:
-            text.append((i,1.05,col))
-        i = i + 1
-    lc = mc.LineCollection(lines)
-    ax = eval("ax" + str(j))
-    ax.set_ylim(0,110/100.)
-    b = 5
-    ax.set_xlim(0-b,b+len(points))
-    ax.plot([x[0] for x in points],[y[1] for y in points],"r^")
-    ax.add_collection(lc)
-    year = re.search("\d+",data.items[itemNumber]).group(0) #get first sequence of digits in sheet name
-    ax.set_title(year)
-    for entry in text:
-        x,y,txt = entry
-        ax.text(x,y,txt,fontsize=6)
-    j = j+1
-    fig.suptitle("Riksdagsval, Target Acceptance Rate: " + str(pvalue),fontsize=14, fontweight='bold')
-fig.savefig("Riksdagsval_"+ str(pvalue)+"_percentile_test.pdf")
+numberofparties = len(data.minor_axis)
+cm = plt.get_cmap("viridis")
+gradient = np.linspace(0, 1,numberofparties)
+ColorScheme = {data.minor_axis[i] : cm(gradient[i]) for i in range(numberofparties)}
 
-#####  Other two elections
-for t in ["Landstingsval","Kommunval"]:
-    fig, (ax1, ax2) = plt.subplots(1,2) #create a 1x2 plot
-    j=1
-    for itemNumber in election_types[t]:
-        lines = [] #store information about segments
-        points = [] #store information about points
-        text = [] #store text
-        i = 0 #iterator controlling placement on x
-        for col in (data.ix[itemNumber]).columns: 
-            p = np.percentile(data.ix[itemNumber,1:,col],pvalue) #critical value for the sims.
-            m = np.max(data.ix[itemNumber,:,col]) #max value for sims and real
-            lines.append([(i,np.min(data.ix[itemNumber,:,col])/m),(i,p/m)]) #add segment information, (x1,y1) to (x2,y2)
-            #we will place a point at the observed value
-            points.append((i,data.ix[itemNumber,0,col]/m))
-            if data.ix[itemNumber,0,col] > p:
-                text.append((i,1.05,col))
-            i = i + 1
-        lc = mc.LineCollection(lines)
-        ax = eval("ax" + str(j))
-        ax.set_ylim(0,110/100.)
-        b = 5
-        ax.set_xlim(0-b,b+len(points))
-        ax.plot([x[0] for x in points],[y[1] for y in points],"r^")
-        ax.add_collection(lc)
-        year = re.search("\d+",data.items[itemNumber]).group(0) #get first sequence of digits in sheet name
-        ax.set_title(year)
-        for entry in text:
-            x,y,txt = entry
-            ax.text(x,y,txt,fontsize=6)
-        j = j+1
-        fig.suptitle(t + ", Target Acceptance Rate: " + str(pvalue),fontsize=14, fontweight='bold')
-    fig.savefig(t + str(pvalue)+"_percentile_test.pdf")
+pvalues = [90,95,99] #must be between 0 and 100
+print "Pvalue, Actual"
+for pvalue in pvalues:
+    overall = []
+    for election_type in election_types.keys():
+        j=0 #index of subplot we are working on
+        fig, ax_all = plt.subplots(1,len(election_years[election_type]))
+        accept_election = []
+        DEBUG = []
+        for year in election_years[election_type]:
+            lines = [] #store information about segments
+            points = [] #store information about points
+            text = [] #store text
+            COLOR = []
+            i = 0 #iterator controlling placement on x
+            elections_in_year_in_type = data.items[
+                    data.items.str.contains(str(year),case=False) & 
+                    data.items.str.contains(election_type,case=False)
+                    ]
+            parties =  data.minor_axis #get name of parties in this election
+            for party in parties: 
+                partydata  = (data.ix[:,:,party])  #extract parties data, returns a 500 x #elections dataframe
+                for electionName in elections_in_year_in_type:
+                    statistics = partydata.ix[:,electionName]
+                    if all(~statistics.isnull()): #only produce a line if we didn't get NAs
+                        c = np.percentile(statistics[1:],pvalue) #critical value for the sims.
+                        MAX = np.max(statistics) #max value for sims and real
+                        MIN = np.min(statistics) #min value for sims and real
+                        lines.append([(i,MIN/MAX),(i,c/MAX)]) #add segment information, (x1,y1) to (x2,y2)
+                        #we will place a point at the observed value
+                        pObs = statistics[0]
+                        points.append((i,pObs/MAX))
+                        if pObs > c:
+                            text.append((i,1.05,party))
+                            #print "Rejecting", electionName, party, year
+                        accept_election.append(pObs <= c)
+                        DEBUG.append([electionName, party, year])
+                        i = i + 1
+                        COLOR.append(ColorScheme[party])
+            lc = mc.LineCollection(lines,colors=COLOR)
+            ax = ax_all[j]
+            ax.set_ylim(0,110/100.)
+            b = 5
+            ax.set_xlim(0-b,b+len(points))
+            ax.plot([x[0] for x in points],[y[1] for y in points],"r^")
+            ax.add_collection(lc)
+            ax.set_title(year)
+            for entry in text:
+                x,y,txt = entry
+                ax.text(x,y,txt,fontsize=6)
+            """ AXIS STUFF """
+            ax.set_xlim(right=i+b) #now i has changed, it is at the most right of the x-axis
+            ax.set_ylim(0,110/100.)
+            ax.yaxis.set_visible(False)
+            ax.spines['right'].set_visible(False)
+            ax.spines['left'].set_visible(False) #turn off the bar to the right
+            if j == 0:
+                ax.yaxis.set_visible(True)
+                ax.spines['left'].set_visible(True)
+            LargestElectionIndex = max(range(len(election_years[election_type])))
+            if j == LargestElectionIndex:
+                ax.spines['right'].set_visible(True) 
+            ax.tick_params(
+                axis='x',          # changes apply to the x-axis
+                which='both',      # both major and minor ticks are affected
+                bottom='off',      # ticks along the bottom edge are off
+                top='off',         # ticks along the top edge are off
+                labelbottom='off') # labels along the bottom edge are off
+            ax.tick_params(
+                axis = 'y',
+                which = 'both',
+                right = 'off'
+                )
+            ax.set_title(str(year))
+            ax.title.set_position((0.5,0))
+            #next iter setup
+            j = j+1
+        fig.suptitle(election_type + " \nTarget Acceptance Rate: " + str(pvalue) + "; Actual " + str(100*np.mean(accept_election))[0:5],fontsize=14, fontweight='bold')
+        fig.subplots_adjust(wspace=0)
+        fig.savefig(election_type+ str(pvalue)+"_percentile_test.pdf")
+        overall = overall + accept_election
+    print pvalue, np.mean(overall)
 
-
+    
+    
+    
 
 

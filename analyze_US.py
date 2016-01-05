@@ -31,7 +31,7 @@ meta = pd.DataFrame([i.split("_") for i in data.items])
 meta.columns = ["State","Year","ElectionYear","Type"]
 election_types = ["GOV","USS","USP"]
 election_years = ["2000","2004","2008","2012"]
-pvalues = [90,95,99]
+pvalues = [90,95,99] #do not change, np.precentile requires to be between 0 and 100
 print "Target Percentile " "Percent Accepted"
 
     
