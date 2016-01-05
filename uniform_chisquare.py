@@ -51,14 +51,14 @@ for el in election_types:
                 chi2, pObs = chisquare(sheet[party])
                 ObservedPValues.append(pObs)
                 points.append((i,pObs,party))
-                if pObs >= pvalue:
+                if pObs < 1-pvalue:
                     text.append((i,1.05,key[0:2]))
                 i = i+1
         ax.plot([x[0] for x in points if "d" in x[2]],[y[1] for y in points if "d" in y[2]],"r^",color="blue") #plot dems
         ax.plot([x[0] for x in points if "r" in x[2]],[y[1] for y in points if "r" in y[2]],"r^",color="red") #plot republicans
-        ax.axhline(y=0.95,c="black",linewidth=0.5,zorder=0) #horizontal line
-        ax.axhline(y=0.90,c="black",linewidth=0.25,zorder=0) #horizontal line
-        ax.axhline(y=0.99,c="black",linewidth=0.75) 
+        ax.axhline(y=1-0.95,c="black",linewidth=0.5,zorder=0) #horizontal line
+        ax.axhline(y=1-0.90,c="black",linewidth=0.25,zorder=0) #horizontal line
+        ax.axhline(y=1-0.99,c="black",linewidth=0.75) 
         ##### GENERIC PLOTTING AXIS STUFF
         ax.set_xlim(right=i+b) #now i has changed, it is at the most right of the x-axis
         ax.set_ylim(0,1.1)
@@ -90,9 +90,9 @@ for el in election_types:
     overall = overall + ObservedPValues 
     ObservedPValues = np.array(ObservedPValues) 
     values =  {
-    '0.90' : str(np.mean(ObservedPValues > 0.90))[0:5],
-    '0.95' : str(np.mean(ObservedPValues > 0.95))[0:5],
-    '0.99' : str(np.mean(ObservedPValues > 0.99))[0:5]
+    '0.90' : str(np.mean(ObservedPValues < 1-0.90))[0:5],
+    '0.95' : str(np.mean(ObservedPValues < 1-0.95))[0:5],
+    '0.99' : str(np.mean(ObservedPValues < 1-0.99))[0:5]
     }
     txt =     """P:PRejected |0.90:%(0.90)s | 0.95:%(0.95)s | 0.9:%(0.99)s """ % values
     fig.subplots_adjust(wspace=0)
@@ -110,7 +110,7 @@ values =  {
 '0.95' : str(np.mean(overall > 0.95))[0:5],
 '0.99' : str(np.mean(overall > 0.99))[0:5]
 }
-txt =     """P:PRejected |0.90:%(0.90)s | 0.95:%(0.95)s | 0.9:%(0.99)s """ % values
+txt =     """P:PRejected |0.90:%(0.90)s | 0.95:%(0.95)s | 0.99:%(0.99)s """ % values
 
 print txt.replace(":","    ").replace("|","\n")
 
