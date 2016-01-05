@@ -1,4 +1,5 @@
 from scipy.spatial import distance
+import pandas as pd
 
 def digit_aggregate(table):
     """
@@ -13,3 +14,10 @@ def custom_dist(a,b):
     a = a.fillna(0)
     b = b.fillna(0)
     return(distance.euclidean(a,b))
+
+def read_many_csv(fins):
+    """ Takes a list of csv file locations, reads them in ,returns a dataframe """
+    temp = {}
+    for fin in fins:
+        temp[fin] = pd.read_csv(fin)
+    return(pd.Panel(temp))
