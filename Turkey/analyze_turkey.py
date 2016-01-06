@@ -114,12 +114,14 @@ for pvalue in pvalues:
     DEBUGALL = DEBUGALL + DEBUG
     
 
+
+#### SOME ANALYSIS NO OUTPUT PRODUCED
 party_elections = pd.DataFrame(DEBUGALL)
-party_elections["results"] = pd.Series(results)
-###
-rejects = party_elections[~accept_election]
-rejects.columns = ["province","election","party"]
-akp = rejects[rejects.ix[:,2] == "akp"]
-out = pd.crosstab(rejects.province,rejects.party)
+party_elections.columns = ["province","election","party","pvalue"]
+party_elections["accept"] = pd.Series(results)
+party_elections = party_elections[party_elections.pvalue == 95]
+rejects = party_elections[~party_elections.accept]
+pd.crosstab(rejects.party,rejects.election).to_clipboard()
+pd.crosstab(rejects.province,rejects.party)
 
 
