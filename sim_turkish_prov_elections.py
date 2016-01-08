@@ -22,14 +22,14 @@ nsims = 100
 
 #setup directory name space, Sim Returns is target
 Home = os.path.abspath("/nfs/projects/b/blibgober/digits")
-RealReturns = os.path.join(Home,"Turkey/Real_Returns")
-SimReturns = os.path.join(Home,"Turkey/Sim_Returns")
+RealReturns = os.path.join(Home,"Turkey_prov/Real_Returns")
+SimReturns = os.path.join(Home,"Turkey_prov/Sim_Returns")
 
 #load the files to work with
 fins = os.listdir(RealReturns)
 #place to store our sims
 os.chdir(SimReturns)
-storelocation = "/scratch/blibgober/Turkey/TurkishSimStorage.h5"
+storelocation = "/scratch/blibgober/Turkey/TurkishSimStorage_prov.h5"
 store = pd.HDFStore(storelocation)
 for fin in fins:
     print("Starting work on " + fin)

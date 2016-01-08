@@ -112,7 +112,7 @@ data = pd.read_csv(fin,dtype=np.float64)
 fout = sys.argv[2]
 
 #sims = simulate_digit_distro(1,data,inflate=True)#sims = simulate_digit_distro(1,data,inflate=True)
-sims = simulate_election(data,inflate=True)
+sims = simulate_election(data,inflate=False)
 sims.to_csv(fout + ".csv",index=False)
 
 

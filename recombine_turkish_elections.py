@@ -25,43 +25,13 @@ Home = os.path.abspath("/nfs/projects/b/blibgober/digits")
 RealReturns = os.path.join(Home,"Turkey/Real_Returns")
 SimReturns = os.path.join(Home,"Turkey/Sim_Returns")
 
+os.chdir(RealReturns)
 #load the files to work with
-fins = os.listdir(RealReturns)
+fins = glob.glob("*.csv")
 #place to store our sims
 os.chdir(SimReturns)
 storelocation = "/scratch/blibgober/Turkey/TurkishSimStorage.h5"
 store = pd.HDFStore(storelocation)
-for fin in fins:
-    print("Starting work on " + fin)
-    ###create a folder for the file with storage and ensure write permissions
-    ffolder = fin.replace(".csv","")
-    ffolder = os.path.join(SimReturns,ffolder)
-    spawnfolder = join(ffolder,"storage")
-    make_sure_path_exists(spawnfolder)
-    os.chdir(spawnfolder)
-    subprocess.call(["chmod","-R","777","."])
-    #### move to the subfolder where file will be created
-    #create a condor submit script
-    condor_script_text =  """
-Universe        = vanilla
-Executable	= /usr/local/bin/python27
-Arguments	= /nfs/projects/b/blibgober/digits/simulate_election.py %(fin)s %(spawnfile)s
-request_memory  = 512
-request_cpus    = 1
-transfer_executable = false
-should_transfer_files = NO
-output  = %(spawnfolder)s/out.$(Process)
-error   = %(spawnfolder)s/err.$(Process)
-Log     = %(spawnfolder)s/l
-Queue   %(nsims)s
-""" % {"fin": join(RealReturns,fin),"spawnfolder":spawnfolder,"nsims" : str(nsims),"spawnfile":join(spawnfolder,"sims_$(Process)"),"outfile":join(spawnfolder,"out.$(Process)")}
-    #save the condor submit script
-    condor_script = join(spawnfolder,"condor_script.submit")
-    with open(condor_script,"w+") as foo:
-        foo.write(condor_script_text)
-        #submit it
-    subprocess.call(["condor_submit",condor_script])
-	
 #now that all the processes have been submitted, wait for completion and then combine
 for fin in fins: 
     ffolder = fin.replace(".csv","")

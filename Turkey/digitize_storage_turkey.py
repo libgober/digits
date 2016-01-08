@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 Syntax is like python27 digitize_storage.py filein fileout
 File in is an HDFStore
@@ -33,6 +35,7 @@ for key in store.keys():
     #first load the key, e.g. key = store.keys()[0]
     panel = store[key]
     #to each datafame or "sheet" in the panel, transform to digit counts
+    panel.drop("Unnamed: 0",2,inplace=True)
     digit_panel = panel.apply(lambda x: digit_aggregate(x),axis=(1,2))
     #separate the real digit totals from the simulated ones
     real = digit_panel.iloc[0,:,:]
@@ -50,7 +53,7 @@ for key in store.keys():
                     mean.iloc[:,columnNumber],
                     sims.iloc[item,:,columnNumber])
             )
-        seriessto.append(pd.Series([rDist] + simDist))
+        seriessto.append(pd.Series([rDist] + simDist,name=digit_panel.minor_axis[columnNumber]))
 
     Distances = pd.DataFrame(seriessto).T
     #add the series produced to a dictionary we will turn into a panel
