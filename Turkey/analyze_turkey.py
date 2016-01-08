@@ -13,17 +13,22 @@ from matplotlib import collections as mc
 from matplotlib.colors import ColorConverter, Colormap
 import sys
 import re
+import os
 
-filein = 'jan5.pkl'
+os.chdir("/Users/brianlibgober/GitHub/digits/Turkey/Province Level/")
+filein = 'province_level_turkey_jan_6.pkl'
 datain = pd.read_pickle(filein)
 
 #### GET SOME META DATA USEFUL FOR MANIPULATING THE PANEL
-meta = datain.items.str.split("_")
-meta = pd.DataFrame([meta.str[0], meta.str[1], meta.str[2]]).T
-meta.ix[meta.ix[:,2] == "ge5percent",2] = "Nov"
-meta.ix[meta.ix[:,2] == '1',2] = "JUN"
-meta.ix[meta.ix[:,2] == '2',2] = "NOV"
-meta.ix[:,"election"] = meta.ix[:,1].str.cat(meta.ix[:,2]).str.lower()
+metain = datain.items.str.split("_")
+meta = []
+for tag in metain:
+    if len(tag) == 2:
+        meta.append([tag[0],tag[1]])
+    else:
+        meta.append([tag[0]+"-"+tag[1],tag[2]])
+meta = pd.DataFrame(meta,columns=["election","province"])
+######
 
 numberofparties = len(datain.minor_axis)
 cm = plt.get_cmap("viridis")
@@ -66,7 +71,7 @@ for pvalue in pvalues:
                         text.append((i,1.05,party))
                         #print "Rejecting", province, party, election
                     accept_election.append(pObs <= c)
-                    DEBUG.append([province.split("_")[0], election,party,pvalue])
+                    DEBUG.append([province.split("_")[1], election,party,pvalue])
                     i = i + 1
                     COLOR.append(ColorScheme[party])
         lc = mc.LineCollection(lines,colors=COLOR)
@@ -114,12 +119,14 @@ for pvalue in pvalues:
     DEBUGALL = DEBUGALL + DEBUG
     
 
+
+#### SOME ANALYSIS NO OUTPUT PRODUCED
 party_elections = pd.DataFrame(DEBUGALL)
-party_elections["results"] = pd.Series(results)
-###
-rejects = party_elections[~accept_election]
-rejects.columns = ["province","election","party"]
-akp = rejects[rejects.ix[:,2] == "akp"]
-out = pd.crosstab(rejects.province,rejects.party)
+party_elections.columns = ["province","election","party","pvalue"]
+party_elections["accept"] = pd.Series(results)
+party_elections = party_elections[party_elections.pvalue == 95]
+rejects = party_elections[~party_elections.accept]
+pd.crosstab(rejects.party,rejects.election).to_clipboard()
+pd.crosstab(rejects.party,rejects.election)
 
 
