@@ -118,7 +118,7 @@ fin = sys.argv[1]
 data = pd.read_csv(fin,dtype=np.float64)
 fout = sys.argv[2]
 try:
-    nsims = sys.argv[3]
+    nsims = int(sys.argv[3])
 except:
     nsims = 1
 
