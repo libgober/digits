@@ -121,8 +121,18 @@ except:
     nsims = 1
 
 #sims = simulate_digit_distro(1,data,inflate=True)#sims = simulate_digit_distro(1,data,inflate=True)
-sims = simulate_election(data,inflate_mode='mean')
-sims.to_csv(fout + ".csv",index=False)
+if nsims ==1 :
+    sims = simulate_election(data,inflate_mode='mean')
+    sims.to_csv(fout + ".csv",index=False)
+
+if nsims > 1:
+    sims={}
+    for i in range(nsims):
+        sims["sim_"+str(i)] = simulate_election(data,inflate_mode='dirichlet')
+    sims = pd.Panel(sims)
+    sims.to_pickle(fout + "_" + "nsims"+str(nsims) + ".pkl")
+
+
 
 
 
