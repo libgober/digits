@@ -31,13 +31,14 @@ meta = pd.DataFrame([i.split("_") for i in data.items])
 meta.columns = ["State","Year","ElectionYear","Type"]
 election_types = ["GOV","USS","USP"]
 election_years = ["2000","2004","2008","2012"]
-pvalues = [90,95,99]
+pvalues = [90,95,99] #do not change, np.precentile requires to be between 0 and 100
 print "Target Percentile " "Percent Accepted"
 
     
 for pvalue in pvalues:
-    accept_election = []
+    overall = []
     for el in election_types:
+        accept_election = []
         j = 1 #subplot number
         i = 0 #x-axis location
         fig, ((ax1, ax2, ax3, ax4)) = plt.subplots(1, 4, sharex=False, sharey=True)
@@ -98,7 +99,8 @@ for pvalue in pvalues:
         fig.suptitle(el + " \nTarget Acceptance Rate: " + str(pvalue) + "; Actual " + str(100*np.mean(accept_election))[0:5],fontsize=14, fontweight='bold')
         fig.subplots_adjust(wspace=0)
         fig.savefig(el + str(pvalue)+"percentile_test.pdf")
-    print pvalue, np.mean(accept_election)
+        overall = overall + accept_election
+    print pvalue, np.mean(overall)
 
 os.chdir("..")
 
