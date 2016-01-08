@@ -22,14 +22,14 @@ nsims = 100
 
 #setup directory name space, Sim Returns is target
 Home = os.path.abspath("/nfs/projects/b/blibgober/digits")
-RealReturns = os.path.join(Home,"France/Real_Returns")
-SimReturns = os.path.join(Home,"France/Sim_Returns")
+RealReturns = os.path.join(Home,"Turkey/Real_Returns")
+SimReturns = os.path.join(Home,"Turkey/Sim_Returns")
 
 #load the files to work with
 fins = os.listdir(RealReturns)
 #place to store our sims
 os.chdir(SimReturns)
-storelocation = "/scratch/blibgober/France/FranceSimStorage.h5"
+storelocation = "/scratch/blibgober/Turkey/TurkishSimStorage.h5"
 store = pd.HDFStore(storelocation)
 for fin in fins:
     print("Starting work on " + fin)
@@ -38,10 +38,9 @@ for fin in fins:
     ffolder = os.path.join(SimReturns,ffolder)
     spawnfolder = join(ffolder,"storage")
     make_sure_path_exists(spawnfolder)
-    os.chdir(Home)
+    os.chdir(spawnfolder)
     subprocess.call(["chmod","-R","777","."])
     #### move to the subfolder where file will be created
-    os.chdir(spawnfolder)
     #create a condor submit script
     condor_script_text =  """
 Universe        = vanilla
