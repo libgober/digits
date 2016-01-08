@@ -45,7 +45,7 @@ for fin in fins:
     condor_script_text =  """
 Universe        = vanilla
 Executable	= /usr/local/bin/python27
-Arguments	= /nfs/projects/b/blibgober/digits/simulate_election.py %(fin)s %(spawnfile)s
+Arguments	= /nfs/projects/b/blibgober/digits/simulate_election_2.py %(fin)s %(spawnfile)s %(nsims)s
 request_memory  = 512
 request_cpus    = 1
 transfer_executable = false
@@ -53,7 +53,7 @@ should_transfer_files = NO
 output  = %(spawnfolder)s/out.$(Process)
 error   = %(spawnfolder)s/err.$(Process)
 Log     = %(spawnfolder)s/l
-Queue   %(nsims)s
+Queue   1
 """ % {"fin": join(RealReturns,fin),"spawnfolder":spawnfolder,"nsims" : str(nsims),"spawnfile":join(spawnfolder,"sims_$(Process)"),"outfile":join(spawnfolder,"out.$(Process)")}
     #save the condor submit script
     condor_script = join(spawnfolder,"condor_script.submit")
@@ -68,18 +68,12 @@ for fin in fins:
     ffolder = os.path.join(SimReturns,ffolder)
     spawnfolder = join(ffolder,"storage")
     os.chdir(spawnfolder)
-    spawns = glob.glob("*.csv")
+    spawns = glob.glob("*.pkl")
     while len(spawns) < nsims:
-        spawns = glob.glob("*.csv")
+        spawns = glob.glob("*.pkl")
         time.sleep(5)
         print fin.replace(".csv","") + ": Percent of cluster jobs done: " + str(float(len(spawns))/nsims)
-    #now that all the sims have finished we will combine them into a single pandas
-    temp = {}
-    temp["real_election"] = pd.read_csv(join(RealReturns,fin))
-    for spawned in spawns:
-        temp[spawned.replace(".csv","")] = pd.read_csv(spawned) 
-    all_sims = pd.Panel(temp)
-    store[fin.replace(".csv","")] = all_sims
+    store[fin.replace(".csv","")] = pd.read_pickle(spawns[0])
 
 store.close()
 print "Sims are Stored in ", storelocation
