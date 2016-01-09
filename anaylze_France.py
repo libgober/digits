@@ -15,18 +15,15 @@ import sys
 import re
 import os
 
-os.chdir("/Users/brianlibgober/GitHub/digits/Turkey/Province Level/")
-filein = 'jan8partialprov'
+os.chdir("/Users/brianlibgober/GitHub/digits/France")
+filein = 'FrenchPresDirichlet.pkl'
 datain = pd.read_pickle(filein)
 
 #### GET SOME META DATA USEFUL FOR MANIPULATING THE PANEL
 metain = datain.items.str.split("_")
 meta = []
 for tag in metain:
-    if len(tag) == 2:
-        meta.append([tag[0],tag[1]])
-    else:
-        meta.append([tag[0]+"-"+tag[1],tag[2]])
+    meta.append([tag[0]+"-"+tag[1],tag[2]])
 meta = pd.DataFrame(meta,columns=["election","province"])
 ######
 
@@ -71,7 +68,7 @@ for pvalue in pvalues:
                         text.append((i,1.05,party))
                         #print "Rejecting", province, party, election
                     accept_election.append(pObs <= c)
-                    DEBUG.append([province.split("_")[1], election,party,pvalue])
+                    DEBUG.append([province.split("_")[2], election,party,pvalue])
                     i = i + 1
                     COLOR.append(ColorScheme[party])
         lc = mc.LineCollection(lines,colors=COLOR)
@@ -128,5 +125,4 @@ party_elections = party_elections[party_elections.pvalue == 95]
 rejects = party_elections[~party_elections.accept]
 pd.crosstab(rejects.party,rejects.election).to_clipboard()
 pd.crosstab(rejects.party,rejects.election)
-
 
