@@ -17,6 +17,7 @@ for year in unique(datain.electionyear):
             u'ccommune',u'ncommune', u'station','regvoters','voters','valid']
             data = data.drop(droplist,axis=1)
             data = data.dropna(axis=1,how='all')
-            fout = join(targetfolder,"Year-" + str(year)+"_Round-" + str(Round) + "_Department" + str(department) + ".csv")
-            data.to_csv(fout,index=False)
+            if (np.shape(data)[0] != 0) & (np.shape(data)[1] != 0):
+                fout = join(targetfolder,"Year-" + str(year)+"_Round-" + str(Round) + "_Department" + str(department) + ".csv")
+                data.to_csv(fout,index=False)
 

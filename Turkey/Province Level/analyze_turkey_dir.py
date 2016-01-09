@@ -16,12 +16,13 @@ import re
 import os
 
 os.chdir("/Users/brianlibgober/GitHub/digits/Turkey/Province Level/")
-filein = 'jan8partialprov'
+filein = 'TurkeyProvDirichletJan8.pkl'
 datain = pd.read_pickle(filein)
 
 #### GET SOME META DATA USEFUL FOR MANIPULATING THE PANEL
-metain = datain.items.str.split("_")
+metain = datain.items.str.replace("Turkey_provSim_Returns","").str.split("_")
 meta = []
+metain = [tag[1:] for tag in metain]
 for tag in metain:
     if len(tag) == 2:
         meta.append([tag[0],tag[1]])
@@ -71,7 +72,10 @@ for pvalue in pvalues:
                         text.append((i,1.05,party))
                         #print "Rejecting", province, party, election
                     accept_election.append(pObs <= c)
-                    DEBUG.append([province.split("_")[1], election,party,pvalue])
+                    if len(province.split("_")) == 3:
+                        DEBUG.append([province.split("_")[2], election,party,pvalue])
+                    else:
+                        DEBUG.append([province.split("_")[3], election,party,pvalue])                        
                     i = i + 1
                     COLOR.append(ColorScheme[party])
         lc = mc.LineCollection(lines,colors=COLOR)
@@ -127,6 +131,5 @@ party_elections["accept"] = pd.Series(results)
 party_elections = party_elections[party_elections.pvalue == 95]
 rejects = party_elections[~party_elections.accept]
 pd.crosstab(rejects.party,rejects.election).to_clipboard()
-pd.crosstab(rejects.party,rejects.election)
-
+pd.crosstab(rejects.party,rejects.election).to_clipboard()
 
