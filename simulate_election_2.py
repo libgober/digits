@@ -118,12 +118,12 @@ fin = sys.argv[1]
 data = pd.read_csv(fin,dtype=np.float64)
 fout = sys.argv[2]
 try:
-    nsims = sys.argv[3]
+    nsims = int(sys.argv[3])
 except:
     nsims = 1
 
 #sims = simulate_digit_distro(1,data,inflate=True)#sims = simulate_digit_distro(1,data,inflate=True)
-if nsims ==1 :
+if nsims==1 :
     sims = simulate_election(data,inflate_mode='mean')
     sims.to_csv(fout + ".csv",index=False)
 

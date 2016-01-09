@@ -50,7 +50,7 @@ for key in store.keys():
                     mean.iloc[:,columnNumber],
                     sims.iloc[item,:,columnNumber])
             )
-        seriessto.append(pd.Series([rDist] + simDist))
+        seriessto.append(pd.Series([rDist] + simDist,name=digit_panel.minor_axis[columnNumber]))
 
     Distances = pd.DataFrame(seriessto).T
     #add the series produced to a dictionary we will turn into a panel

@@ -46,7 +46,7 @@ for fin in fins:
 Universe        = vanilla
 Executable	= /usr/local/bin/python27
 Arguments	= /nfs/projects/b/blibgober/digits/simulate_election_2.py %(fin)s %(spawnfile)s %(nsims)s
-request_memory  = 512
+request_memory  = 1024
 request_cpus    = 1
 transfer_executable = false
 should_transfer_files = NO
@@ -69,7 +69,7 @@ for fin in fins:
     spawnfolder = join(ffolder,"storage")
     os.chdir(spawnfolder)
     spawns = glob.glob("*.pkl")
-    while len(spawns) < nsims:
+    while len(spawns) < 1:
         spawns = glob.glob("*.pkl")
         time.sleep(5)
         print fin.replace(".csv","") + ": Percent of cluster jobs done: " + str(float(len(spawns))/nsims)
