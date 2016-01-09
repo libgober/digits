@@ -30,6 +30,7 @@ def custom_dist(a,b):
 store = pd.HDFStore(filein)
 digits_distances = {}
 for key in store.keys():
+    print "workin on", key
     #first load the key, e.g. key = store.keys()[0]
     panel = store[key]
     #to each datafame or "sheet" in the panel, transform to digit counts

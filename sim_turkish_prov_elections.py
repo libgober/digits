@@ -45,7 +45,7 @@ for fin in fins:
     condor_script_text =  """
 Universe        = vanilla
 Executable	= /usr/local/bin/python27
-Arguments	= /nfs/projects/b/blibgober/digits/simulate_election_2.py %(fin)s %(spawnfile)s %(nsims)s
+Arguments	= /nfs/projects/b/blibgober/digits/simulate_election_3.py %(fin)s %(spawnfile)s %(nsims)s 0.05
 request_memory  = 1024
 request_cpus    = 1
 transfer_executable = false
@@ -72,7 +72,7 @@ for fin in fins:
     while len(spawns) < 1:
         spawns = glob.glob("*.pkl")
         time.sleep(5)
-        print fin.replace(".csv","") + ": Percent of cluster jobs done: " + str(float(len(spawns))/nsims)
+        print fin.replace(".csv",""), " stuck"
     store[fin.replace(".csv","")] = pd.read_pickle(spawns[0])
 
 store.close()
