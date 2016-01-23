@@ -11,18 +11,17 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import collections as mc
 from matplotlib.colors import ColorConverter, Colormap
+from scipy.stats import chisquare
 import sys
 import re
 import os
 
-os.chdir("/Users/brianlibgober/GitHub/digits/Turkey/Province Level/")
-filein = 'TurkeyProvDirichletJan8.pkl'
+os.chdir(u'/Users/brianlibgober/GitHub/digits/Turkey/Province Level')
+filein = 'DigitsDirichletJan9_2_byprov.pkl'
 datain = pd.read_pickle(filein)
-
 #### GET SOME META DATA USEFUL FOR MANIPULATING THE PANEL
-metain = datain.items.str.replace("Turkey_provSim_Returns","").str.split("_")
+metain = datain.items.str.split("_")
 meta = []
-metain = [tag[1:] for tag in metain]
 for tag in metain:
     if len(tag) == 2:
         meta.append([tag[0],tag[1]])
@@ -37,7 +36,7 @@ gradient = np.linspace(0, 1,numberofparties)
 ColorScheme = {datain.minor_axis[i] : cm(gradient[i]) for i in range(numberofparties)}
 
 pvalues = [90,95,99] #must be between 0 and 100
-print "Pvalue, Actual"
+print "Pvalue, Actual, Chi^2"
 DEBUGALL = []
 results = []
 for pvalue in pvalues:
@@ -72,10 +71,11 @@ for pvalue in pvalues:
                         text.append((i,1.05,party))
                         #print "Rejecting", province, party, election
                     accept_election.append(pObs <= c)
-                    if len(province.split("_")) == 3:
-                        DEBUG.append([province.split("_")[2], election,party,pvalue])
+                    if len(province.split("_")) == 2:
+                        DEBUG.append([province.split("_")[1], election,party,pvalue])
                     else:
-                        DEBUG.append([province.split("_")[3], election,party,pvalue])                        
+                        #place, subplace, election, party, pvalue
+                        DEBUG.append([province.split("_")[2], election,party,pvalue])                        
                     i = i + 1
                     COLOR.append(ColorScheme[party])
         lc = mc.LineCollection(lines,colors=COLOR)
@@ -118,7 +118,12 @@ for pvalue in pvalues:
     fig.suptitle("Turkish Parliament" + " \nTarget Acceptance Rate: " + str(pvalue) + "; Actual " + str(100*np.mean(accept_election))[0:5],fontsize=14, fontweight='bold')
     fig.subplots_adjust(wspace=0)
     fig.savefig("Turkish_Parliament" + str(pvalue)+"_percentile_test.pdf")
-    print pvalue, np.mean(accept_election)
+    ###Some Output on the fit
+    o1 = sum(accept_election)
+    o2 =len(accept_election) - sum(accept_election)
+    N= o1+o2
+    chi  = chisquare([o1,o2],[pvalue/100. * N,(100-pvalue)/100.*N])
+    print pvalue, np.mean(accept_election), chi[0],chi[1]
     results = results + accept_election
     DEBUGALL = DEBUGALL + DEBUG
     
@@ -129,7 +134,35 @@ party_elections = pd.DataFrame(DEBUGALL)
 party_elections.columns = ["province","election","party","pvalue"]
 party_elections["accept"] = pd.Series(results)
 party_elections = party_elections[party_elections.pvalue == 95]
+
+###
+#group by election and place
+grouped = party_elections.groupby(["province","election"])
+grouped_accept = grouped['accept']
+summary = grouped_accept.agg([np.sum,len,np.mean,lambda x:1-np.mean(x)])
+summary.columns = ["#Accepted","#Districts","Fraction Accepted","Fraction Rejected"]
+summary.to_clipboard()
 rejects = party_elections[~party_elections.accept]
 pd.crosstab(rejects.party,rejects.election).to_clipboard()
 pd.crosstab(rejects.party,rejects.election).to_clipboard()
 
+#chisquared test
+o1 = sum(party_elections.accept)
+o2 =len(party_elections.accept) - sum(party_elections.accept)
+N= o1+o2
+p=0.95
+chisquare(f_obs=[o1,o2],f_exp=[0.95*N,0.05*N])
+
+pd.pivot_table(party_elections,columns="election",index="party",aggfunc=len).fillna(0).sum(0)
+pd.pivot_table(party_elections,columns="election",index="party",aggfunc=len)
+
+
+###### GROUP BY ELECTIONS
+""""
+
+    T   F
+EL
+EL
+"""|
+
+piv = pd.pivot_table(party_elections.ix[:,["election","accept"]],columns="accept",index="election",aggfunc=len,margins=True).to_clipboard(sep="|")

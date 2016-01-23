@@ -33,6 +33,7 @@ ColorScheme = {data.minor_axis[i] : cm(gradient[i]) for i in range(numberofparti
 
 pvalues = [90,95,99] #must be between 0 and 100
 print "Pvalue, Actual"
+DEBUGALL = []
 for pvalue in pvalues:
     overall = []
     for election_type in election_types.keys():
@@ -67,7 +68,7 @@ for pvalue in pvalues:
                             text.append((i,1.05,party))
                             #print "Rejecting", electionName, party, year
                         accept_election.append(pObs <= c)
-                        DEBUG.append([electionName, party, year])
+                        DEBUG.append([electionName, party, year,pvalue])
                         i = i + 1
                         COLOR.append(ColorScheme[party])
             lc = mc.LineCollection(lines,colors=COLOR)
@@ -113,9 +114,45 @@ for pvalue in pvalues:
         fig.savefig(election_type+ str(pvalue)+"_percentile_test.pdf")
         overall = overall + accept_election
     print pvalue, np.mean(overall)
+    DEBUGALL = DEBUGALL + DEBUG
+    
+    
+ #### SOME ANALYSIS NO OUTPUT PRODUCED
+party_elections = pd.DataFrame(DEBUGALL)
+party_elections.columns = ["province","election","party","pvalue"]
+party_elections["accept"] = pd.Series(results)
+party_elections = party_elections[party_elections.pvalue == 95]
 
-    
-    
-    
+###
+#group by election and place
+grouped = party_elections.groupby(["province","election"])
+grouped_accept = grouped['accept']
+summary = grouped_accept.agg([np.sum,len,np.mean,lambda x:1-np.mean(x)])
+summary.columns = ["#Accepted","#Districts","Fraction Accepted","Fraction Rejected"]
+summary.to_clipboard()
+rejects = party_elections[~party_elections.accept]
+pd.crosstab(rejects.party,rejects.election).to_clipboard()
+pd.crosstab(rejects.party,rejects.election).to_clipboard()
+
+#chisquared test
+o1 = sum(party_elections.accept)
+o2 =len(party_elections.accept) - sum(party_elections.accept)
+N= o1+o2
+p=0.95
+chisquare(f_obs=[o1,o2],f_exp=[0.95*N,0.05*N])
+
+pd.pivot_table(party_elections,columns="election",index="party",aggfunc=len).fillna(0).sum(0)
+pd.pivot_table(party_elections,columns="election",index="party",aggfunc=len)
+
+
+###### GROUP BY ELECTIONS
+""""
+
+    T   F
+EL
+EL
+"""|
+
+piv = pd.pivot_table(party_elections.ix[:,["election","accept"]],columns="accept",index="election",aggfunc=len,margins=True).to_clipboard(sep="|")  
 
 
