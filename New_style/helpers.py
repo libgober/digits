@@ -4,6 +4,7 @@
 from scipy.spatial import distance
 import scipy as sp
 import scipy.stats
+from scipy.stats import chisquare,kstest
 import pandas as pd
 import numpy as np
 from numpy import mean
@@ -46,7 +47,7 @@ def digit_aggregate(table):
     digits = table.apply(lambda x: x.value_counts(sort=False),axis='index')
     for i in np.arange(0,10):
         if i not in digits.index:
-            digits = digits.set_value(i,0)
+            digits = digits.set_value(i,digits.columns,0)
     digits.sort_index(inplace=True)
     return(digits)
 
@@ -222,8 +223,16 @@ def ks_exact(null_distro,empirical_distro,n,method="two-sided"):
         tminus = max([empirical_distro.P[x] - null_distro.P[x] for x in null_distro.P.keys()])
     return(t)
         
+def stat_battery(real_digits,real_raw,mean_sim_digit,sim_digits):
+    statistics = {}
+    _ , statistics["chisquare-uniform"] = chisquare(real_digits)
+    _ , statistics["chisquare-benford-3d"] = chisquare(real_digits,ben3*sum(real_digits)) #ben3 is the probability of each
+    _ , statistics["chisquare-benford-mix"] = chisquare(real_digits,benford_mixture(real_raw)*sum(real_digits))
+    _ , statistics["chisquare-mean-sim"] = chisquare(real_digits,mean_sim_digit)
+    #Lilliefors-type test
+    _ , statistics["lilliefors-type-test"] = lilliefors_type(mean_sim_digit,sim_digits,real_digits)
+    return(statistics)
     
-
 #####################
 ####  Simulation ####
 #####################
@@ -279,7 +288,6 @@ def simulate(nsims, source, target):
         print("Starting work on " + fin)
         os.chdir(target)
         fins = os.listdir(source)
-        print("Starting work on " + fin)
         ###create a folder for the file with storage and ensure write permissions
         ffolder = fin.replace(".csv","")
         ffolder = os.path.join(target,ffolder)

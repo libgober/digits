@@ -23,7 +23,7 @@ import pandas as pd
 import numpy as np
 import sys
 
-   
+
 def clean(returns):
     if not isinstance(returns,pd.DataFrame):
         raise Exception('Returns is not a Pandas Dataframe')
@@ -116,7 +116,6 @@ data = pd.read_csv(fin)
 is_data_column = data.columns.str.slice(0,2) == "p_"
 meta = data.ix[:,~is_data_column]
 to_simulate = data.ix[:,is_data_column]
-to_simulate = clean(to_simulate)
 
 sims = {}
 for i in range(nsims):
