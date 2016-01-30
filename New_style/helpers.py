@@ -4,7 +4,7 @@
 from scipy.spatial import distance
 import scipy as sp
 import scipy.stats
-from scipy.stats import chisquare,kstest
+from scipy.stats import power_divergence,kstest
 import pandas as pd
 import numpy as np
 from numpy import mean
@@ -14,6 +14,27 @@ import subprocess
 import errno
 import time
 join = os.path.join
+
+#### START R SESSION AND LOAD R FUNCTIONS
+import rpy2.robjects as ro
+from rpy2.robjects.packages import SignatureTranslatedAnonymousPackage,importr
+
+string = """freq = function(x){
+    x/sum(x)
+  }
+  cumulate <- function(x){
+    sto = 0
+    for (i in 1:length(x)){
+      sto = c(sto,sum(x[1:i]))
+    }
+    sto
+  }
+  """
+powerpack = SignatureTranslatedAnonymousPackage(string, "powerpack")
+stats = importr("stats")
+dgof =  importr("dgof")
+
+
 
 #########################
 ##### CLEANING ##########
@@ -49,6 +70,7 @@ def digit_aggregate(table):
         if i not in digits.index:
             digits = digits.set_value(i,digits.columns,0)
     digits.sort_index(inplace=True)
+    digits.fillna(0,inplace=True)
     return(digits)
 
 def custom_dist(a,b):
@@ -93,16 +115,45 @@ def split_key_names(store):
     keys = pd.DataFrame(keys)
     keys["Keys"] = pd.Series(store.keys())
     return(keys)
-  
-def get_key(election_directory,Race,Races,State,States,Year,Years):
-    row = (election_directory.Race == Race) & (
-                     election_directory.State == State) & (
-                     election_directory.Year == Year)
+#  
+#def get_key(election_directory,values,criteria):
+#    """
+#    Criteria must be formatted like ["Race","Province"].  The operation will
+#    select rows responding to election.Race == Race and election.Province == Province
+#    Check the Analyze Turkey File for Syntax
+#    """
+#    print criteria
+#    row = ~pd.Series(election_directory.index.values).isnull()
+#    for i in criteria:
+#        try:
+#            row = row & (eval("election_directory."+i) == eval(i))
+#        except:
+#            pass
+#    key = election_directory.Keys[row]
+#    if len(key) == 0:
+#        return(None)
+#    else:
+#        return(key.get_values()[0])
+
+def get_key(election_directory,criteria):
+    """
+    Criteria must be formatted like ["Race","Province"].  The operation will
+    select rows responding to election.Race == Race and election.Province == Province
+    Check the Analyze Turkey File for Syntax
+    """
+    #fix naming issue with scope
+    row = ~pd.Series(election_directory.index.values).isnull()
+    for i in criteria:
+        try:
+            row = row & (eval("election_directory."+i) == eval(i))
+        except:
+            pass
     key = election_directory.Keys[row]
     if len(key) == 0:
         return(None)
     else:
         return(key.get_values()[0])
+
 
 benford1 = lambda d: np.log10(1.+1./d)
 
@@ -223,16 +274,62 @@ def ks_exact(null_distro,empirical_distro,n,method="two-sided"):
         tminus = max([empirical_distro.P[x] - null_distro.P[x] for x in null_distro.P.keys()])
     return(t)
         
+
+def r_kstest(raw,expected_count=None):
+    obs = ro.vectors.IntVector([i % 10 for i in raw])
+    if expected_count is None:
+        expected_count = 10*[0.1*np.shape(raw)[0]]
+    null_expected = ro.vectors.FloatVector(expected_count)
+    p = powerpack.cumulate(powerpack.freq(null_expected))
+    sim_ecdf = stats.stepfun(ro.vectors.IntVector(range(0,10)),p)
+    test = dgof.ks_test(B=100,simulate_p_value=True,y=sim_ecdf,x=obs)
+    pvalue = float(np.array(test.rx('p.value')))
+    return(float(pvalue))
+    
+
 def stat_battery(real_digits,real_raw,mean_sim_digit,sim_digits):
     statistics = {}
-    _ , statistics["chisquare-uniform"] = chisquare(real_digits)
-    _ , statistics["chisquare-benford-3d"] = chisquare(real_digits,ben3*sum(real_digits)) #ben3 is the probability of each
-    _ , statistics["chisquare-benford-mix"] = chisquare(real_digits,benford_mixture(real_raw)*sum(real_digits))
-    _ , statistics["chisquare-mean-sim"] = chisquare(real_digits,mean_sim_digit)
-    #Lilliefors-type test
+    lookup_test = {"chi2" : "pearson" ,
+    "Gtest" :"log-likelihood",
+    "freeman-tukey" : "freeman-tukey",
+    "mod-log-likelihood" :"mod-log-likelihood",
+    "neyman" : "neyman",
+    "cressie-read" : "cressie-read"}
+    
+    lookup_null = {
+    "uniform" : None,
+    "benford3d" : ben3*sum(real_digits), 
+    "benford-mix" : benford_mixture(real_raw)*sum(real_digits),
+    "mean-sim" : mean_sim_digit,
+    }
+        
+    ##### POWER DIVERGENCE TESTS
+    for testname in lookup_test.keys():
+        for null in lookup_null.keys():
+            colname  = "-".join([testname,null])
+            _, statistics[colname] = power_divergence(real_digits,
+                                    lookup_null[null],
+                                    lambda_=lookup_test[testname])
+
+    ######## KS-tests
+    for null in lookup_null.keys(): 
+        statistics["KS-"+null] = r_kstest(real_raw,lookup_null[null])
+        
     _ , statistics["lilliefors-type-test"] = lilliefors_type(mean_sim_digit,sim_digits,real_digits)
     return(statistics)
-    
+  
+def coverage(alpha,results):
+    stats = ["chisquare-uniform",
+    "chisquare-benford-3d",
+    "chisquare-benford-mix",
+    "chisquare-mean-sim",
+    "lilliefors-type-test",
+    ]
+    results = results.ix[:,stats]
+    results = results.fillna(0)
+    coverage = (results < alpha).mean(0)
+    return(coverage)
+
 #####################
 ####  Simulation ####
 #####################
@@ -250,7 +347,7 @@ def generate_condor_text(fin,spawnfolder,nsims):
     Universe        = vanilla
     Executable	= /usr/local/bin/python27
     Arguments	= /nfs/projects/b/blibgober/digits/simulate_election.py %(fin)s %(spawnfile)s %(nsims)s %(threshhold)s
-    request_memory  = 1024
+    request_memory  = 4GB
     request_cpus    = 1
     transfer_executable = false
     should_transfer_files = NO
@@ -319,9 +416,10 @@ def collect_simulations(source,target,storelocation):
             print fin.replace(".csv",""), " stuck"
         sims = pd.read_pickle(spawns[0])
         real = pd.read_csv(join(source,fin))
+        real = pd.Panel({"real":real})
         items = sims.items.insert(0,"real")
-    	panel = pd.concat([real,sims])    
-    	panel.items = items
+        panel = real.join(sims)
+        panel.items = items
         store[fin.replace(".csv","")] = panel
     print "Sims are Stored in ", storelocation
     store.close()

@@ -71,7 +71,7 @@ data = data.ix[:,major_parties] #only keep columns that have greater than 5% nat
 data.columns = ["p_" + header for header in data.columns]
 data["p_other"] = other
 data = pd.concat([identifiers,data],axis=1) #recombine
-out = os.path.abspath("Kommunval_2010.csv")
+out = os.path.abspath("Cleaned/ByState/Kommunval_2010.csv")
 data.to_csv(out,index=False,encoding="utf-8")
 
 
@@ -88,7 +88,7 @@ data.columns = ["p_" + header.split(" ")[0] for header in data.columns]
 data["p_other"] = other
 data = pd.concat([identifiers,data],axis=1) #recombine
 data = data.fillna(0)
-out = os.path.abspath("2010_Landstingsval.csv")
+out = os.path.abspath("Cleaned/ByState/2010_Landstingsval.csv")
 data.to_csv(out,index=False,encoding="utf-8")
 
 #Riksdagsval

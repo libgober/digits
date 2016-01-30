@@ -115,11 +115,12 @@ except:
 data = pd.read_csv(fin)
 is_data_column = data.columns.str.slice(0,2) == "p_"
 meta = data.ix[:,~is_data_column]
-to_simulate = data.ix[:,is_data_column]
+to_simulate = data.ix[:,is_data_column].astype('float64').fillna(0)
+
 
 sims = {}
 for i in range(nsims):
-    sims["sim_"+str(i)] = meta.join(simulate_election(to_simulate,inflate_mode='dirichlet'))
+    sims["sim_"+str(i)] = meta.join(simulate_election(to_simulate,inflate_mode='dirichlet',debug_mode=False))
 
 sims = pd.Panel(sims)
 sims.to_pickle(fout + "_" + "nsims"+str(nsims) + ".pkl")

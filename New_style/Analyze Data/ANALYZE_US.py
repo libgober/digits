@@ -1,4 +1,5 @@
 import sys
+import os
 if sys.platform =="darwin":
     sys.path = ['/Users/brianlibgober/GitHub/digits/New_style/'] +sys.path
 if sys.platform != "darwin":
@@ -12,7 +13,7 @@ import scipy as sp
 if sys.platform == "darwin":
     datalocation = os.path.expanduser("~/US_Sim_Storage.h5") 
 if sys.platform != "darwin":
-    datalocation = "/scratch/blibgober/US_Sim_Storage.h5"
+    datalocation = "/nfs/projects/b/blibgober/digits/Results/US_Sim_Storage.h5"
 store = pd.HDFStore(datalocation)
 election_directory = split_key_names(store)
 election_directory.columns = ["Race","Year","State","Keys"] #may need to change this given reorganized naming convetion
@@ -20,10 +21,13 @@ Years = np.unique(election_directory.Year)
 States = np.unique(election_directory.State)
 Races = np.unique(election_directory.Race)
 
+print "All setup to run"
+
 ########################
 #####  By State ########
 ########################
 
+print "Starting States"
 
 Results_State = pd.DataFrame(columns=[
                     "Race",
@@ -38,11 +42,13 @@ Results_State = pd.DataFrame(columns=[
                     ]) 
 index=0            
 
+
+
 for Race in Races:
     for Year in Years:
         for State in States:
             #select the row to get the key
-            key = get_key(election_directory,Race,Races,State,States,Year,Years)
+            key = get_key(election_directory,["Race","State","Year"])
             try:
                 panel = store[key]
             except KeyError:
@@ -64,6 +70,8 @@ for Race in Races:
                 Results_State = Results_State.append(to_add)
                 index += 1
 
+print "Finished States"
+
 #################################
 #####  USA USP WHOLE COUNTRY ########
 #################################
@@ -76,10 +84,12 @@ Race = 'USP'
 ####### CREATE A BIG ASS DATAFRAME OF ALL RESULTS    ############
 #################################################################
 
+print "Collecting data for USP country wide"
+
 for Year in Years:
     for State in States:
         #select the row to get the key
-        key = get_key(election_directory,Race,Races,State,States,Year,Years)
+        key =  get_key(election_directory,["Race","State","Year"])
         try:
             panel = store[key]
         except KeyError:
@@ -127,12 +137,14 @@ for party in parties:
         to_add = pd.DataFrame(statistics,index=[index])
         Results_Pres = Results_Pres.append(to_add)
         index += 1
-        
+
+print "Finished USA-wide"
         
 #########################
 #####  By COUNTY ########
 #########################
         
+print "Starting county"
 
 Results_County = pd.DataFrame(columns=[
                     "Race",
@@ -141,17 +153,13 @@ Results_County = pd.DataFrame(columns=[
                     "County",
                     "Party",
                     "N",
-                    "chisquare-uniform",
-                    "chisquare-benford-3d",
-                    "chisquare-mean-sim",
-                    "lilliefors-type-test",
                     ]) 
 index=0            
 for Race in Races:
     for Year in Years:
         for State in States:
             #select the row to get the key
-            key = get_key(election_directory,Race,Races,State,States,Year,Years)
+            key =  get_key(election_directory,["Race","State","Year"])
             try:
                 panel = store[key]
             except KeyError:

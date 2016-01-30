@@ -4,6 +4,7 @@
 
 import os
 join = os.path.join
+import subprocess
 import helpers
 
 Home = os.path.abspath("/nfs/projects/b/blibgober/digits")
@@ -74,13 +75,15 @@ helpers.collect_simulations(source,target,storelocation)
 
 
 
-##### TURKISH PROVINCIAL ELECTIONS
+##### TURKISH PROVINCIAL ELECTIONS This 
 #setup directory name space, Sim Returns is target
 source = join(Home,"Turkey_prov/Real_Returns")
 target = join(Home,"Turkey_prov/Sim_Returns")
+validity = join(Home,"Validity/Turkey")
 storelocation = join(Storage,"TurkishSimStorage_prov.h5")
 helpers.simulate(nsims,source,target)
 helpers.collect_simulations(source,target,storelocation)
+subprocess.call(["python27","extract_for_validity.py",storelocation,validity])
 
 
 ####### TURKISH DISTRICT ELECTIONS

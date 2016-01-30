@@ -1,0 +1,1507 @@
+edate,prov,ilce,name,year,type,regvoter,actvoter,validvoter,p_akp,p_anadolupartisi,p_bgmz,p_btp,p_chp,p_dp,p_dsp,p_dyp,p_hakpar,p_hap,p_hdp,p_hkp,p_kp,p_ldp,p_mep,p_mhp,p_millet,p_saadet,p_turkparti,p_vatan,p_yurtp,edate_prov
+2015_6,Zonguldak,Eregli,Kisla,2015,parl15_1,353,323,316,116,0,0,0,110,2,1,0,0,0,1,1,0,0,0,73,2,8,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mithatpasa,2015,parl15_1,373,296,285,114,0,0,0,103,1,0,1,0,0,0,0,0,1,0,50,1,14,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Dedeoglu,2015,parl15_1,347,302,290,191,0,0,1,46,2,0,0,0,1,1,0,0,0,0,38,2,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Suleymanlar,2015,parl15_1,357,295,291,78,0,0,0,136,0,2,0,0,0,6,0,0,0,0,61,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,351,301,301,165,0,0,0,79,0,0,1,0,0,3,1,0,0,0,46,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Adatepe,2015,parl15_1,257,200,197,128,1,0,1,43,1,3,1,0,2,0,0,0,1,0,10,1,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Persembe-Kececioglu,2015,parl15_1,357,315,284,71,0,0,0,168,2,2,0,0,1,1,0,0,1,0,29,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Koseler,2015,parl15_1,327,297,291,115,0,0,2,105,0,4,2,0,0,1,1,0,0,0,55,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Gokhasan,2015,parl15_1,155,148,144,96,0,0,0,19,1,2,0,0,0,0,0,0,0,0,21,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Elmaci,2015,parl15_1,209,174,161,79,0,0,0,29,0,0,0,0,0,0,0,0,0,0,42,1,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kurtlar,2015,parl15_1,222,202,196,74,0,0,0,74,0,1,1,0,0,0,0,0,0,0,38,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Gumeli-Kale,2015,parl15_1,277,254,248,3,0,0,0,224,0,6,0,0,0,4,0,0,0,0,9,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Kasimli,2015,parl15_1,275,243,238,146,0,0,0,54,0,2,2,0,0,1,1,0,0,0,26,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Karapinar-Durmuslar,2015,parl15_1,256,222,211,88,0,0,0,82,1,1,1,0,0,2,1,0,0,0,16,1,16,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Guney,2015,parl15_1,353,308,305,58,0,0,1,153,1,1,0,0,0,21,0,0,0,0,62,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Caydegirmeni-Merkez,2015,parl15_1,313,273,260,83,0,0,0,105,1,2,2,0,0,0,0,0,0,0,56,1,4,0,6,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Orhanlar,2015,parl15_1,336,308,304,41,0,0,0,223,0,0,0,0,0,3,0,0,1,0,32,0,2,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Bakacakkadi-Kadioglu,2015,parl15_1,335,300,292,84,1,0,0,155,3,3,0,0,0,1,1,0,0,0,38,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Bakacakkadi-Merkez,2015,parl15_1,329,296,285,121,0,0,0,110,0,1,0,0,0,2,2,0,0,0,35,0,13,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Bolum,2015,parl15_1,332,264,258,118,1,0,0,81,0,0,0,0,1,1,0,0,1,0,42,0,12,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Dagustu,2015,parl15_1,194,160,152,50,0,0,0,84,1,0,0,0,1,0,1,0,2,0,10,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Incivez,2015,parl15_1,363,297,294,72,0,0,0,146,1,0,0,0,1,15,0,0,0,0,51,0,6,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Yukarihocalar,2015,parl15_1,190,161,149,121,0,0,0,6,1,0,0,0,0,3,0,0,1,0,13,1,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Alapliomerli,2015,parl15_1,314,280,273,169,0,0,0,66,0,1,2,0,0,0,0,0,0,0,29,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Murtaza,2015,parl15_1,342,287,283,139,0,0,0,80,1,0,0,0,0,8,0,0,2,0,46,0,5,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaelmas,2015,parl15_1,298,236,230,76,0,0,0,106,0,0,0,0,0,2,0,1,0,0,25,0,20,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Fatih,2015,parl15_1,341,291,283,64,1,0,0,144,0,0,0,0,0,5,0,0,0,0,59,0,8,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,369,321,319,155,0,0,1,85,1,0,0,0,0,6,1,0,0,0,59,1,8,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Persembe-Merkez,2015,parl15_1,371,301,292,112,0,0,0,118,0,0,1,0,0,2,0,0,1,0,49,1,6,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Yazioren,2015,parl15_1,183,146,137,28,1,0,1,73,0,0,0,0,0,1,0,0,2,0,12,2,16,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Saltukova-Karbogaz,2015,parl15_1,268,239,228,49,0,0,1,133,0,2,2,0,0,0,0,0,0,0,31,0,6,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,353,306,303,102,0,0,0,122,1,0,1,0,0,9,0,0,0,0,64,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Murtaza,2015,parl15_1,342,286,280,107,0,0,1,115,0,3,0,0,1,4,0,0,0,0,39,0,7,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sarikokmaz,2015,parl15_1,264,237,231,114,0,0,2,60,0,0,0,0,0,10,1,0,0,0,42,0,1,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Ormanli-Seyit Ahmetli,2015,parl15_1,147,132,123,46,0,0,0,39,0,2,0,0,0,2,0,0,0,0,32,0,1,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Egerci,2015,parl15_1,322,235,221,111,0,0,2,83,1,0,0,0,1,0,0,0,0,0,20,0,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Merkez,2015,parl15_1,353,307,305,131,1,0,0,84,0,2,0,0,0,2,1,0,0,0,73,1,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Akarca,2015,parl15_1,353,303,300,70,0,0,0,167,3,1,0,0,0,6,1,0,0,0,45,1,4,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Dursunlar,2015,parl15_1,212,184,172,66,0,0,1,70,1,3,0,0,0,1,1,0,3,0,17,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Emirsah,2015,parl15_1,203,179,160,45,1,0,1,67,1,1,1,0,6,1,3,0,0,0,27,3,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,307,257,252,50,0,0,0,146,0,0,0,0,0,1,1,0,0,0,49,0,1,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Cigdemli,2015,parl15_1,277,229,223,100,0,0,0,68,2,2,0,0,1,2,0,0,0,0,35,1,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Comranli,2015,parl15_1,380,349,343,113,1,0,1,135,2,0,0,0,0,2,0,0,1,0,63,1,24,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Aydinyayla,2015,parl15_1,276,244,236,142,0,0,2,43,1,1,0,0,0,2,0,0,1,0,36,2,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,On Temmuz,2015,parl15_1,278,241,239,70,1,0,2,115,1,1,1,0,0,1,0,0,0,0,32,0,13,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mesrutiyet,2015,parl15_1,325,261,257,57,0,0,0,137,2,3,0,0,0,5,0,0,0,0,48,1,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Uzunmehmet,2015,parl15_1,356,295,282,151,1,0,2,60,2,0,0,0,2,14,2,0,0,0,43,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Saltukova-Kokaksu,2015,parl15_1,317,264,252,53,0,0,0,166,0,0,0,0,0,2,0,0,0,0,26,0,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Sivriler,2015,parl15_1,108,84,82,39,0,0,0,19,0,1,0,0,1,0,1,0,1,0,15,1,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Hamzafakili,2015,parl15_1,208,178,173,98,1,0,0,53,0,0,0,0,0,0,0,0,0,0,16,0,2,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Imranlar,2015,parl15_1,211,192,187,99,0,0,0,31,1,0,0,0,0,0,0,0,2,0,50,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Fatih,2015,parl15_1,366,313,311,74,0,0,0,179,0,0,0,0,0,16,0,2,0,0,30,1,6,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bastarla,2015,parl15_1,325,279,273,97,0,0,0,111,0,2,0,0,0,0,0,0,0,0,46,0,17,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Soganliyoruk,2015,parl15_1,363,338,328,212,0,0,1,61,0,1,1,0,0,1,1,0,1,0,43,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bastarla,2015,parl15_1,324,266,266,75,0,0,0,131,0,0,0,0,0,2,0,0,0,0,41,1,13,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yeni Siteler,2015,parl15_1,366,319,318,125,0,0,1,114,0,1,1,0,0,10,0,0,0,0,54,1,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ahmetoglu,2015,parl15_1,229,192,187,118,0,0,0,33,2,3,0,0,0,1,2,0,0,0,17,0,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Seyhoglu,2015,parl15_1,253,215,202,52,0,0,1,117,2,5,0,0,0,0,2,0,1,0,16,1,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Elvanpazarcik-Calca,2015,parl15_1,237,225,217,67,0,0,0,134,0,1,0,0,1,2,1,0,0,0,9,0,1,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Gurcesme,2015,parl15_1,108,99,98,57,0,0,0,26,0,1,0,0,0,0,0,0,0,0,6,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,324,269,262,93,0,0,0,104,0,2,1,0,0,1,0,0,1,0,54,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,324,258,257,75,0,0,0,132,0,0,1,0,0,1,0,0,0,0,42,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Yunuslu,2015,parl15_1,355,299,277,153,0,0,2,44,1,1,1,0,1,0,0,0,0,0,66,2,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Muftu,2015,parl15_1,354,279,275,81,0,0,0,103,0,0,0,0,0,9,0,0,0,0,71,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Cay,2015,parl15_1,343,298,284,83,0,0,0,143,1,0,0,0,0,7,0,0,0,0,44,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Muftu,2015,parl15_1,353,309,309,73,0,0,0,162,2,0,0,0,0,6,2,0,0,0,54,0,8,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Hisar Arkasi,2015,parl15_1,351,300,293,72,0,0,0,162,0,0,1,0,0,1,0,0,0,0,47,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Cinartepe,2015,parl15_1,378,310,303,91,0,0,1,162,0,1,0,0,0,0,0,0,0,0,38,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Hasanli,2015,parl15_1,246,220,211,135,0,0,1,41,0,2,0,0,0,0,0,0,0,0,26,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Onurlu,2015,parl15_1,190,173,171,123,0,0,0,22,3,0,0,0,0,1,0,0,0,0,21,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Seyhoglu,2015,parl15_1,250,228,213,73,0,0,1,93,1,4,0,0,0,2,1,1,2,0,29,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Karamusa,2015,parl15_1,213,184,174,45,0,0,0,110,1,1,0,0,0,0,0,0,1,0,11,1,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Dagustu,2015,parl15_1,210,177,169,102,1,0,0,24,1,0,0,0,0,2,0,0,1,0,28,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Guzeloglu,2015,parl15_1,342,306,301,73,0,0,2,179,2,2,0,0,0,1,0,0,0,0,32,1,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Istasyon,2015,parl15_1,360,308,293,61,0,0,2,175,1,1,0,0,2,3,3,0,0,0,36,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Muftu,2015,parl15_1,354,281,278,78,0,0,0,145,1,0,0,0,0,5,0,0,0,0,42,0,5,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,371,305,299,109,0,0,0,128,2,4,0,0,0,6,0,0,0,0,41,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Isikli,2015,parl15_1,241,225,222,102,0,0,0,62,1,1,0,0,0,0,1,1,0,0,46,0,6,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Muhsinler,2015,parl15_1,217,182,178,52,0,0,1,94,0,0,3,0,0,3,1,0,0,0,17,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Yesilkoy,2015,parl15_1,245,226,212,115,0,0,0,58,2,1,0,0,0,0,0,0,0,0,14,1,20,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yeni Siteler,2015,parl15_1,328,286,280,99,0,0,1,99,0,0,0,0,0,2,0,0,0,0,73,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Orhanlar,2015,parl15_1,334,275,270,30,1,0,0,192,2,0,1,0,2,4,1,0,0,0,30,0,3,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Cicekli,2015,parl15_1,117,104,103,58,0,0,0,23,0,1,0,0,0,0,0,0,0,0,19,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Asagidag,2015,parl15_1,304,265,255,134,0,0,0,52,0,3,1,0,2,1,1,0,0,0,60,1,0,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Caydegirmeni-Kemerler,2015,parl15_1,270,232,222,97,0,0,1,45,0,0,0,0,0,4,1,0,0,0,68,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Subatan,2015,parl15_1,345,295,290,105,1,0,0,136,2,0,1,0,0,1,0,1,1,0,36,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Eceler,2015,parl15_1,107,93,89,29,0,0,0,34,1,1,2,0,0,0,0,0,0,0,17,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Pelitli,2015,parl15_1,226,202,190,89,0,0,1,56,0,2,0,0,0,0,2,1,0,0,34,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Bali,2015,parl15_1,221,207,200,53,0,0,0,101,0,1,0,0,0,0,0,1,0,0,39,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ismet Pasa,2015,parl15_1,360,282,277,116,0,0,1,102,0,1,0,0,0,1,0,0,0,0,44,0,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Omerli,2015,parl15_1,241,217,210,126,1,0,1,57,0,1,0,0,0,0,0,0,0,0,18,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Uzunmehmet,2015,parl15_1,323,291,287,133,0,0,0,94,1,0,1,0,1,4,1,0,0,0,48,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Cayir,2015,parl15_1,366,311,281,72,0,0,0,177,1,0,0,0,1,3,0,0,0,0,24,0,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Inagzi,2015,parl15_1,350,290,285,98,0,0,0,111,0,1,0,0,1,2,1,0,0,0,53,0,16,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yenikoy,2015,parl15_1,322,292,284,147,1,0,0,69,5,1,1,0,0,2,2,0,0,0,44,3,7,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yolgecen,2015,parl15_1,302,263,262,113,0,0,2,110,0,1,1,0,0,0,1,0,1,0,29,0,2,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,359,301,298,112,0,0,0,90,0,1,0,0,0,1,0,0,0,0,68,1,25,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Karsiyaka,2015,parl15_1,324,271,267,127,0,0,2,68,0,1,0,0,0,4,0,0,0,0,49,0,16,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Guluc-Cengel,2015,parl15_1,334,294,293,74,0,0,0,156,0,0,0,0,0,6,0,0,0,0,54,0,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Yazicilar,2015,parl15_1,303,274,258,131,1,0,0,45,1,1,1,0,1,0,1,0,0,0,64,1,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Yeni,2015,parl15_1,329,287,280,83,0,0,2,138,4,0,0,0,0,1,1,0,0,0,41,1,7,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sarikokmaz,2015,parl15_1,367,322,317,106,0,0,1,113,1,0,1,0,1,0,0,0,0,0,81,2,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Aydinlar,2015,parl15_1,302,263,253,130,0,0,0,69,3,3,0,0,0,3,0,0,2,0,36,0,6,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Akarca,2015,parl15_1,351,300,295,85,0,0,0,161,1,2,0,0,0,2,0,1,0,0,34,0,5,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Tosunlar,2015,parl15_1,190,156,148,110,0,0,0,18,2,2,0,0,0,1,1,0,0,0,8,0,4,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Oren,2015,parl15_1,351,305,293,127,0,0,0,97,2,2,1,0,1,0,4,0,0,0,53,0,4,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sarikaya,2015,parl15_1,363,313,305,122,0,0,0,87,2,1,1,0,2,1,0,0,0,0,81,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Tasbaca,2015,parl15_1,340,280,275,119,0,0,0,70,0,1,1,0,1,3,0,0,0,0,67,0,10,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,358,317,316,40,0,0,0,189,0,0,0,0,0,15,0,0,0,0,66,0,4,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,352,277,272,77,0,0,1,125,0,0,0,0,0,3,1,1,0,0,38,0,24,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,287,246,242,55,0,0,0,127,0,0,0,0,0,7,0,0,1,0,51,0,0,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Elma Tepe,2015,parl15_1,373,335,326,137,0,0,1,101,0,2,0,0,0,2,1,0,0,0,70,0,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Caydegirmeni-Kemerler,2015,parl15_1,270,240,230,125,0,0,1,48,0,0,0,0,0,1,1,0,0,0,42,0,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Hisiroglu,2015,parl15_1,368,329,313,175,4,0,1,53,3,1,2,0,1,1,5,1,1,0,52,1,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Mollabey,2015,parl15_1,268,249,244,158,0,0,1,34,1,0,0,0,1,0,1,0,0,0,46,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karapinar,2015,parl15_1,326,261,245,170,0,0,1,29,5,3,0,0,0,1,2,0,0,0,13,2,18,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Dedeler,2015,parl15_1,295,271,257,125,2,0,0,46,0,3,0,0,1,1,2,0,1,0,72,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Ahiler,2015,parl15_1,216,196,193,133,0,0,0,20,2,1,0,0,0,0,2,0,0,0,22,0,13,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mesrutiyet,2015,parl15_1,330,288,283,67,0,0,0,134,1,1,0,0,0,8,1,0,0,0,60,0,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Saltukova-Sarikum,2015,parl15_1,278,243,238,82,0,0,0,81,1,0,0,0,0,1,0,0,0,0,67,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Mufettisler,2015,parl15_1,296,279,271,140,0,0,1,76,2,1,0,0,1,1,0,1,1,0,31,1,12,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Asagidag,2015,parl15_1,303,274,267,114,1,0,0,87,1,4,0,0,0,0,0,0,0,0,58,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Guluc-Merkez,2015,parl15_1,320,278,277,135,0,0,0,81,0,1,0,0,1,4,0,0,0,0,43,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Cay,2015,parl15_1,257,222,220,77,0,0,0,91,0,1,0,0,0,4,0,0,1,0,42,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Caylioglu,2015,parl15_1,84,80,77,20,0,0,1,36,0,2,0,0,0,0,0,0,0,0,14,0,0,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,312,261,260,114,0,0,0,90,1,0,2,0,0,3,0,0,2,0,41,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Coburlar,2015,parl15_1,210,166,162,53,0,0,2,73,4,1,0,0,0,1,1,0,0,0,25,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,On Temmuz,2015,parl15_1,331,283,270,74,0,0,0,146,0,0,0,0,0,5,0,0,0,0,35,1,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,369,325,322,76,0,0,0,158,0,0,0,0,0,13,0,0,0,0,68,0,4,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Fatih,2015,parl15_1,366,293,287,72,0,0,0,162,1,0,1,0,0,1,1,0,0,0,38,0,7,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Fatih,2015,parl15_1,342,297,291,49,0,0,0,176,0,1,1,0,0,5,0,0,0,0,42,0,11,0,6,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Eceler,2015,parl15_1,329,289,274,96,0,0,2,135,1,0,0,0,0,2,1,0,1,0,32,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Bodac,2015,parl15_1,338,309,296,109,0,0,1,147,0,1,1,0,0,0,1,0,1,0,25,0,8,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Hacilar,2015,parl15_1,331,312,294,122,0,0,1,86,1,1,0,0,0,1,0,0,0,0,73,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Carsi,2015,parl15_1,319,270,258,62,0,0,0,120,0,0,0,0,0,5,0,0,0,0,64,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Bayat,2015,parl15_1,304,267,264,93,0,0,1,160,0,0,1,0,0,1,1,1,0,0,5,1,0,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Yayla,2015,parl15_1,355,301,300,68,0,0,2,150,0,0,0,0,0,11,0,1,0,0,51,0,13,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Karadon,2015,parl15_1,343,252,247,92,0,0,0,104,0,1,0,0,0,4,0,0,0,0,31,0,13,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Derekoseler,2015,parl15_1,323,283,271,51,0,0,0,176,1,4,0,0,0,0,0,0,0,0,30,1,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Hisar Arkasi,2015,parl15_1,351,297,291,44,0,0,0,173,0,0,0,0,0,2,0,0,1,0,50,0,20,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sarikokmaz,2015,parl15_1,369,320,315,127,0,0,0,94,0,2,0,0,0,2,0,0,0,0,87,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Akarca,2015,parl15_1,356,307,287,75,0,0,0,152,1,0,0,0,1,4,0,0,1,0,51,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Eski,2015,parl15_1,350,301,298,78,0,0,0,123,0,1,0,0,0,10,0,0,0,0,70,0,16,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Suleymanlar,2015,parl15_1,355,328,326,79,0,0,0,191,0,0,0,0,0,11,0,0,0,0,43,0,0,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Merkez,2015,parl15_1,286,259,254,76,0,0,0,121,0,1,0,0,0,1,0,0,0,0,49,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Camcilar,2015,parl15_1,202,186,175,116,0,0,0,34,0,0,2,0,0,0,0,0,0,0,19,1,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Hacimusa,2015,parl15_1,316,273,244,130,2,0,0,76,5,4,0,0,1,4,1,0,1,0,6,1,8,0,5,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Derekoy,2015,parl15_1,132,111,106,68,0,0,0,13,1,0,1,0,1,0,0,0,2,0,13,1,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Inagzi,2015,parl15_1,350,293,289,99,0,0,2,112,0,0,0,0,0,2,1,0,0,0,61,0,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Nebioglu-Karaevligeris,2015,parl15_1,296,258,245,125,1,0,1,83,1,2,3,0,1,1,1,0,2,0,21,1,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Caydegirmeni-Himmetoglu,2015,parl15_1,163,144,141,42,0,0,0,65,1,1,0,0,1,0,0,0,0,0,28,0,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kavaklik,2015,parl15_1,316,267,263,101,0,0,0,104,0,0,1,0,0,1,0,0,1,0,50,1,2,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Ayvazlar,2015,parl15_1,258,235,227,49,0,0,0,137,0,0,0,0,0,1,0,0,0,0,32,0,3,0,5,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Esenkoy,2015,parl15_1,238,225,216,117,0,0,0,55,1,0,0,0,1,3,1,0,0,0,34,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Karacaoren,2015,parl15_1,381,312,291,176,0,0,1,55,1,1,0,0,0,3,1,0,1,0,38,3,8,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,360,312,307,130,0,0,0,91,0,1,0,0,0,2,0,0,0,0,54,0,29,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Guzeloglu,2015,parl15_1,289,271,256,120,0,0,0,76,1,1,0,0,1,0,2,1,0,0,32,0,21,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mithatpasa,2015,parl15_1,325,265,260,118,0,0,0,86,0,2,1,0,0,3,0,0,0,0,45,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaman-Yeni,2015,parl15_1,238,197,186,84,0,0,3,38,1,2,0,0,1,1,0,0,0,0,32,0,24,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Ihsanoglu,2015,parl15_1,316,280,274,67,0,0,0,169,0,2,1,0,0,0,0,0,2,0,16,5,10,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yeni,2015,parl15_1,369,310,303,132,0,0,0,107,0,1,0,0,0,6,0,0,0,0,37,0,19,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Madenler,2015,parl15_1,265,229,204,102,0,0,0,64,1,4,1,0,1,0,2,0,3,0,15,2,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Asma,2015,parl15_1,359,285,277,74,0,0,0,144,0,1,1,0,0,0,0,0,0,0,43,0,11,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Kayikcilar,2015,parl15_1,393,354,327,86,0,0,2,177,2,0,0,0,1,2,0,0,1,0,44,1,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Nebioglu-Terziler,2015,parl15_1,362,327,319,131,1,0,1,124,3,3,1,0,2,0,1,0,0,0,42,0,8,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yeni Siteler,2015,parl15_1,329,268,264,111,0,0,0,92,1,0,0,0,0,1,2,0,0,0,54,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Istasyon,2015,parl15_1,356,303,293,102,0,0,0,129,0,2,0,0,1,0,0,0,0,0,51,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Dogancilar,2015,parl15_1,97,81,79,49,0,0,0,9,2,2,0,0,0,1,0,0,0,0,13,0,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kandilli-Yeni,2015,parl15_1,224,192,185,136,0,0,0,27,0,0,0,0,0,3,0,0,0,0,11,0,3,0,5,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,On Temmuz,2015,parl15_1,232,189,187,66,0,0,1,81,0,0,0,0,0,5,0,0,0,0,24,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Istasyon,2015,parl15_1,357,297,284,99,0,0,1,132,2,0,0,0,0,1,0,0,0,0,43,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sakallar,2015,parl15_1,112,90,83,53,0,0,0,8,2,2,0,0,1,0,1,0,2,0,10,1,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Guney,2015,parl15_1,354,285,279,84,0,0,0,137,1,1,0,0,1,6,2,0,0,0,39,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Caydegirmeni-Merkez,2015,parl15_1,314,251,242,64,0,0,2,100,0,1,0,0,0,1,1,0,0,0,70,0,1,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kisla,2015,parl15_1,353,320,318,107,1,0,0,136,4,1,0,0,0,16,0,0,0,0,47,1,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Findikli,2015,parl15_1,316,278,269,139,0,0,0,76,2,1,0,0,3,1,1,0,0,0,32,1,13,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Madenler,2015,parl15_1,245,194,176,92,1,0,1,33,2,3,2,0,1,1,2,1,1,0,25,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Gemiciler,2015,parl15_1,253,219,209,57,0,0,1,120,2,1,0,0,1,5,0,0,0,0,20,1,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Incivez,2015,parl15_1,364,306,301,59,0,0,1,131,0,1,0,0,0,16,0,0,1,0,75,1,10,0,6,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,349,288,284,82,0,0,0,104,1,1,0,0,0,5,0,0,0,0,74,0,16,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Muharremler,2015,parl15_1,212,181,162,57,0,0,1,80,0,0,0,0,0,1,2,0,1,0,10,3,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bastarla,2015,parl15_1,325,280,272,113,0,0,0,87,1,1,0,0,0,1,0,0,0,0,48,0,19,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Filyos-Oteyuz,2015,parl15_1,362,311,296,88,0,0,0,154,1,1,0,0,0,2,0,0,0,0,43,0,5,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Hisar Arkasi,2015,parl15_1,350,304,297,68,0,0,0,152,1,3,0,0,2,9,0,0,0,0,49,0,11,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Karakoc,2015,parl15_1,287,258,247,130,0,0,0,79,1,2,1,0,0,0,1,0,0,0,25,1,6,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Cinartepe,2015,parl15_1,380,319,313,105,0,0,0,116,1,1,0,0,0,2,1,0,0,0,62,0,19,0,6,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Guluc-Bekyeri,2015,parl15_1,319,266,251,90,0,0,0,77,0,1,0,0,0,3,0,0,0,0,69,0,9,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Ihsanoglu,2015,parl15_1,316,291,270,55,1,0,0,175,3,1,1,0,1,1,1,0,1,0,22,1,3,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Kardesler,2015,parl15_1,131,104,99,33,1,0,0,51,0,0,1,0,0,0,0,0,0,0,11,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Camcilar,2015,parl15_1,201,192,180,115,0,0,0,30,2,0,0,0,1,0,0,0,0,0,23,1,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Cayirli,2015,parl15_1,356,326,308,157,1,0,2,64,3,2,0,0,1,2,2,0,0,0,69,2,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,352,271,267,158,0,0,1,65,1,0,2,0,0,2,0,0,0,0,34,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Caydamar,2015,parl15_1,362,306,300,103,1,0,0,123,1,3,1,0,0,3,0,0,0,0,49,0,16,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,19 Mayis,2015,parl15_1,357,311,305,123,0,0,0,108,0,0,1,0,0,2,2,1,0,0,57,1,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Guluc-Merkez,2015,parl15_1,323,293,291,139,1,0,0,66,0,1,0,0,0,8,0,0,0,0,65,0,9,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaelmas,2015,parl15_1,299,252,244,88,0,0,1,95,1,0,1,0,0,0,1,0,1,0,47,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Hacimusa,2015,parl15_1,267,230,204,78,0,0,1,89,0,0,0,0,0,1,1,0,1,0,29,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Hasbeyler,2015,parl15_1,164,140,134,61,0,0,1,44,1,2,0,0,0,0,0,0,0,0,24,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Tepekoy,2015,parl15_1,361,315,308,110,0,0,0,135,0,1,1,0,0,6,1,0,0,0,46,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Uzuncayir,2015,parl15_1,253,235,230,90,1,0,1,75,1,1,0,0,0,3,0,0,0,0,54,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kirmanli,2015,parl15_1,308,266,262,67,0,0,0,130,0,0,1,0,0,15,0,0,0,0,45,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Catalagzi-Hacioglu,2015,parl15_1,345,299,291,66,0,0,0,194,0,1,0,0,0,5,0,0,0,0,16,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kestaneci,2015,parl15_1,322,286,281,74,0,0,0,164,4,0,2,0,0,5,0,0,0,0,26,0,4,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Bayat,2015,parl15_1,305,272,266,114,0,0,0,119,3,0,0,0,0,0,0,0,0,0,28,0,1,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Guney,2015,parl15_1,364,303,298,121,0,0,1,95,0,1,0,0,0,1,0,0,0,0,67,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,332,298,296,85,0,0,0,151,0,0,0,0,0,4,0,0,0,0,44,0,10,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Aktarla,2015,parl15_1,278,247,236,89,2,0,0,98,1,0,1,0,0,3,2,0,1,0,34,1,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Yesil,2015,parl15_1,326,265,260,51,0,0,0,141,0,0,0,0,1,4,0,0,0,0,55,0,5,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,362,294,292,94,0,0,0,131,0,1,1,0,0,9,0,0,0,0,47,1,4,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Akarca,2015,parl15_1,357,319,314,66,0,0,1,196,1,0,0,0,0,3,0,0,1,0,40,0,4,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Muharremsah,2015,parl15_1,303,262,243,77,0,0,1,118,4,2,0,0,0,0,1,2,2,0,25,1,6,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Elma Tepe,2015,parl15_1,374,334,331,181,0,0,0,68,0,1,1,0,0,2,0,0,0,0,65,0,12,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Karsiyaka,2015,parl15_1,349,306,300,124,0,0,2,94,0,3,1,0,0,7,1,0,0,0,50,1,16,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Caydegirmeni-Yeni,2015,parl15_1,255,207,203,73,0,0,1,69,0,3,0,0,0,3,0,0,0,0,46,0,6,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,On Temmuz,2015,parl15_1,231,189,186,45,0,0,1,114,1,1,0,0,0,1,0,0,0,0,16,0,4,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,341,289,282,114,0,0,1,97,0,1,0,0,0,1,1,0,1,0,62,0,2,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Suleymanlar,2015,parl15_1,373,337,334,105,1,0,0,151,0,2,0,0,0,0,0,1,0,0,68,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Damarli,2015,parl15_1,309,247,240,104,0,0,1,71,2,0,1,0,0,2,0,0,0,0,45,0,14,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Sehler,2015,parl15_1,375,341,323,206,1,0,0,61,1,2,1,0,0,0,2,0,2,0,38,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Filyos-Kocaali,2015,parl15_1,260,210,206,64,0,0,0,118,0,0,0,0,0,1,0,0,0,0,20,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Sakakoy,2015,parl15_1,182,148,145,120,0,0,0,7,2,0,0,0,0,2,0,0,0,0,7,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Asarli,2015,parl15_1,282,231,224,92,0,0,1,94,1,1,0,0,0,1,0,0,0,0,28,0,4,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaman-Kadi,2015,parl15_1,338,298,284,190,0,0,0,37,1,1,0,0,0,1,0,0,0,0,40,0,13,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Filyos-Oteyuz,2015,parl15_1,362,292,285,62,0,0,2,169,3,0,0,0,0,8,0,0,0,0,32,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yazicioglu,2015,parl15_1,323,270,265,112,0,0,0,114,2,1,1,0,0,1,0,0,0,0,25,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Incivez,2015,parl15_1,364,305,299,68,0,0,1,150,0,0,0,0,0,12,0,0,0,0,54,0,8,0,6,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Esenlik,2015,parl15_1,258,223,213,39,0,0,0,137,2,4,0,0,0,1,0,0,0,0,23,0,5,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Cemaller,2015,parl15_1,224,191,189,80,0,0,0,81,1,0,1,0,0,2,0,0,0,0,20,1,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Subatan,2015,parl15_1,344,292,285,101,0,0,1,102,3,0,0,0,0,2,0,0,0,0,60,0,14,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Guney,2015,parl15_1,354,290,279,89,0,0,0,119,0,0,0,0,0,6,0,0,0,0,51,0,13,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Gurbuzler,2015,parl15_1,322,291,282,163,0,0,1,61,0,1,0,0,1,0,2,0,1,0,34,0,18,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mesrutiyet,2015,parl15_1,364,315,312,72,0,0,0,164,0,0,0,0,0,12,0,0,0,0,60,0,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mesrutiyet,2015,parl15_1,330,264,262,45,0,0,0,167,1,1,0,0,0,3,0,0,0,0,39,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Kadioglu,2015,parl15_1,244,213,195,81,0,0,1,87,0,0,0,0,0,1,0,0,0,0,16,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,319,277,268,102,1,0,0,96,0,2,0,0,0,2,0,0,0,0,50,1,13,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Fatih,2015,parl15_1,367,300,297,92,0,0,0,129,1,5,0,0,0,3,0,0,0,0,41,0,25,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,361,316,313,102,0,0,0,148,0,0,1,0,1,7,0,0,0,0,45,0,5,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Colakpehlivan,2015,parl15_1,316,263,253,122,1,0,0,76,3,2,1,0,0,0,6,0,2,0,27,1,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,380,320,313,163,0,0,0,74,1,1,0,0,0,8,0,0,0,0,59,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Musausta,2015,parl15_1,161,142,135,53,0,0,0,55,1,2,0,0,0,0,0,0,0,0,21,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,361,282,274,71,0,0,0,141,1,0,0,0,0,9,0,0,0,0,40,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Ahatli,2015,parl15_1,217,202,190,67,0,0,1,72,3,4,0,0,0,0,0,0,0,0,34,1,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Comlekci,2015,parl15_1,165,151,149,51,1,0,1,55,0,0,1,0,0,1,0,0,0,0,28,1,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Belediye Sitesi,2015,parl15_1,286,248,242,81,0,0,1,123,1,1,0,0,0,1,0,0,0,0,26,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaman-Merkez,2015,parl15_1,243,204,196,84,0,0,0,62,1,0,0,0,0,0,0,0,0,0,41,0,6,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Canbazli,2015,parl15_1,245,230,222,130,0,0,1,40,2,0,0,0,0,0,0,0,1,0,45,0,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,370,314,312,134,0,0,0,112,0,0,0,0,0,5,2,0,0,0,48,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Sipahiler,2015,parl15_1,171,148,142,77,1,0,0,24,1,0,1,0,2,0,0,1,1,0,23,0,9,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Karsiyaka,2015,parl15_1,350,308,302,125,0,0,0,111,0,0,0,0,1,3,0,0,0,0,39,0,22,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Asagisarmasik,2015,parl15_1,222,212,207,55,0,0,1,105,0,1,0,0,0,1,0,0,0,0,41,0,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Ahatli,2015,parl15_1,271,253,245,106,0,0,0,53,1,0,0,0,0,2,0,0,0,0,43,1,39,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,337,290,287,65,0,0,0,136,1,0,0,0,0,4,0,0,0,0,73,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,354,290,284,69,0,0,0,148,1,0,0,0,0,4,0,0,0,0,53,0,7,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Yeni,2015,parl15_1,377,311,304,100,0,0,1,109,0,0,0,0,1,4,1,0,1,0,68,0,19,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Yesil,2015,parl15_1,325,261,256,63,0,0,0,130,0,0,0,0,0,3,0,0,0,0,57,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Asma,2015,parl15_1,360,297,291,104,0,0,0,90,0,0,1,0,0,1,0,0,0,0,79,0,15,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yeni Siteler,2015,parl15_1,374,327,316,106,0,0,0,135,1,2,1,0,0,2,1,0,1,0,59,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Kumtarla,2015,parl15_1,199,151,141,82,0,0,0,32,0,5,0,0,2,1,1,0,0,0,12,0,4,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,338,279,276,65,0,0,1,168,2,0,0,0,0,3,1,0,1,0,30,1,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,375,321,314,132,0,0,0,99,0,1,0,0,0,1,0,0,0,0,62,0,19,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mesrutiyet,2015,parl15_1,330,278,275,73,0,0,0,134,1,1,0,0,0,4,0,0,0,0,44,0,14,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ismet Pasa,2015,parl15_1,13,16,16,3,0,0,1,7,0,0,0,0,0,2,0,0,0,0,2,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Duhancilar,2015,parl15_1,277,248,241,140,0,0,5,49,1,2,0,0,0,1,1,0,2,0,18,0,20,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,19 Mayis,2015,parl15_1,240,196,188,58,0,0,0,74,1,1,0,0,0,2,0,0,0,0,31,0,21,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Kucuktekke,2015,parl15_1,225,214,211,69,0,0,0,68,0,0,0,0,0,1,0,0,0,0,66,0,6,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Fatih,2015,parl15_1,365,313,310,82,0,0,0,148,0,1,0,0,0,11,0,1,0,0,48,0,19,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Agalar,2015,parl15_1,344,289,282,128,0,0,0,90,0,2,0,0,0,3,1,0,0,0,44,1,12,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sarikokmaz,2015,parl15_1,368,308,300,135,0,0,2,94,3,3,0,0,0,4,2,0,0,0,42,0,12,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Goktepe,2015,parl15_1,192,178,174,126,0,0,0,29,0,1,0,0,0,0,0,0,0,0,18,0,0,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Baglik,2015,parl15_1,339,282,277,101,0,0,0,117,3,0,0,0,0,2,1,0,0,0,36,0,17,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mithatpasa,2015,parl15_1,346,299,293,86,0,0,0,121,0,0,0,0,0,2,0,0,0,0,62,0,22,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Murtaza,2015,parl15_1,343,283,279,134,1,0,0,74,1,0,1,0,0,1,1,0,0,0,58,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Gumeli-Erenkoy,2015,parl15_1,350,313,307,26,0,0,0,251,0,0,0,0,0,6,0,0,0,0,21,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kavaklik,2015,parl15_1,315,264,254,83,0,0,1,118,0,3,0,0,0,1,1,0,0,0,39,0,4,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kisla,2015,parl15_1,353,314,311,116,0,0,0,117,1,2,0,0,0,4,0,0,1,0,69,0,0,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Ihsaniye,2015,parl15_1,362,308,300,85,0,0,0,141,2,1,0,0,1,0,4,1,0,0,45,3,16,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Istasyon,2015,parl15_1,357,304,298,103,1,0,2,131,0,0,0,0,0,0,0,0,0,0,50,1,7,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ozbagi,2015,parl15_1,210,185,178,49,0,0,2,102,1,1,0,0,1,0,2,1,0,0,12,2,3,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,290,253,246,85,1,0,0,106,0,3,1,0,0,3,0,1,0,0,36,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Guzelyurt,2015,parl15_1,220,204,201,107,0,0,0,47,2,0,0,0,1,0,0,0,0,0,43,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Samlar,2015,parl15_1,373,328,310,199,1,0,2,47,1,3,0,0,1,2,3,1,0,0,33,0,15,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,361,314,310,103,0,0,0,144,0,0,0,0,0,4,0,0,0,0,51,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,354,287,286,58,0,0,0,149,0,1,0,0,0,9,0,0,1,0,60,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Hisar Arkasi,2015,parl15_1,350,281,278,59,0,0,0,163,0,1,0,0,0,2,0,0,0,0,38,1,14,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Futa,2015,parl15_1,154,132,131,51,0,0,0,62,1,2,0,0,0,2,0,1,0,0,1,4,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Gunesli,2015,parl15_1,341,289,273,100,1,0,0,115,1,2,0,0,2,5,1,0,1,0,39,2,2,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yeni Siteler,2015,parl15_1,304,269,259,92,0,0,0,99,0,2,1,0,0,3,0,0,2,0,58,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Caydegirmeni-Merkez,2015,parl15_1,312,272,263,81,0,0,0,116,0,3,0,0,0,2,1,1,1,0,47,1,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Cardas,2015,parl15_1,146,141,138,97,0,0,0,20,0,1,0,0,1,0,1,0,0,0,16,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Guluc-Orencik,2015,parl15_1,260,228,224,102,0,0,0,82,0,0,1,0,0,1,0,0,0,0,27,1,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yeni Siteler,2015,parl15_1,367,307,299,106,0,0,0,115,0,0,0,0,0,2,0,0,0,0,66,0,8,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ismet Pasa,2015,parl15_1,360,290,286,117,0,0,0,90,1,0,0,0,1,11,0,0,1,0,45,0,19,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Ogberler,2015,parl15_1,203,142,128,60,0,0,0,34,1,1,2,0,1,0,2,0,1,0,17,0,7,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ismet Pasa,2015,parl15_1,360,292,288,101,0,0,0,115,1,0,0,0,0,6,1,0,0,0,41,0,22,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,352,302,295,87,0,0,1,137,0,1,0,0,0,6,0,0,0,0,59,0,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Huseyincavusoglu,2015,parl15_1,277,229,224,109,0,0,1,64,3,2,2,0,0,0,2,0,1,0,20,3,17,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Karsiyaka,2015,parl15_1,350,287,284,126,0,0,0,82,1,1,0,0,0,0,0,0,0,0,47,0,27,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ozpinar,2015,parl15_1,373,326,319,75,1,0,1,188,4,6,0,0,2,2,1,0,0,0,29,4,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Cinartepe,2015,parl15_1,379,331,323,111,1,0,0,120,1,1,0,0,0,1,2,0,0,0,73,0,13,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yesilkoy,2015,parl15_1,174,151,144,39,0,0,0,89,0,0,0,0,0,0,1,0,0,0,13,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Seyfetler,2015,parl15_1,234,199,194,123,0,0,0,43,1,1,0,0,0,1,1,0,0,0,12,1,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Caydamar,2015,parl15_1,363,311,307,116,0,0,2,126,0,1,1,0,0,2,0,0,0,0,48,0,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Muslu-Merkez,2015,parl15_1,306,285,281,58,0,0,0,172,1,1,1,0,0,0,1,0,0,0,28,0,19,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Isikli,2015,parl15_1,198,182,177,140,0,0,0,15,0,1,0,0,0,0,0,0,0,0,13,0,6,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Eski,2015,parl15_1,349,288,278,104,0,0,0,90,1,1,0,0,0,6,1,0,1,0,56,0,18,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Murtaza,2015,parl15_1,342,304,298,138,0,0,1,72,0,0,0,0,0,6,0,0,1,0,69,0,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,346,288,281,109,0,0,0,91,1,4,0,0,0,0,0,0,1,0,62,0,12,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Karalar,2015,parl15_1,349,292,286,93,0,0,0,128,0,1,1,0,0,3,0,0,0,0,53,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Yayla,2015,parl15_1,353,321,319,63,0,0,0,188,0,0,0,0,0,21,0,0,0,0,38,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Kocaman,2015,parl15_1,78,72,70,47,0,0,0,11,0,0,1,0,0,0,1,0,0,0,7,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,377,325,321,145,0,0,0,110,0,1,0,0,0,2,1,0,0,0,55,1,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Erenler,2015,parl15_1,348,313,302,74,0,0,1,160,2,5,2,0,0,0,0,0,0,0,47,2,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Cay,2015,parl15_1,343,274,264,64,0,0,0,157,4,1,0,0,1,1,1,0,0,0,25,0,8,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Filyos-Geris,2015,parl15_1,118,110,110,41,0,0,0,44,1,0,0,0,0,0,0,0,0,0,20,1,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaelmas,2015,parl15_1,294,242,239,102,0,0,0,90,1,0,0,0,0,1,0,0,0,0,31,0,12,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mesrutiyet,2015,parl15_1,323,252,251,53,0,0,0,140,0,0,0,0,0,2,1,0,0,0,49,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Geris,2015,parl15_1,284,256,251,76,0,0,1,135,3,1,1,0,0,0,0,0,0,0,28,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Elvanpazarcik-Hayat,2015,parl15_1,205,184,180,69,0,0,0,71,0,2,1,0,0,0,0,0,0,0,35,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,360,295,290,62,0,0,0,170,0,0,0,0,0,7,1,0,0,0,45,0,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Bolum,2015,parl15_1,332,261,249,151,0,0,1,70,1,0,1,0,0,1,0,0,2,0,18,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kisla,2015,parl15_1,353,309,305,116,0,0,1,118,1,0,1,0,0,3,1,0,0,0,58,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Merkez,2015,parl15_1,346,282,281,83,0,0,0,141,4,0,1,0,0,4,0,1,0,0,37,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yesilyurt,2015,parl15_1,284,248,241,183,0,0,0,21,1,1,0,0,0,2,0,0,1,0,29,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,334,263,262,122,0,0,0,76,0,0,0,0,0,4,0,0,0,0,47,0,13,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Birlik,2015,parl15_1,326,245,239,81,0,0,0,99,1,0,1,0,0,0,0,0,1,0,44,0,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Aydinlar,2015,parl15_1,216,177,168,77,1,0,2,59,3,1,1,0,1,0,1,0,0,0,5,0,14,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Ormeci,2015,parl15_1,297,279,257,85,0,0,4,116,2,2,1,0,0,1,0,0,0,0,37,1,6,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Muhsinler,2015,parl15_1,274,250,233,59,0,0,0,146,0,1,1,0,2,1,1,0,1,0,16,0,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,332,298,291,70,1,0,0,158,0,1,0,0,1,7,1,0,0,0,45,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Guzelyaka,2015,parl15_1,257,241,234,57,1,0,0,138,4,6,0,0,0,4,0,0,0,0,2,0,17,0,5,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Bolucek,2015,parl15_1,360,323,317,124,0,0,1,94,5,2,0,0,1,0,0,0,0,0,81,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Ebegumeci,2015,parl15_1,104,91,84,67,0,0,0,9,0,0,0,0,1,0,0,0,0,0,4,1,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Akcabey,2015,parl15_1,256,206,200,116,1,0,0,55,0,0,1,0,2,1,2,0,1,0,15,0,4,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Gelik-Gelik Merkez,2015,parl15_1,298,240,234,110,0,0,1,55,0,0,1,0,0,2,1,0,0,0,44,0,19,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Ahatli,2015,parl15_1,340,322,291,141,1,0,0,73,3,2,0,0,0,2,0,0,0,0,56,1,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Huseyinli,2015,parl15_1,99,93,90,56,1,0,0,15,1,0,0,0,0,1,0,0,1,0,14,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,320,266,259,65,0,0,1,111,1,0,0,0,0,5,0,0,0,0,59,0,11,0,6,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mesrutiyet,2015,parl15_1,324,263,259,50,0,0,0,119,2,0,0,0,0,2,0,0,0,0,79,0,6,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Gelik-Ayici,2015,parl15_1,231,217,214,56,0,0,1,58,0,0,2,0,0,1,0,0,0,0,92,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Kerimler,2015,parl15_1,231,212,205,89,0,0,0,94,1,1,0,0,0,0,0,0,0,0,16,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Elma Tepe,2015,parl15_1,374,310,307,134,1,0,0,111,1,2,0,0,0,1,0,0,0,0,47,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Karabasli,2015,parl15_1,364,310,302,115,0,0,1,110,2,2,0,0,0,7,3,0,0,0,49,1,7,0,5,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Ormanli-Sinitli,2015,parl15_1,265,241,232,65,1,0,0,70,0,2,0,0,0,2,0,0,0,0,87,1,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,349,295,291,109,0,0,0,95,0,0,0,0,0,3,1,0,0,0,71,0,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Merkez,2015,parl15_1,347,299,294,84,0,0,0,130,1,1,0,0,0,2,0,0,1,0,57,0,17,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,350,288,283,96,0,0,1,130,1,1,0,0,0,1,0,0,2,0,37,0,13,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,309,249,246,51,0,0,0,145,0,0,0,0,0,2,0,0,0,0,40,0,5,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Belen,2015,parl15_1,345,316,306,100,0,0,2,105,1,2,1,0,0,1,1,0,2,0,83,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Elma Tepe,2015,parl15_1,374,337,299,122,0,0,0,86,1,1,0,0,0,1,1,0,0,0,76,0,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,369,305,295,93,0,0,0,153,1,1,0,0,0,5,0,0,0,0,34,0,6,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Saltukova-Kokaksu,2015,parl15_1,315,288,281,65,0,0,1,165,1,0,1,0,0,3,0,0,0,0,39,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Belediye Sitesi,2015,parl15_1,285,238,236,71,0,0,1,112,0,0,0,0,0,0,0,0,0,0,43,1,3,0,5,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ismet Pasa,2015,parl15_1,359,292,288,104,1,0,0,103,3,0,0,0,0,3,1,0,0,0,51,0,20,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Dilaver,2015,parl15_1,314,264,258,101,0,0,0,71,0,1,0,0,0,1,0,0,0,0,82,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Merkez,2015,parl15_1,352,310,307,130,0,0,1,83,0,0,0,0,0,5,0,0,0,0,79,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Cay,2015,parl15_1,257,210,209,52,1,0,0,109,1,1,0,0,0,12,0,0,0,0,28,0,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,376,323,319,80,1,0,0,167,0,1,0,0,0,5,1,0,0,0,52,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Vakif,2015,parl15_1,160,138,128,85,0,0,0,15,2,2,0,0,3,1,1,0,0,0,17,0,1,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Yeni,2015,parl15_1,380,319,311,102,0,0,0,118,0,2,0,0,0,3,0,0,0,0,75,2,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Kardesler,2015,parl15_1,229,196,195,76,0,0,0,78,1,0,0,0,0,0,0,0,0,0,31,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kizilca,2015,parl15_1,214,201,197,80,0,0,0,78,2,1,0,0,1,0,0,0,0,0,30,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Kargalar,2015,parl15_1,337,277,269,175,2,0,3,30,3,1,1,0,0,1,1,0,0,0,15,2,35,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bastarla,2015,parl15_1,325,279,277,92,1,0,0,127,2,0,1,0,0,1,0,0,0,0,42,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yeni Siteler,2015,parl15_1,330,297,288,87,0,0,0,141,1,0,0,0,0,5,0,0,1,0,43,0,8,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Kuzca,2015,parl15_1,121,100,99,59,0,0,0,26,0,4,0,0,0,0,1,1,0,0,5,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Belediye Sitesi,2015,parl15_1,285,238,231,82,0,0,0,89,2,0,0,0,0,3,0,0,0,0,42,0,13,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Derekoseler,2015,parl15_1,323,280,268,88,0,0,4,137,1,4,2,0,0,0,0,0,0,0,23,1,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kestaneci,2015,parl15_1,323,295,291,96,0,0,0,138,0,0,0,0,0,7,1,0,0,0,46,0,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,367,324,318,116,0,0,0,127,0,0,1,0,0,8,1,0,0,0,58,1,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Guney,2015,parl15_1,284,253,249,62,1,0,0,105,0,0,0,0,0,9,0,0,0,0,55,0,15,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,343,277,270,53,0,0,1,140,1,0,0,0,0,5,0,0,0,0,58,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Suleymanlar,2015,parl15_1,371,323,319,58,0,0,1,201,0,1,0,0,0,10,1,0,0,0,39,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Haciibadi,2015,parl15_1,349,296,267,140,0,0,1,83,0,2,0,0,0,0,1,0,1,0,32,1,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Catalagzi-Kuzyaka,2015,parl15_1,300,259,255,67,0,0,1,119,1,0,0,0,0,3,0,0,0,0,59,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Orhanlar,2015,parl15_1,374,332,329,84,0,0,0,176,0,2,0,0,0,7,0,1,0,0,52,0,5,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sarikokmaz,2015,parl15_1,277,243,239,104,0,0,0,62,0,0,0,0,0,6,0,0,0,0,55,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Caydegirmeni-Yeni,2015,parl15_1,255,220,214,90,0,0,1,71,3,1,0,0,0,2,1,0,1,0,37,0,5,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Camkoy,2015,parl15_1,158,145,138,81,0,0,0,39,0,4,0,0,0,0,1,0,0,0,9,1,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Uckoy,2015,parl15_1,322,292,287,91,0,0,0,124,1,1,0,0,0,2,2,0,2,0,43,2,2,0,17,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Guluc-Bekyeri,2015,parl15_1,318,277,271,94,0,0,0,75,1,0,0,0,0,6,0,0,0,0,87,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yenikoy,2015,parl15_1,181,170,166,122,1,0,1,22,2,0,0,0,1,1,0,0,0,0,16,0,0,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,On Temmuz,2015,parl15_1,363,298,295,123,0,0,0,102,0,1,0,0,0,2,1,0,0,0,48,0,17,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yukaridere,2015,parl15_1,238,204,198,72,0,0,0,76,0,1,0,0,1,1,0,0,1,0,32,0,14,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Catalagzi-Merkez,2015,parl15_1,339,293,291,64,0,0,0,163,0,0,0,0,1,2,1,1,0,0,41,1,11,0,6,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Eveyikli,2015,parl15_1,145,122,117,49,0,0,0,42,1,1,0,0,2,0,2,0,0,0,14,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Murtaza,2015,parl15_1,342,275,273,109,0,0,1,91,0,2,0,0,0,13,0,0,0,0,43,0,12,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaelmas,2015,parl15_1,340,274,271,86,0,0,0,96,1,0,1,0,0,4,0,0,0,0,65,1,15,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Guney,2015,parl15_1,376,317,310,125,0,0,0,87,0,0,0,0,0,1,0,0,0,0,71,0,23,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,292,254,245,58,0,0,0,138,0,1,0,0,0,3,1,0,0,0,34,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Yeni,2015,parl15_1,330,278,270,70,0,0,2,143,0,1,0,0,1,3,1,0,0,0,40,0,6,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,380,338,332,109,0,0,1,134,1,1,0,0,1,6,0,0,0,0,72,1,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Gelik-Esen,2015,parl15_1,378,323,305,130,0,0,0,108,2,2,0,0,0,1,0,0,0,0,35,1,26,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,361,317,315,99,0,0,0,136,1,0,0,0,1,12,0,0,0,0,59,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Osmanli,2015,parl15_1,198,173,166,100,0,0,1,29,1,3,0,0,1,0,0,0,1,0,24,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Mekekler,2015,parl15_1,92,87,87,28,0,0,0,41,0,0,0,0,0,0,0,0,0,0,15,0,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,342,282,276,109,2,0,0,89,1,0,0,0,0,4,2,0,0,0,59,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Baglik,2015,parl15_1,339,286,279,115,0,0,1,105,0,3,0,0,0,3,0,0,0,0,42,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Guldere,2015,parl15_1,272,236,230,109,0,0,1,64,0,1,0,0,2,8,1,0,0,0,34,0,8,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Purtuloglu,2015,parl15_1,138,111,106,45,0,0,0,40,2,0,1,0,1,1,0,1,0,0,11,2,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,341,286,278,86,1,0,3,126,0,0,0,0,0,8,0,0,0,0,43,0,8,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,378,316,316,109,0,0,1,143,0,1,0,0,0,1,0,0,1,0,56,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Omerli,2015,parl15_1,241,231,225,135,0,0,0,67,1,2,0,0,0,0,1,0,0,0,18,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kirmanli,2015,parl15_1,307,276,272,79,0,0,1,127,0,0,0,0,0,17,0,0,0,0,42,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Cicekli,2015,parl15_1,101,92,90,54,0,0,0,13,0,0,1,0,0,0,2,0,0,0,17,1,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Onmayis,2015,parl15_1,232,209,202,68,1,0,0,89,0,2,1,0,0,2,0,0,0,0,32,0,5,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Emirsah,2015,parl15_1,202,178,164,71,1,0,2,63,1,1,1,0,0,1,1,0,0,0,17,0,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,On Temmuz,2015,parl15_1,330,272,265,69,1,0,1,142,5,0,0,0,0,1,0,0,0,0,41,0,2,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Osmanli,2015,parl15_1,257,224,216,66,0,0,1,114,0,1,0,0,1,1,1,0,1,0,23,0,4,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaelmas,2015,parl15_1,377,306,302,97,0,0,0,127,0,0,0,0,1,6,0,0,0,0,56,0,15,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Sandallar,2015,parl15_1,371,321,313,73,0,0,1,162,3,4,1,0,2,1,3,0,1,0,55,1,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Danismentli,2015,parl15_1,348,312,296,154,1,0,3,92,2,4,2,0,0,1,1,0,0,0,31,1,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Ihsaniye,2015,parl15_1,362,294,289,128,0,0,0,107,0,3,0,0,0,2,0,0,0,0,36,0,13,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Gelik-Ayici Merkez,2015,parl15_1,321,259,250,110,0,0,1,79,0,2,0,0,1,1,0,0,0,0,49,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Tepekoy,2015,parl15_1,361,324,316,142,0,0,1,72,1,0,1,0,0,7,0,0,1,0,82,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Esentepe,2015,parl15_1,124,119,114,42,0,0,1,50,0,0,0,0,1,0,0,0,0,0,6,0,14,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Guluc-Cengel,2015,parl15_1,330,278,276,80,0,0,0,141,0,0,1,0,0,2,0,0,0,0,44,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kulah,2015,parl15_1,301,278,267,118,0,0,0,101,0,7,0,0,0,1,1,0,1,0,34,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Agalar,2015,parl15_1,347,298,288,108,0,0,1,101,1,0,0,0,0,3,1,0,0,0,65,0,6,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Velikoy,2015,parl15_1,265,231,223,92,0,0,3,79,2,0,0,0,0,1,1,0,2,0,29,0,13,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Uzuncayir,2015,parl15_1,253,212,208,57,0,0,1,97,2,0,1,0,0,3,0,0,0,0,42,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Gemiciler,2015,parl15_1,253,215,209,60,0,0,0,121,0,1,0,0,0,1,0,0,0,0,22,0,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mesrutiyet,2015,parl15_1,329,274,271,38,0,0,0,149,0,1,3,0,0,13,0,0,0,0,55,1,9,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Sofular,2015,parl15_1,290,264,248,126,0,0,0,66,3,4,1,0,1,0,3,0,0,0,38,1,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,353,292,282,87,0,0,0,113,0,0,0,0,0,5,0,0,0,0,61,0,16,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ismet Pasa,2015,parl15_1,359,296,294,91,0,0,1,120,0,1,0,0,0,5,0,0,0,0,55,0,18,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Cagli,2015,parl15_1,192,167,146,69,0,0,0,44,0,1,0,0,0,0,1,0,0,0,25,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Catalagzi-Dogancilar,2015,parl15_1,299,263,251,75,0,0,1,122,1,0,0,0,0,1,1,0,0,0,42,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Aydinlar,2015,parl15_1,192,159,145,58,0,0,1,57,0,3,0,0,1,2,0,0,1,0,11,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,369,331,324,139,0,0,1,99,3,0,3,0,0,4,0,0,0,0,68,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Caykoy,2015,parl15_1,241,213,207,124,0,0,0,48,0,2,1,0,0,0,0,0,1,0,23,1,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaelmas,2015,parl15_1,378,298,293,73,0,0,1,155,0,1,0,0,0,1,0,1,1,0,50,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yedigelli,2015,parl15_1,245,226,217,165,0,0,0,16,0,2,0,0,0,1,0,0,1,0,29,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yilanlicakuz,2015,parl15_1,249,216,204,119,1,0,0,46,2,2,0,0,0,1,1,0,1,0,15,1,13,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Cukuroren,2015,parl15_1,270,239,230,107,0,0,0,59,1,2,0,0,0,2,0,0,0,0,37,0,20,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Esenkoy,2015,parl15_1,170,142,134,87,1,0,2,23,3,0,0,0,0,1,2,0,0,0,13,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Sarmasik,2015,parl15_1,111,102,100,31,0,0,1,57,0,0,0,0,0,0,1,0,0,0,6,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ismet Pasa,2015,parl15_1,360,304,300,111,0,0,0,106,0,0,0,0,0,0,1,0,0,0,70,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Inagzi,2015,parl15_1,350,307,302,98,0,0,1,133,0,1,0,0,1,2,2,0,0,0,54,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Uckoy,2015,parl15_1,159,131,130,89,0,0,0,21,1,0,0,0,0,0,0,0,1,0,14,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mesrutiyet,2015,parl15_1,329,283,275,52,0,0,0,144,0,0,0,0,0,9,0,1,1,0,53,0,9,0,6,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ismet Pasa,2015,parl15_1,359,299,293,101,0,0,0,131,1,1,0,0,0,6,0,0,0,0,38,0,15,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Torlaklar,2015,parl15_1,274,256,244,83,1,0,0,123,1,1,0,0,1,1,1,0,0,0,26,1,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kavaklik,2015,parl15_1,353,313,304,115,0,0,0,106,6,1,0,0,1,3,2,0,0,0,60,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,360,315,311,117,0,0,0,96,0,1,0,0,0,4,0,0,0,0,72,0,20,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Kerimler,2015,parl15_1,232,219,206,87,0,0,1,88,0,2,0,0,0,1,2,0,1,0,16,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sutluce,2015,parl15_1,214,186,177,124,0,0,0,34,0,1,0,0,2,0,1,0,0,0,6,1,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Elvanpazarcik-Cumhuriyet,2015,parl15_1,147,133,133,62,0,0,1,36,1,0,1,0,1,1,0,0,0,0,26,0,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yeni,2015,parl15_1,369,284,279,104,0,0,0,121,1,0,0,0,0,0,2,0,0,0,40,1,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kirmaci,2015,parl15_1,360,338,332,76,1,0,0,180,1,0,0,0,0,3,0,0,0,0,63,0,5,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Kizilbel,2015,parl15_1,381,321,290,153,1,0,1,86,3,1,0,0,0,0,1,0,1,0,27,0,14,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Kardesler,2015,parl15_1,155,132,122,42,1,0,0,50,0,0,0,0,0,0,0,0,1,0,21,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mesrutiyet,2015,parl15_1,364,281,277,45,0,0,0,181,1,0,1,0,0,2,0,1,0,0,36,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,340,290,286,48,1,0,0,168,0,2,0,0,0,12,2,0,0,0,41,0,10,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Catalagzi-Merkez,2015,parl15_1,338,284,275,70,1,0,1,161,5,0,0,0,1,2,0,0,0,0,24,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Cigdemli,2015,parl15_1,276,260,242,140,0,0,0,49,0,2,0,0,1,0,0,1,2,0,38,2,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yukaridere,2015,parl15_1,239,202,196,81,0,0,0,83,0,1,0,0,0,0,1,0,0,0,22,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,293,254,251,66,0,0,0,129,1,3,0,0,0,3,0,1,0,0,39,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Sivriler,2015,parl15_1,232,185,177,66,0,0,2,47,1,0,1,0,0,0,0,0,1,0,57,0,1,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,297,266,264,73,0,0,0,134,0,0,0,0,0,1,0,1,0,0,43,0,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Kisla,2015,parl15_1,370,321,304,117,0,0,0,141,2,3,0,0,1,1,1,0,1,0,22,1,14,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,348,287,283,92,0,0,0,112,1,4,0,0,0,6,1,0,1,0,52,0,12,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Kasimli,2015,parl15_1,274,237,227,183,0,0,1,10,2,0,1,0,1,0,3,0,1,0,17,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Merkez,2015,parl15_1,351,292,288,104,0,0,0,115,0,3,0,0,0,1,0,0,0,0,54,0,8,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Fatih,2015,parl15_1,365,309,306,137,0,0,0,91,0,0,2,0,0,4,2,0,0,0,48,0,21,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,19 Mayis,2015,parl15_1,237,200,195,85,0,0,0,75,0,3,0,0,0,3,0,0,0,0,27,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Incivez,2015,parl15_1,363,311,310,84,0,0,0,143,0,0,0,0,0,17,0,0,1,0,54,0,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Dilaver,2015,parl15_1,317,257,252,109,0,0,0,85,0,1,0,0,0,2,1,0,0,0,48,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Toyfanli,2015,parl15_1,321,292,278,140,0,0,0,80,0,4,0,0,2,2,2,1,0,0,40,0,6,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Senkoy,2015,parl15_1,239,209,195,81,0,0,1,74,0,0,0,0,0,1,0,1,0,0,31,2,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Karapinar-Merkez,2015,parl15_1,275,243,229,110,0,0,0,71,0,1,1,0,0,0,0,0,0,0,35,1,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Mumcuoglu,2015,parl15_1,167,140,132,69,0,0,1,39,3,1,0,0,0,2,0,0,0,0,11,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Ormanli-Sarikaya,2015,parl15_1,361,329,316,171,0,0,1,51,0,0,1,0,0,2,0,0,0,0,83,0,5,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yeni Siteler,2015,parl15_1,368,320,316,106,0,0,0,130,2,0,0,0,0,4,0,0,1,0,64,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ismet Pasa,2015,parl15_1,360,299,290,124,0,0,0,80,0,2,0,0,0,1,1,0,0,0,65,0,16,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Serdaroglu,2015,parl15_1,58,55,51,36,1,0,0,8,0,0,0,0,0,0,0,0,0,0,3,0,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Guney,2015,parl15_1,364,283,271,96,0,0,0,119,0,1,0,0,0,7,1,0,0,0,32,0,15,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,295,249,249,73,0,0,0,116,0,0,0,0,0,1,0,0,0,0,48,0,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Cay,2015,parl15_1,295,262,255,82,0,0,0,123,1,1,0,0,1,2,0,0,0,0,31,2,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Caykoy,2015,parl15_1,183,167,166,71,0,0,0,60,0,0,0,0,0,0,0,0,0,0,24,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,350,297,290,116,0,0,0,97,2,1,0,0,0,8,0,0,0,0,56,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Isabeyli,2015,parl15_1,252,215,204,136,1,0,0,26,3,4,1,0,0,1,2,0,0,0,18,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Kiran,2015,parl15_1,184,167,165,118,0,0,1,25,1,2,0,0,0,1,0,0,1,0,11,1,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Merkez,2015,parl15_1,347,301,299,60,0,0,0,172,0,2,0,0,0,6,0,0,1,0,44,0,13,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Bolum,2015,parl15_1,331,263,254,128,0,0,0,63,1,0,0,0,1,2,1,0,2,0,47,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,376,302,294,131,1,0,1,74,0,3,1,0,0,0,0,0,2,0,62,1,14,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Cay,2015,parl15_1,326,285,276,80,0,0,0,159,1,0,0,0,1,3,0,0,0,0,25,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Nizamlar,2015,parl15_1,322,286,270,164,0,0,0,54,8,2,0,0,0,0,4,0,1,0,23,1,13,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Gumeli-Merkez,2015,parl15_1,263,230,228,24,0,0,0,164,4,0,0,0,0,0,0,0,0,0,32,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Oren,2015,parl15_1,351,313,305,156,1,0,0,84,2,2,0,0,1,1,0,0,0,0,50,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Hamzafakili,2015,parl15_1,366,334,329,97,0,0,1,83,2,2,0,0,1,3,1,0,1,0,134,0,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Gumeli-Findikli Agili,2015,parl15_1,115,107,106,13,0,0,0,88,0,0,0,0,0,1,0,0,0,0,4,0,0,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Dagkoy,2015,parl15_1,233,209,205,116,0,0,2,36,1,2,1,0,0,1,1,0,0,0,28,0,17,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Eski,2015,parl15_1,352,305,302,114,0,0,0,115,0,0,0,0,0,0,0,0,1,0,55,0,16,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,359,297,281,126,0,0,0,78,0,1,0,0,0,1,1,0,0,0,60,0,14,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Sofular,2015,parl15_1,194,174,156,76,1,0,0,43,1,1,0,0,1,1,0,1,1,0,24,1,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,359,302,296,106,0,0,0,110,0,1,0,0,0,0,0,0,0,0,61,0,17,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Guldere,2015,parl15_1,273,245,239,151,0,0,0,45,0,0,0,0,0,6,0,0,0,0,32,1,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yukariihsaniye,2015,parl15_1,157,120,118,40,0,0,0,61,0,0,0,0,1,2,0,0,0,0,12,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mesrutiyet,2015,parl15_1,364,316,310,63,0,0,0,169,0,4,0,0,0,7,0,0,0,0,54,0,13,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Dilaver,2015,parl15_1,316,246,241,94,0,0,0,82,0,0,0,0,1,1,3,1,0,0,55,0,2,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Hisar Arkasi,2015,parl15_1,350,276,272,52,0,0,1,189,0,1,0,0,0,3,1,0,0,0,19,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Guzelyurt,2015,parl15_1,267,221,206,70,0,0,0,109,2,1,0,0,0,1,0,0,0,0,19,1,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Turkali,2015,parl15_1,354,316,304,52,0,0,0,140,3,1,0,0,1,0,1,0,1,0,96,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Pehlivanlar,2015,parl15_1,357,311,308,105,0,0,1,108,1,0,0,0,0,11,2,0,0,0,60,0,18,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Omerli,2015,parl15_1,318,284,281,134,0,0,2,74,4,0,2,0,0,1,0,0,1,0,48,1,7,0,7,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,378,320,319,109,1,0,0,132,0,0,0,0,0,2,1,0,0,0,68,0,4,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Tasbaca,2015,parl15_1,255,194,186,58,0,0,0,92,2,0,1,0,0,2,0,0,0,0,26,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mithatpasa,2015,parl15_1,301,242,238,102,0,0,0,84,0,0,0,0,0,2,0,0,0,0,44,1,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,348,304,298,83,0,0,1,145,1,0,0,0,0,3,0,0,0,0,48,0,14,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mithatpasa,2015,parl15_1,300,252,246,84,0,0,0,88,1,1,0,0,0,4,0,0,0,0,57,0,8,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ozbagi,2015,parl15_1,212,183,174,34,0,0,0,113,0,3,0,0,0,1,0,0,1,0,14,0,5,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,377,315,312,90,1,0,0,146,0,0,0,0,0,6,1,0,0,0,57,0,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,360,309,303,113,0,0,0,80,0,0,1,0,0,0,0,0,0,0,90,0,19,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Yesil,2015,parl15_1,313,275,274,88,0,0,0,104,0,1,0,0,0,2,0,0,0,0,60,0,19,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Catalagzi-Kirimsa,2015,parl15_1,331,302,290,136,1,0,0,77,1,0,0,0,0,1,2,0,0,0,60,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Bakacakkadi-Merkez,2015,parl15_1,330,290,278,101,0,0,1,133,0,0,0,0,0,4,1,0,0,0,36,1,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Rusanlar,2015,parl15_1,188,181,171,76,0,0,0,27,1,5,1,0,0,1,1,0,1,0,52,2,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kandilli-Merkez,2015,parl15_1,283,230,223,81,0,0,0,81,0,1,0,0,0,9,0,0,0,0,45,1,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,358,315,313,133,0,0,1,106,2,0,0,0,0,1,0,0,0,0,61,1,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Tascili,2015,parl15_1,281,238,224,121,1,0,0,66,1,3,1,0,1,4,0,0,1,0,13,2,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,288,242,240,35,0,0,0,157,1,0,0,0,0,7,0,0,0,0,29,0,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Velioglu,2015,parl15_1,297,261,244,66,0,0,2,130,0,2,0,0,0,2,1,0,0,0,33,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Cinartepe,2015,parl15_1,326,271,269,99,0,0,1,107,0,2,0,0,0,4,1,0,1,0,44,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,353,294,289,69,0,0,0,145,0,1,0,0,0,7,0,0,0,0,60,1,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Eski,2015,parl15_1,350,299,296,100,0,0,0,109,0,0,2,0,0,5,0,0,0,0,55,1,23,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Soganliyoruk,2015,parl15_1,301,279,278,106,0,0,0,103,2,0,1,0,0,0,0,0,0,0,59,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Burunkaya,2015,parl15_1,187,179,170,73,0,0,0,49,1,3,0,0,2,1,0,0,1,0,36,1,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Uzunmehmet,2015,parl15_1,356,301,296,184,0,0,2,46,0,0,0,0,0,4,0,0,1,0,44,1,12,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Derekoseler,2015,parl15_1,323,261,251,83,0,0,4,111,1,1,0,0,2,3,2,0,2,0,33,0,7,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Asagiihsaniye,2015,parl15_1,153,129,126,39,0,0,0,68,0,0,1,0,0,0,0,0,0,0,12,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Cay,2015,parl15_1,326,290,284,91,0,0,0,130,0,1,1,0,0,3,1,0,0,0,53,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Ramazanoglu,2015,parl15_1,161,134,134,55,0,0,2,50,1,0,2,0,1,0,2,1,2,0,16,0,1,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Koseler,2015,parl15_1,327,284,276,117,0,0,0,82,1,2,0,0,1,0,0,0,0,0,69,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yeni,2015,parl15_1,369,323,314,115,0,0,1,106,0,0,2,0,0,3,1,0,0,0,65,2,17,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Kizilbel,2015,parl15_1,380,336,313,153,2,0,0,112,4,3,1,0,0,2,0,0,0,0,16,1,19,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Karsiyaka,2015,parl15_1,351,295,285,107,0,0,0,108,0,2,0,0,0,2,0,0,0,0,44,2,19,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,19 Mayis,2015,parl15_1,369,326,313,152,0,0,0,96,1,0,0,0,0,0,0,0,0,0,51,0,12,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,19 Mayis,2015,parl15_1,241,190,188,50,0,0,0,91,0,3,1,0,0,5,0,0,0,0,31,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karadere,2015,parl15_1,207,162,152,61,1,0,1,51,0,3,0,0,0,2,2,0,1,0,15,0,15,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Hacihasan,2015,parl15_1,230,218,209,117,0,0,1,46,3,2,0,0,0,4,0,0,0,0,25,1,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,353,307,305,55,1,0,0,153,0,0,0,0,0,12,0,1,0,0,74,0,6,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Kilcak,2015,parl15_1,301,269,264,131,1,0,0,69,0,1,0,0,0,0,0,0,0,0,54,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Akcahatipler,2015,parl15_1,388,339,329,209,0,0,0,67,2,3,1,0,0,4,3,0,1,0,31,3,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Karadon,2015,parl15_1,342,294,291,97,0,0,0,111,1,2,0,0,0,0,1,0,0,0,56,0,22,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Kilic,2015,parl15_1,369,299,294,92,0,0,0,104,1,1,0,0,0,7,1,0,0,0,58,0,28,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yesilkoy,2015,parl15_1,92,79,77,55,0,0,0,14,0,1,0,0,0,0,1,0,1,0,5,0,0,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Yazicilar,2015,parl15_1,303,280,269,100,0,0,1,107,3,4,1,0,1,0,0,0,0,0,49,0,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Suleymanlar,2015,parl15_1,354,310,307,54,0,0,0,186,0,2,0,0,0,9,0,0,1,0,50,1,2,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Halasli,2015,parl15_1,319,308,299,73,0,0,0,165,1,1,0,0,1,2,0,0,0,0,52,1,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Yesilkoy,2015,parl15_1,246,220,189,120,0,0,1,42,2,1,2,0,0,0,1,0,0,0,9,0,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yesilada,2015,parl15_1,164,143,140,102,0,0,0,22,0,1,0,0,0,1,1,0,0,0,5,1,6,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Guney,2015,parl15_1,284,246,243,74,0,0,0,97,0,1,0,0,0,4,0,0,0,0,53,0,10,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,347,275,270,106,0,0,0,100,2,0,0,0,0,2,0,0,0,0,45,0,11,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Gokcetabaklar,2015,parl15_1,270,247,237,84,0,0,1,106,3,4,0,0,0,0,0,0,0,0,21,0,17,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,357,308,307,60,0,0,0,146,0,0,0,0,0,17,2,0,0,0,71,0,9,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Muftu,2015,parl15_1,353,318,315,85,0,0,1,165,0,0,0,0,0,8,0,0,0,0,50,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kandilli-Sehitlik,2015,parl15_1,352,305,292,125,0,0,0,98,0,1,0,0,0,12,0,0,0,0,47,1,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Catalagzi-Merkez,2015,parl15_1,287,251,239,66,1,0,0,119,0,0,0,0,0,0,0,0,0,0,49,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Pinaronu,2015,parl15_1,299,263,259,129,1,0,2,81,1,2,0,0,0,1,1,0,0,0,23,0,17,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Filyos-Hisaronu,2015,parl15_1,299,250,244,39,0,0,1,156,1,0,0,0,0,4,0,0,0,0,39,0,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Tepekoy,2015,parl15_1,360,304,295,130,0,0,0,105,2,0,0,0,0,4,0,0,1,0,47,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Sofular,2015,parl15_1,269,242,231,73,0,0,0,115,0,2,0,0,0,2,0,0,0,0,23,0,14,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Gulluk,2015,parl15_1,203,161,154,60,0,0,0,74,1,3,0,0,1,1,1,1,0,0,10,0,1,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Karsiyaka,2015,parl15_1,350,297,292,143,0,0,0,77,0,1,0,0,0,1,1,0,0,0,52,1,16,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,325,290,288,67,0,0,0,173,0,0,1,0,0,6,0,0,0,0,35,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Pehlivanlar,2015,parl15_1,358,311,307,96,0,0,0,126,1,0,0,0,0,4,0,0,0,0,70,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Bolucek,2015,parl15_1,360,322,312,119,0,0,2,92,0,2,1,0,0,0,3,0,0,0,85,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Ramazanoglu,2015,parl15_1,174,155,136,66,1,0,0,34,0,5,0,0,3,0,1,0,0,0,25,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,349,313,309,67,0,0,0,148,0,0,0,0,1,13,0,0,0,0,62,0,12,0,6,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Camlibel,2015,parl15_1,326,292,289,200,0,0,0,42,1,1,0,0,0,0,0,0,1,0,37,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Kadioglu,2015,parl15_1,243,221,209,85,0,0,0,87,3,1,1,0,0,0,1,0,1,0,17,0,11,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Sivriler,2015,parl15_1,132,115,111,39,0,0,0,40,1,1,1,0,0,0,0,0,0,0,22,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Ucburgu,2015,parl15_1,302,256,243,105,1,0,0,97,1,3,1,0,0,1,1,0,0,0,23,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Sofullu,2015,parl15_1,156,144,140,91,0,0,1,25,1,1,0,0,0,0,0,0,0,0,17,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Karsiyaka,2015,parl15_1,351,292,282,119,1,0,0,93,1,1,0,0,0,2,1,0,0,0,50,1,13,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Ormanli-Merkez,2015,parl15_1,195,174,162,69,0,0,0,48,0,0,0,0,1,3,1,0,0,0,37,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Muftu,2015,parl15_1,257,208,206,63,0,0,1,110,0,0,0,0,0,5,0,0,0,0,25,0,1,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Gemiciler,2015,parl15_1,255,229,226,47,0,0,0,145,1,0,1,0,0,0,1,0,0,0,24,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,353,298,296,59,0,0,0,148,0,0,0,0,1,13,0,0,0,0,73,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Terzi,2015,parl15_1,223,206,195,54,1,0,0,109,1,1,0,0,0,1,0,0,0,0,25,1,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Cay,2015,parl15_1,325,289,288,60,0,0,1,162,0,2,0,0,0,5,0,0,0,0,45,0,13,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Belen,2015,parl15_1,346,317,314,138,0,0,2,95,1,1,0,0,0,1,0,0,0,0,71,1,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Ortakoy,2015,parl15_1,172,141,141,52,0,0,0,59,0,0,0,0,0,1,0,0,2,0,24,1,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Serdaroglu,2015,parl15_1,249,217,211,57,1,0,0,106,1,3,1,0,0,0,2,0,0,0,30,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Saltukova-Karbogaz,2015,parl15_1,268,238,232,84,0,0,1,104,0,0,0,0,0,1,0,0,0,0,37,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Birlik,2015,parl15_1,373,308,305,93,0,0,1,127,0,1,0,0,0,1,0,0,0,0,66,0,16,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yeni,2015,parl15_1,369,306,302,101,0,0,0,132,0,2,1,0,0,0,0,0,0,0,51,1,12,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Caydamar,2015,parl15_1,362,276,267,84,0,0,1,122,1,2,0,0,0,3,1,0,1,0,44,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Akyamac,2015,parl15_1,315,263,241,132,1,0,0,62,0,1,0,0,0,0,0,0,1,0,41,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Persembe-Merkez,2015,parl15_1,371,297,296,114,1,0,0,116,0,1,2,0,1,1,0,0,0,0,57,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Bali,2015,parl15_1,293,261,259,106,2,0,0,102,2,2,0,0,0,1,0,0,0,0,38,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,343,299,291,76,0,0,0,152,1,1,0,0,0,10,0,0,0,0,40,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Gelik-Kirat,2015,parl15_1,163,145,145,97,0,0,1,25,1,0,0,0,0,0,2,0,0,0,16,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,338,294,290,113,0,0,0,105,2,1,0,0,0,6,0,0,0,0,52,1,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Persembe-Sari Kadi,2015,parl15_1,234,201,194,65,0,0,0,96,0,2,0,0,0,2,0,0,0,0,20,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,326,270,266,68,0,0,0,132,0,0,0,0,1,7,0,0,0,0,54,0,2,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Saraclar,2015,parl15_1,181,155,149,40,1,0,1,78,0,0,0,0,1,0,4,0,0,0,16,1,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Oren,2015,parl15_1,350,289,281,116,0,0,1,95,1,1,0,0,0,0,0,0,1,0,61,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Haciosmanlar,2015,parl15_1,120,103,99,33,0,0,0,36,0,0,0,0,0,4,0,0,3,0,20,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Suleymanlar,2015,parl15_1,355,308,307,64,0,0,0,165,0,0,0,0,0,7,0,0,2,0,57,0,4,0,8,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Ormeci,2015,parl15_1,301,251,237,118,0,0,3,69,1,1,1,0,2,0,2,0,2,0,25,0,10,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Gokcetabaklar,2015,parl15_1,152,133,129,58,1,0,1,48,1,4,0,0,0,0,0,0,0,0,5,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Turkmenoglu,2015,parl15_1,133,117,106,50,0,0,0,32,0,4,1,0,1,1,2,0,1,0,8,0,4,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,349,304,300,133,0,0,0,96,0,0,0,0,0,5,0,0,0,0,54,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Velikoy,2015,parl15_1,182,168,163,86,0,0,0,45,0,0,0,0,0,0,2,0,3,0,19,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,339,296,290,119,0,0,1,83,0,0,0,0,1,11,0,0,1,0,55,1,15,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yakademirciler,2015,parl15_1,392,338,326,138,0,0,0,112,4,7,1,0,1,2,0,0,0,0,51,1,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Omerli,2015,parl15_1,319,264,259,70,0,0,0,121,1,1,2,0,0,10,1,1,0,0,49,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,337,301,295,82,0,0,1,137,3,0,0,0,0,7,1,0,0,0,53,0,9,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kiyicak,2015,parl15_1,246,194,188,102,1,0,2,43,0,1,1,0,1,1,1,0,0,0,28,0,4,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Korucak,2015,parl15_1,261,206,190,88,0,0,0,58,4,0,1,0,0,4,0,0,0,0,23,0,9,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Ketenciler,2015,parl15_1,338,321,317,194,0,0,0,46,1,3,0,0,0,0,1,0,0,0,60,1,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Guluc-Merkez,2015,parl15_1,321,282,274,117,0,0,0,79,0,2,0,0,0,1,0,0,0,0,67,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Orencik,2015,parl15_1,270,238,223,102,0,0,0,77,1,2,0,0,1,1,0,0,0,0,27,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yeni Siteler,2015,parl15_1,327,293,290,88,0,0,0,117,1,0,0,0,0,2,0,0,0,0,75,0,3,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Dereli,2015,parl15_1,268,257,247,43,0,0,0,189,0,0,1,0,0,0,0,0,0,0,10,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Gumeli-Findikli Agili,2015,parl15_1,207,191,189,39,0,0,0,138,0,1,0,0,0,0,0,0,0,0,10,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Uzunmehmet,2015,parl15_1,356,313,310,133,1,0,0,98,0,1,0,0,0,3,0,0,0,0,62,0,8,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Ensekoy,2015,parl15_1,215,176,174,75,0,0,0,72,2,1,0,0,0,1,0,0,1,0,15,2,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,368,322,319,129,0,0,0,121,0,0,0,0,0,7,0,0,0,0,54,0,5,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Yarasliyoruk,2015,parl15_1,262,240,238,77,0,0,0,111,1,0,1,0,2,0,1,0,0,0,43,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,360,313,308,121,0,0,0,108,1,1,0,0,1,8,0,0,0,0,62,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Basat,2015,parl15_1,389,340,328,139,1,0,2,118,1,7,2,0,0,0,0,0,0,0,51,0,6,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,359,289,282,107,0,0,1,98,1,4,1,0,0,5,0,1,0,0,52,0,10,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Saltukova-Duz,2015,parl15_1,241,219,203,75,0,0,2,104,2,0,0,0,0,0,0,0,1,0,16,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Akyamac,2015,parl15_1,314,276,266,123,0,0,1,98,0,3,2,0,0,0,2,0,0,0,30,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Sehler,2015,parl15_1,289,241,227,115,1,0,0,63,0,1,1,0,0,0,1,0,0,0,36,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Catalagzi-Merkez,2015,parl15_1,286,237,234,102,1,0,0,97,2,0,0,0,0,0,1,0,0,0,22,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Muftu,2015,parl15_1,354,304,302,69,1,0,0,166,2,1,0,0,0,5,0,0,0,0,48,0,6,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Pinarcik,2015,parl15_1,354,327,320,151,0,0,2,107,2,0,2,0,1,1,2,0,0,0,49,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Corak,2015,parl15_1,235,203,192,87,0,0,0,64,0,3,0,0,2,1,2,0,0,0,30,0,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Bolum,2015,parl15_1,335,290,281,147,0,0,0,75,0,1,0,0,0,1,0,0,1,0,46,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Turkali,2015,parl15_1,354,309,301,83,0,0,0,145,0,1,0,0,0,1,0,0,0,0,58,0,9,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,342,289,286,111,0,0,0,100,0,1,0,0,0,6,1,0,0,0,55,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Namazgah,2015,parl15_1,317,262,242,77,0,0,4,102,3,1,0,0,1,0,2,0,1,0,33,0,17,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Cay,2015,parl15_1,325,280,276,87,0,0,0,128,0,0,0,0,0,6,0,0,0,0,46,1,5,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,360,302,296,152,1,0,0,75,0,2,0,0,0,2,1,0,0,0,53,1,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yesilyurt,2015,parl15_1,240,202,188,148,1,0,1,23,1,5,1,0,1,0,1,0,1,0,3,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yesiltepe,2015,parl15_1,275,239,225,69,0,0,0,126,3,2,0,0,0,6,0,0,1,0,13,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Yesil,2015,parl15_1,312,263,260,70,0,0,1,129,0,0,0,0,1,6,0,0,0,0,44,0,6,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kirmanli,2015,parl15_1,307,272,268,61,0,0,0,151,1,0,0,0,1,5,0,0,0,0,46,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Yalnizcam,2015,parl15_1,204,175,168,117,0,0,1,10,2,3,0,0,0,0,0,1,0,0,33,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Catalagzi-Cuma Yani,2015,parl15_1,314,271,268,51,0,0,1,168,0,0,0,0,0,8,0,0,0,0,35,1,2,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Akarca,2015,parl15_1,357,286,279,71,0,0,0,180,2,0,0,0,0,4,0,0,0,0,18,0,1,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Yesil,2015,parl15_1,325,281,276,88,0,0,2,100,1,2,0,0,0,5,0,0,0,0,70,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Kurkukler,2015,parl15_1,286,263,257,188,0,0,0,17,1,1,2,0,1,0,3,0,0,0,32,1,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Canbazli,2015,parl15_1,245,220,206,99,0,0,0,48,0,1,1,0,0,0,1,0,0,0,42,1,12,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Caydamar,2015,parl15_1,362,305,300,83,0,0,0,156,1,1,1,0,0,0,0,0,0,0,47,1,5,0,5,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Karaahmetler,2015,parl15_1,379,323,308,126,1,0,2,124,3,2,2,0,0,0,0,0,1,0,28,1,17,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Comranli,2015,parl15_1,379,335,332,84,0,0,0,149,0,0,0,0,0,3,0,0,0,0,62,2,32,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Madencioglu,2015,parl15_1,152,117,104,39,0,0,0,49,1,2,0,0,1,2,1,2,0,0,2,0,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Guzeloglu,2015,parl15_1,274,251,242,72,0,0,2,115,0,3,0,0,0,0,1,0,0,0,30,1,17,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Sabunlar,2015,parl15_1,123,114,108,76,1,0,1,18,1,1,0,0,0,0,1,0,1,0,4,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Muslu-Merkez,2015,parl15_1,306,269,267,40,0,0,0,198,0,4,0,0,0,0,0,0,0,0,23,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Muslu-Cumhuriyet,2015,parl15_1,237,204,197,42,0,0,0,99,1,0,0,0,0,0,1,0,0,0,33,0,21,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaelmas,2015,parl15_1,378,299,296,117,0,0,0,113,0,1,0,0,0,2,0,0,0,0,48,0,14,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,377,313,309,84,0,0,0,162,0,1,0,0,0,5,1,0,1,0,40,0,13,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,358,304,300,99,1,0,0,125,0,0,0,0,0,5,1,0,0,0,56,0,12,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Caydamar,2015,parl15_1,361,295,291,88,0,0,1,125,0,1,0,0,0,2,0,0,0,0,64,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Yeni,2015,parl15_1,330,279,274,83,0,0,1,134,1,2,0,0,0,4,0,0,0,0,44,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sarikokmaz,2015,parl15_1,368,325,320,140,0,0,0,107,0,0,0,0,0,2,1,0,0,0,63,1,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sarikokmaz,2015,parl15_1,343,292,288,166,1,0,0,46,1,0,0,0,0,6,1,1,0,0,55,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Caydegirmeni-Merkez,2015,parl15_1,314,283,276,89,0,0,0,120,1,1,1,0,0,0,0,0,0,0,54,0,6,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Birlik,2015,parl15_1,373,313,302,106,0,0,0,119,0,1,0,0,0,1,1,0,0,0,62,0,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Hasankahyalar,2015,parl15_1,283,261,246,109,0,0,1,64,0,1,0,0,2,0,0,0,0,0,64,1,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Muftu,2015,parl15_1,354,307,303,81,0,0,0,160,0,0,0,0,0,2,1,0,0,0,52,0,5,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,351,283,275,163,0,0,1,53,0,1,1,0,0,6,1,0,0,0,43,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,375,342,340,128,0,0,0,106,0,2,0,0,0,6,0,0,0,0,86,1,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Kerimler,2015,parl15_1,291,247,234,102,1,0,0,94,0,0,1,0,0,0,1,0,1,0,22,1,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Aydinlar,2015,parl15_1,302,279,260,157,0,0,0,61,1,2,0,0,0,2,0,0,0,0,34,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Korucak,2015,parl15_1,260,213,203,94,0,0,0,77,0,0,0,0,1,2,0,0,0,0,15,1,13,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Guney,2015,parl15_1,284,243,242,52,0,0,0,123,0,1,1,0,0,15,0,0,0,0,42,0,6,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Islamkoy,2015,parl15_1,170,147,143,71,0,0,2,48,0,2,0,0,0,1,0,0,1,0,10,1,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yedigelli,2015,parl15_1,245,225,219,175,0,0,0,8,1,0,0,0,1,0,1,0,0,0,30,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Bakiler,2015,parl15_1,301,267,244,97,1,0,0,98,2,2,0,0,1,1,3,0,3,0,30,1,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Cay,2015,parl15_1,295,254,250,74,0,0,0,119,0,2,0,0,0,5,1,0,0,0,42,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ismet Pasa,2015,parl15_1,360,281,272,100,0,0,0,110,1,0,2,0,1,4,0,0,1,0,38,0,13,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kandilli-Yeni,2015,parl15_1,227,194,190,105,0,0,1,49,0,0,0,0,0,7,0,0,0,0,22,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Geris,2015,parl15_1,285,254,242,59,0,0,2,114,4,3,0,0,0,1,1,0,0,0,49,0,6,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Derebulaca,2015,parl15_1,127,115,107,38,1,0,0,53,0,0,0,0,0,0,0,0,0,0,8,0,5,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Hisar Arkasi,2015,parl15_1,350,281,275,64,0,0,0,134,0,0,0,0,0,3,0,0,0,0,62,0,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Koramanlar,2015,parl15_1,306,274,262,153,1,0,2,62,0,2,0,0,0,0,2,0,1,0,36,0,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Pinaronu,2015,parl15_1,298,250,243,129,0,0,1,59,2,4,0,0,1,1,3,0,0,0,20,1,20,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Akarca,2015,parl15_1,356,306,303,66,0,0,0,166,0,0,0,0,0,5,0,0,1,0,60,0,1,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Belenyeni,2015,parl15_1,324,275,272,123,0,0,0,96,1,0,1,0,0,2,0,1,0,0,40,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Cukur,2015,parl15_1,305,255,241,111,1,0,1,91,4,1,0,0,0,1,1,0,0,0,19,0,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,359,309,305,141,0,0,0,91,0,1,1,0,0,2,0,0,0,0,47,1,21,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Akcasu,2015,parl15_1,221,192,182,119,0,0,1,32,0,2,0,0,0,0,0,0,0,0,12,1,15,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Gobu,2015,parl15_1,298,253,249,46,0,0,0,134,0,0,0,0,0,0,1,0,1,0,59,0,6,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,358,310,309,51,0,0,0,182,0,0,0,0,0,10,0,0,0,0,59,0,6,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ismet Pasa,2015,parl15_1,360,294,287,142,0,0,0,66,0,0,0,0,0,10,0,0,0,0,53,0,13,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Esenkoy,2015,parl15_1,237,198,188,90,0,0,0,61,0,0,0,0,0,4,0,0,0,0,24,5,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Guney,2015,parl15_1,364,296,290,82,0,0,0,129,0,0,0,0,0,5,1,0,2,0,51,0,19,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Ballica,2015,parl15_1,361,337,326,43,0,0,1,252,1,0,0,0,0,1,0,0,0,0,15,2,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Yeni,2015,parl15_1,377,319,314,98,0,0,0,124,0,1,0,0,0,4,1,1,0,0,75,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Dedeler,2015,parl15_1,294,278,271,132,0,0,2,44,1,3,0,0,0,2,0,0,0,0,81,2,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Guney,2015,parl15_1,375,320,315,136,0,0,0,101,0,0,0,0,0,0,2,0,0,0,60,1,15,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,337,288,285,53,1,0,0,173,0,1,0,0,0,10,0,0,1,0,44,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Alikoy,2015,parl15_1,246,223,208,45,0,0,0,141,0,2,0,0,0,0,0,0,0,0,15,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Yayla,2015,parl15_1,354,296,296,65,0,0,0,154,0,0,0,0,0,10,0,0,0,0,55,0,9,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yeni Siteler,2015,parl15_1,327,295,286,82,0,0,0,128,0,0,0,0,0,7,0,0,1,0,57,0,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Catalagzi-Kuzyaka,2015,parl15_1,302,267,261,69,0,0,0,122,0,0,0,0,0,3,0,0,0,0,59,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaman-Merkez,2015,parl15_1,243,206,201,75,0,0,0,76,0,0,0,0,0,3,0,0,0,0,42,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,378,323,319,131,0,0,0,108,0,0,0,0,0,1,0,0,0,0,70,1,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sarikokmaz,2015,parl15_1,308,285,282,83,1,0,0,131,8,2,0,0,0,8,0,0,0,0,43,0,4,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Mollabey,2015,parl15_1,227,211,208,110,0,0,0,33,1,0,0,0,1,2,0,0,1,0,54,0,4,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ermekoglu,2015,parl15_1,100,87,82,59,0,0,0,15,0,0,0,0,0,0,2,0,0,0,5,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mithatpasa,2015,parl15_1,264,227,224,85,0,0,0,73,0,1,0,0,1,9,0,0,1,0,43,1,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,309,267,266,38,0,0,0,157,1,0,0,0,0,8,0,0,0,0,48,0,12,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Guluc-Bekyeri,2015,parl15_1,318,284,283,122,0,0,1,85,0,0,1,0,0,3,0,0,0,0,70,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Muftu,2015,parl15_1,353,305,298,65,0,0,0,154,0,0,0,0,1,11,0,0,1,0,64,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Bayat,2015,parl15_1,305,287,282,97,1,0,0,158,0,0,0,0,1,0,0,0,0,0,23,1,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Karadon,2015,parl15_1,341,290,280,81,0,0,1,117,0,0,0,0,1,0,0,0,0,0,61,0,17,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Muharremsah,2015,parl15_1,304,272,243,99,0,0,1,101,1,2,0,0,0,4,2,1,3,0,22,1,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,293,262,259,73,0,0,0,101,0,1,0,0,0,5,0,0,0,0,61,0,15,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Beycuma-Muratli,2015,parl15_1,137,122,122,76,0,0,3,23,1,2,0,0,0,1,0,0,0,0,7,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Yesil,2015,parl15_1,294,243,236,41,0,0,0,156,0,0,0,0,0,2,0,0,0,0,35,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Demirciler,2015,parl15_1,242,232,223,53,0,0,0,97,2,2,0,0,0,1,0,0,0,0,62,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,368,321,315,82,0,0,1,150,0,1,0,0,0,4,0,0,0,0,64,0,13,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Kizilcakese,2015,parl15_1,325,300,293,222,0,0,0,41,0,3,0,0,0,2,0,0,0,0,18,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,307,262,258,64,0,0,0,116,0,0,0,0,0,8,0,1,0,0,61,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kandilli-Merkez,2015,parl15_1,284,248,240,102,0,0,0,97,0,0,0,0,0,3,0,0,0,0,31,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Elma Tepe,2015,parl15_1,373,333,327,146,1,0,0,114,0,2,1,0,0,3,1,0,2,0,50,1,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Alaplibolucek,2015,parl15_1,333,297,288,196,0,0,1,37,2,0,1,0,0,2,2,0,0,0,44,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Daglica,2015,parl15_1,306,251,237,84,0,0,0,89,3,6,1,0,1,0,3,1,1,0,36,0,10,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Samlar,2015,parl15_1,372,335,318,168,0,0,2,91,3,3,1,0,0,1,0,0,1,0,27,1,19,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,296,244,241,77,0,0,1,117,1,1,0,0,0,1,0,0,0,0,40,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,293,256,254,72,0,0,0,120,0,1,0,0,0,1,0,0,0,0,46,0,12,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Okcular,2015,parl15_1,267,237,235,73,0,0,0,90,2,0,0,0,2,1,1,0,0,0,57,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Alacabuk,2015,parl15_1,237,201,197,86,0,0,2,64,0,0,1,0,0,2,1,0,0,0,36,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kandilli-Gokceler,2015,parl15_1,361,331,323,112,0,0,0,159,0,3,0,0,0,2,0,0,1,0,33,0,3,0,10,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Filyos-Oteyuz,2015,parl15_1,361,319,313,70,0,0,0,173,0,0,0,0,0,5,0,0,0,0,58,0,6,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Soganliyoruk,2015,parl15_1,300,279,268,86,1,0,0,94,1,1,0,0,1,0,0,0,0,0,73,1,8,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Baslarkadi,2015,parl15_1,335,298,292,231,0,0,2,28,2,0,0,0,0,0,0,0,1,0,11,0,16,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Catalagzi-Merkez,2015,parl15_1,338,282,272,61,0,0,0,168,0,0,0,0,0,2,0,0,0,0,32,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Aksu,2015,parl15_1,387,326,304,176,4,0,3,43,7,4,0,0,0,1,2,0,0,0,45,1,18,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Ova,2015,parl15_1,293,268,247,160,0,0,0,35,4,0,1,0,0,1,3,0,1,0,36,1,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Kucukkaymaz,2015,parl15_1,287,280,269,202,0,0,0,33,2,3,2,0,0,1,0,0,0,0,21,2,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Ahatli,2015,parl15_1,271,241,229,104,0,0,2,59,1,1,1,0,0,1,1,0,0,0,28,0,29,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaelmas,2015,parl15_1,297,240,236,93,0,0,1,94,0,0,0,0,0,2,0,0,0,0,39,1,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,361,311,302,105,1,0,2,109,0,0,0,0,0,8,0,0,0,0,68,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yilanlica,2015,parl15_1,314,271,260,129,0,0,0,92,2,0,1,0,0,0,3,0,1,0,26,0,4,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Kilic,2015,parl15_1,369,286,278,114,0,0,1,105,1,0,1,0,1,2,0,0,0,0,35,0,17,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Cardas,2015,parl15_1,107,104,97,38,0,0,1,27,0,1,0,0,0,1,1,0,0,0,25,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Uzunmehmet,2015,parl15_1,322,298,294,58,0,0,0,173,0,0,1,0,1,16,0,0,0,0,38,0,1,0,6,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kirmanli,2015,parl15_1,307,245,237,56,0,0,0,144,1,1,0,0,0,2,1,0,0,0,25,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Agalar,2015,parl15_1,345,301,298,103,0,0,2,116,0,0,0,0,0,4,1,0,0,0,57,0,14,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Yeni,2015,parl15_1,380,297,289,91,0,0,0,130,0,0,1,0,0,4,1,0,1,0,56,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaelmas,2015,parl15_1,337,280,267,112,0,0,0,90,0,1,0,0,0,1,0,0,0,0,46,0,17,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,352,286,284,76,1,0,0,104,1,0,0,0,0,6,0,0,1,0,62,0,33,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,339,300,298,109,0,0,1,94,0,0,0,0,0,9,0,0,0,0,80,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Cengelli,2015,parl15_1,111,101,100,54,1,0,0,18,0,0,1,0,2,2,1,0,0,0,20,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Oren,2015,parl15_1,349,313,305,113,0,0,0,130,0,0,0,0,0,0,0,0,0,0,58,1,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Koroglu,2015,parl15_1,277,238,221,100,1,0,1,74,1,0,0,0,0,1,0,0,0,0,32,0,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Agalar,2015,parl15_1,345,281,276,108,0,0,1,89,0,2,0,0,0,9,1,0,0,0,56,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,362,320,319,129,0,0,1,113,0,0,0,0,0,3,0,0,1,0,63,1,5,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Fatih,2015,parl15_1,340,268,260,84,0,0,0,88,1,1,0,0,0,9,0,1,0,0,67,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Karapinar-Merkez,2015,parl15_1,278,260,257,112,2,0,1,114,0,2,0,0,0,0,0,0,0,0,19,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Tabaklar,2015,parl15_1,311,257,249,123,1,0,0,76,1,2,0,0,3,0,2,0,1,0,31,2,5,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Alaplisofular,2015,parl15_1,256,233,214,107,0,0,1,65,1,2,0,0,0,1,0,0,1,0,32,1,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Keskek,2015,parl15_1,266,240,229,134,0,0,3,45,0,1,0,0,0,0,0,0,0,0,35,1,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Muftu,2015,parl15_1,353,311,301,70,0,0,0,166,0,3,0,0,0,3,0,0,1,0,50,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Gelik-Gelik Merkez,2015,parl15_1,297,246,238,76,0,0,0,66,1,3,0,0,0,4,1,0,0,0,56,0,30,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Suleymanlar,2015,parl15_1,375,323,316,88,1,0,1,175,1,1,0,0,1,5,0,0,0,0,40,1,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kavaklik,2015,parl15_1,353,318,312,140,2,0,0,103,1,1,0,0,0,4,2,1,0,0,53,1,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Karamusa,2015,parl15_1,262,236,233,90,0,0,0,105,1,3,1,0,0,1,2,0,0,0,24,2,2,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sarikokmaz,2015,parl15_1,275,242,237,97,0,0,0,67,4,0,2,0,0,0,0,0,0,0,56,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kirmaci,2015,parl15_1,361,310,301,111,0,0,0,115,1,1,0,0,2,17,0,0,0,0,48,0,4,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yazikoy,2015,parl15_1,319,285,276,89,0,0,2,165,0,1,2,0,0,1,0,0,0,0,10,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,343,272,269,63,0,0,1,122,1,0,0,0,0,6,0,1,0,0,62,0,13,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,353,279,274,77,0,0,0,154,2,0,3,0,0,2,0,1,0,0,29,1,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Orhanlar,2015,parl15_1,334,288,286,62,0,0,1,165,0,0,0,0,0,7,0,0,0,0,42,0,4,0,5,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Osmanbeyler,2015,parl15_1,159,138,129,30,0,0,0,45,1,1,0,0,0,2,0,0,0,0,21,0,21,0,8,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Beycuma-Birlik,2015,parl15_1,154,128,123,57,0,0,0,29,0,0,0,0,0,0,0,0,0,0,19,0,17,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,358,295,294,59,1,0,0,153,0,0,0,0,0,12,0,0,1,0,59,0,4,0,5,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Topcali,2015,parl15_1,374,343,329,177,0,0,0,68,4,2,0,0,1,0,0,0,0,0,71,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kirmanli,2015,parl15_1,307,269,262,73,0,0,0,146,3,0,0,0,0,0,0,0,0,0,34,0,3,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Haciosmanlar,2015,parl15_1,267,222,205,120,1,0,2,41,0,6,2,0,2,0,3,0,0,0,17,4,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mesrutiyet,2015,parl15_1,364,315,312,85,0,0,0,151,0,1,0,0,0,9,0,0,0,0,55,1,8,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Yunuslu,2015,parl15_1,353,317,305,175,0,0,2,42,1,3,0,0,0,1,3,0,1,0,70,2,3,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ismet Pasa,2015,parl15_1,234,196,193,99,0,0,0,54,3,0,0,0,0,1,0,0,0,0,32,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Uzunmehmet,2015,parl15_1,321,277,248,61,0,0,0,121,0,0,0,0,0,5,0,0,0,0,55,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Veyisoglu,2015,parl15_1,308,283,271,70,0,0,0,160,0,1,0,0,0,0,0,0,1,0,35,1,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,On Temmuz,2015,parl15_1,365,308,305,111,0,0,0,98,1,0,1,0,2,1,3,0,0,0,70,2,15,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kizilcapinar,2015,parl15_1,392,349,333,167,0,0,1,59,7,2,2,0,3,1,2,0,2,0,70,0,15,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaelmas,2015,parl15_1,338,294,285,95,0,0,2,109,0,1,2,0,1,2,0,0,0,0,64,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kavaklik,2015,parl15_1,352,308,303,141,1,0,0,83,0,2,2,0,0,2,0,0,0,0,61,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Osmanli,2015,parl15_1,99,88,84,20,0,0,0,36,0,0,0,0,0,1,0,0,0,0,17,1,7,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Sipahiler,2015,parl15_1,295,254,244,96,0,0,0,98,1,3,1,0,0,5,2,0,2,0,27,1,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ismet Pasa,2015,parl15_1,234,207,195,99,0,0,1,54,2,2,0,0,0,0,0,0,0,0,32,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Dursunlar,2015,parl15_1,319,281,271,85,0,0,0,133,3,2,0,0,0,5,0,0,1,0,28,0,12,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Yahma,2015,parl15_1,280,249,243,130,0,0,0,43,2,4,0,0,0,1,0,0,0,0,49,0,14,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,376,311,295,129,0,0,3,80,0,3,0,0,0,0,1,0,1,0,56,0,21,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Birlik,2015,parl15_1,323,273,269,100,0,0,0,103,1,1,0,0,0,1,0,0,0,0,54,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Incivez,2015,parl15_1,363,299,295,89,0,0,4,106,1,0,0,0,0,17,1,0,0,0,57,0,15,0,5,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Yeni,2015,parl15_1,331,297,287,67,1,0,0,160,1,0,0,0,0,4,2,0,0,0,38,0,12,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Ogberler,2015,parl15_1,202,159,152,77,0,0,0,49,1,2,0,0,1,1,4,0,0,0,10,0,6,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,309,265,264,53,0,0,0,159,0,0,0,0,0,11,0,1,1,0,28,0,8,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Sabunlar,2015,parl15_1,140,130,122,85,0,0,0,16,1,0,0,0,0,0,1,0,4,0,12,1,0,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Cirgan,2015,parl15_1,167,139,135,62,0,0,0,51,0,4,1,0,0,0,1,0,0,0,12,0,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Asagidag,2015,parl15_1,303,276,269,118,0,0,1,62,1,3,0,0,0,2,0,0,1,0,76,0,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Findikli,2015,parl15_1,356,313,302,252,0,0,0,32,0,0,0,0,0,0,0,0,0,0,15,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Tepekoy,2015,parl15_1,360,314,310,101,0,0,0,130,2,0,0,0,0,14,1,0,0,0,54,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Karapinar-Asagi Cukur,2015,parl15_1,262,218,206,98,0,0,0,75,0,1,1,0,0,0,0,0,0,0,21,1,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,353,294,291,115,0,0,1,101,0,0,0,0,1,11,1,0,0,0,47,0,13,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Toyfanli,2015,parl15_1,177,166,160,63,1,0,1,50,0,0,1,0,2,0,0,0,1,0,34,0,6,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,332,294,292,73,1,0,0,148,0,1,0,0,0,10,2,0,0,0,53,0,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Basorendogancilar,2015,parl15_1,300,249,232,131,0,0,1,42,3,6,1,0,2,0,0,0,1,0,40,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Sazkoy,2015,parl15_1,139,128,124,45,0,0,0,50,0,1,0,0,0,0,3,0,0,0,21,0,2,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Muhsinler,2015,parl15_1,182,168,158,77,1,0,0,57,0,0,1,0,0,1,1,1,0,0,12,1,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Hacilar,2015,parl15_1,333,294,283,90,1,0,0,103,2,8,0,0,0,1,0,0,0,0,59,1,16,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Damarli,2015,parl15_1,308,236,230,110,0,0,1,64,1,0,2,0,0,3,1,1,0,0,33,1,12,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Belediye Sitesi,2015,parl15_1,315,258,254,94,0,0,0,112,1,0,0,0,0,3,2,0,0,0,33,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Musausta,2015,parl15_1,257,235,226,83,0,0,1,88,1,1,0,0,2,1,2,0,0,0,25,1,19,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Camlik,2015,parl15_1,344,278,271,96,0,0,1,99,0,2,0,0,1,1,0,0,0,0,43,0,23,0,5,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Alparslan,2015,parl15_1,242,194,184,108,0,0,0,42,1,2,0,0,1,1,1,0,1,0,21,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,359,306,304,90,0,0,2,139,0,1,1,0,0,5,0,0,1,0,59,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kizilcapinar,2015,parl15_1,392,344,335,165,0,0,0,72,0,3,1,0,0,2,0,0,1,0,80,0,8,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,353,310,308,67,0,0,1,173,0,1,1,0,0,9,1,0,0,0,51,1,1,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Ketenciler,2015,parl15_1,338,313,304,143,0,0,1,80,0,5,0,0,1,1,0,0,1,0,66,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Akkoy,2015,parl15_1,238,228,221,17,0,0,1,190,1,2,0,0,0,0,0,0,0,0,9,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Daglica,2015,parl15_1,306,266,248,108,1,0,3,65,0,2,1,0,1,0,2,0,1,0,45,1,18,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Birlik,2015,parl15_1,374,309,298,116,0,0,1,115,0,3,1,0,0,0,0,0,0,0,50,0,10,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Gucek,2015,parl15_1,385,320,304,192,0,0,1,54,1,4,1,0,1,1,2,0,0,0,34,0,12,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Sofular,2015,parl15_1,205,174,170,77,1,0,0,65,2,3,0,0,0,0,0,0,0,0,19,0,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Goktepe,2015,parl15_1,193,172,168,102,0,0,1,28,0,1,0,0,0,0,2,0,0,0,32,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Saltukova-Duz,2015,parl15_1,241,222,217,61,0,0,0,107,0,3,2,0,0,1,0,0,0,0,40,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yeni,2015,parl15_1,369,306,302,121,0,0,0,99,1,2,0,0,0,2,0,0,1,0,57,0,19,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Filyos-Abacik,2015,parl15_1,137,118,113,38,0,0,0,53,0,1,0,0,0,1,0,0,0,0,19,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Yeni,2015,parl15_1,377,309,304,84,0,0,0,135,0,1,0,0,0,6,0,0,0,0,67,0,9,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Sabirli,2015,parl15_1,149,138,132,111,0,0,2,12,0,0,0,0,0,1,0,0,0,0,6,0,0,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,358,310,303,120,0,0,0,76,0,2,0,0,0,7,1,0,0,0,91,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaelmas,2015,parl15_1,300,263,259,70,0,0,0,132,0,0,0,0,0,2,0,0,0,0,46,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Asagidogancilar,2015,parl15_1,359,328,319,171,0,0,0,46,2,0,1,0,1,0,0,0,0,0,87,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Catak,2015,parl15_1,271,252,243,180,1,0,0,33,2,2,0,0,0,0,1,0,0,0,14,0,7,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,358,298,291,56,0,0,0,138,0,0,0,0,0,19,0,0,0,0,69,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Isafakili,2015,parl15_1,375,342,333,156,0,0,3,56,1,0,0,0,1,2,0,1,0,0,101,0,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Isafakili,2015,parl15_1,311,287,280,155,0,0,1,61,2,1,0,0,0,0,1,0,0,0,58,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Kabalar,2015,parl15_1,193,169,161,121,0,0,1,17,0,1,0,0,0,0,2,0,0,0,12,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Karsiyaka,2015,parl15_1,326,281,275,114,0,0,0,86,0,1,0,0,0,3,1,0,0,0,56,1,12,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Ahatli,2015,parl15_1,147,142,139,102,0,0,0,13,0,0,1,0,0,0,0,0,1,0,14,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Karsiyaka,2015,parl15_1,324,292,286,129,0,0,1,93,0,0,0,0,0,3,1,0,0,0,52,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Merkez,2015,parl15_1,352,298,296,118,0,0,0,99,0,1,0,0,0,2,0,0,0,0,68,1,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Belediye Sitesi,2015,parl15_1,315,248,244,97,0,0,1,86,0,1,0,0,0,4,0,0,0,0,44,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Tepekoy,2015,parl15_1,361,322,316,162,0,0,0,61,1,0,0,0,0,13,0,0,0,0,65,0,14,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Keller,2015,parl15_1,208,176,168,104,0,0,0,43,0,3,0,0,0,0,1,0,1,0,14,1,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yeni Siteler,2015,parl15_1,368,324,324,119,0,0,0,119,0,0,0,0,0,14,0,0,0,0,63,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yeni Siteler,2015,parl15_1,375,324,321,128,0,0,0,127,2,2,1,0,0,5,0,0,0,0,45,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yeni Siteler,2015,parl15_1,329,281,278,89,0,0,0,128,0,0,0,0,0,2,1,0,0,0,54,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yeni Siteler,2015,parl15_1,307,258,252,73,0,0,0,124,0,2,0,0,0,2,0,0,0,0,44,0,6,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yenidoganlar,2015,parl15_1,266,249,239,86,1,0,0,115,2,1,1,0,0,0,1,0,0,0,28,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yenimahalle,2015,parl15_1,280,253,250,107,0,0,0,74,0,1,0,0,0,4,0,0,0,0,56,1,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Akpinar,2015,parl15_1,251,222,214,54,0,0,2,127,2,0,0,0,0,0,0,0,0,0,26,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Ayvazlar,2015,parl15_1,207,184,181,49,0,0,0,106,1,1,0,0,0,1,0,0,0,0,15,0,3,0,5,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Dursunlar,2015,parl15_1,216,198,187,68,0,0,0,90,0,2,0,0,0,0,1,0,0,0,11,0,14,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Erenkoy,2015,parl15_1,111,101,94,43,0,0,0,28,1,4,2,0,0,1,0,0,0,0,10,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Gaziler,2015,parl15_1,333,306,292,109,0,0,2,151,1,3,0,0,0,0,0,0,0,0,14,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Filyos-Kocaali,2015,parl15_1,259,228,219,81,0,0,0,112,0,1,0,0,2,2,0,0,0,0,20,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Filyos-Oteyuz,2015,parl15_1,361,303,297,49,0,0,0,192,0,2,0,0,0,3,0,1,0,0,46,0,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Gokceler,2015,parl15_1,163,138,136,47,0,0,0,62,0,0,0,0,0,0,0,0,0,0,21,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Guzelyaka,2015,parl15_1,259,226,218,68,0,0,1,126,0,1,0,0,0,0,0,0,0,0,10,1,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Durhanli,2015,parl15_1,134,126,125,87,0,0,0,16,0,1,0,0,0,0,0,0,0,0,12,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Helvacilar,2015,parl15_1,356,299,290,167,1,0,0,67,4,1,2,0,2,1,3,1,1,0,30,2,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Helvacilar,2015,parl15_1,355,293,276,120,1,0,2,85,3,4,1,0,0,0,2,0,1,0,39,2,16,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Kozlukadi,2015,parl15_1,116,112,106,74,2,0,0,20,0,1,1,0,0,0,0,0,2,0,4,0,1,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Karapinar-Torlaklar,2015,parl15_1,228,197,188,87,0,0,0,78,0,3,0,0,1,0,1,0,0,0,12,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Kayabasi,2015,parl15_1,296,259,245,89,0,0,0,119,1,1,1,0,0,2,2,1,2,0,21,1,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Kerimler,2015,parl15_1,294,239,229,117,0,0,1,87,3,1,0,0,0,0,0,0,0,0,13,0,5,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Koramanlar,2015,parl15_1,381,338,326,135,0,0,2,140,1,1,1,0,0,1,2,0,0,0,28,1,10,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Sabunlar,2015,parl15_1,43,43,42,17,0,0,0,15,0,0,0,0,0,0,0,0,0,0,8,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Muharremsah,2015,parl15_1,304,272,254,95,1,0,1,120,2,3,1,0,0,0,1,0,2,0,19,1,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Nebioglu-Yeni Pazar,2015,parl15_1,323,278,264,126,2,0,3,87,1,2,0,0,0,1,1,0,0,0,32,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Nebioglu-Yeni Pazar,2015,parl15_1,323,282,267,127,0,0,3,77,1,3,2,0,0,2,0,4,0,0,40,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Karsiyaka,2015,parl15_1,350,306,293,105,0,0,0,103,1,0,0,0,0,2,1,0,0,0,65,1,15,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kavaklik,2015,parl15_1,316,264,257,86,0,0,0,117,2,1,0,0,0,2,1,0,0,0,43,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Persembe-Sari Kadi,2015,parl15_1,235,204,193,68,0,0,0,100,1,0,0,0,0,1,0,0,0,0,21,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Saltukova-Kokaksu,2015,parl15_1,316,284,281,70,0,0,0,173,0,0,0,0,0,0,1,0,0,0,31,0,4,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Serdaroglu,2015,parl15_1,248,219,214,67,1,0,2,104,0,3,0,0,0,3,0,0,1,0,25,1,6,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Tascili,2015,parl15_1,280,239,219,82,1,0,1,82,1,3,0,0,1,3,4,1,1,0,28,1,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Temenler,2015,parl15_1,208,182,174,56,0,0,0,105,1,0,1,0,0,0,0,0,0,0,11,0,0,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Velioglu,2015,parl15_1,296,256,241,109,1,0,1,91,0,2,0,0,0,1,1,0,0,0,24,1,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Velioglu,2015,parl15_1,295,272,245,104,0,0,0,103,2,1,0,0,1,1,1,1,2,0,21,1,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,344,290,284,78,0,0,1,156,0,2,0,0,0,3,0,0,0,0,34,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mithatpasa,2015,parl15_1,346,290,284,129,0,0,0,100,0,1,0,0,0,4,0,0,0,0,38,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,308,253,244,78,0,0,0,124,0,0,0,0,1,2,1,0,0,0,30,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Hisar Arkasi,2015,parl15_1,349,287,284,82,0,0,0,137,2,0,0,0,0,8,0,0,0,0,40,0,12,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yolgecen,2015,parl15_1,357,319,306,202,0,0,1,63,1,0,0,0,0,0,0,1,0,0,23,0,14,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Atakoy,2015,parl15_1,385,339,334,239,0,0,1,41,3,2,1,0,0,2,1,0,0,0,32,0,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Bakircilar,2015,parl15_1,128,110,107,59,0,0,0,24,2,0,2,0,0,0,0,0,0,0,17,1,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Bolucek,2015,parl15_1,281,234,227,103,0,0,1,68,1,4,1,0,0,1,1,0,1,0,28,0,18,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Bukkoy,2015,parl15_1,293,249,242,92,0,0,1,101,0,1,0,0,0,0,2,0,1,0,32,2,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Burhanoglu,2015,parl15_1,254,203,197,76,0,0,1,68,2,2,3,0,0,2,0,0,3,0,30,1,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Caydegirmeni-Yeni,2015,parl15_1,254,226,225,91,0,0,0,76,0,2,0,0,0,4,0,0,0,0,45,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Comaklar,2015,parl15_1,112,102,97,59,0,0,0,22,0,1,0,0,0,0,1,0,1,0,8,0,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Eski,2015,parl15_1,351,271,262,92,0,0,2,121,1,0,0,0,1,5,2,0,1,0,28,1,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,342,264,249,87,0,0,0,110,1,0,2,0,0,1,0,0,1,0,33,0,14,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Halilbeyoglu,2015,parl15_1,372,294,287,123,1,0,0,120,1,0,1,0,1,4,0,0,0,0,23,1,10,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Kabaca,2015,parl15_1,317,250,220,149,1,0,0,33,3,1,2,0,3,0,0,1,3,0,14,2,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Karsiyaka,2015,parl15_1,350,271,264,118,0,0,0,106,2,0,1,0,0,1,0,0,0,0,26,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Egerci,2015,parl15_1,323,221,213,110,0,0,0,70,2,0,2,0,0,0,1,1,0,0,22,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Kozluguney,2015,parl15_1,79,71,69,26,0,0,0,33,0,0,0,0,0,1,0,0,0,0,5,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Kurudere,2015,parl15_1,228,196,186,81,0,0,2,67,0,4,1,0,1,1,2,0,2,0,12,2,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Catalagzi-Cuma Yani,2015,parl15_1,315,268,260,62,0,0,0,151,1,0,0,0,0,0,0,0,0,0,32,0,11,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Oguzhan,2015,parl15_1,280,234,223,109,0,0,1,62,5,1,1,0,0,0,0,1,0,0,29,0,11,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Osmanbeyler,2015,parl15_1,130,122,116,44,0,0,1,36,0,2,0,0,1,0,0,0,0,0,27,0,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Kayikcilar,2015,parl15_1,394,356,345,62,0,0,0,188,0,3,0,0,1,11,2,0,0,0,70,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ozyurt,2015,parl15_1,202,178,166,109,1,0,0,16,1,2,1,0,1,2,3,0,2,0,12,1,15,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Seyisoglu,2015,parl15_1,209,168,164,52,1,0,0,78,2,0,2,0,0,1,1,0,1,0,14,0,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Taskesen,2015,parl15_1,100,86,79,49,1,0,0,15,0,2,0,0,1,0,0,0,0,0,6,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Tellioglu,2015,parl15_1,169,146,136,81,1,0,1,29,0,3,5,0,1,1,4,0,2,0,3,1,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Tohumlar,2015,parl15_1,129,120,112,64,0,0,0,30,0,3,0,0,1,1,2,0,0,0,9,0,1,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Velibeyler,2015,parl15_1,231,188,181,129,0,0,0,15,1,3,0,0,1,0,2,0,1,0,13,0,13,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yazicik,2015,parl15_1,267,221,217,97,0,0,0,81,0,2,0,0,0,1,0,0,1,0,32,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yeni,2015,parl15_1,369,315,302,98,0,0,0,120,0,0,0,0,0,0,0,0,0,0,59,0,22,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yeni,2015,parl15_1,369,322,319,107,1,0,0,138,0,0,0,0,0,8,0,0,0,0,45,1,17,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yeni,2015,parl15_1,369,304,296,133,0,0,0,93,0,1,0,0,0,0,0,0,0,0,54,0,14,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yenikoy,2015,parl15_1,272,223,213,102,0,0,2,66,1,0,1,0,2,1,1,0,0,0,21,2,13,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Abdi,2015,parl15_1,278,266,262,84,1,0,0,101,1,2,0,0,0,0,1,0,1,0,65,0,3,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Akarca,2015,parl15_1,350,304,301,109,0,0,0,138,0,0,0,0,0,2,1,0,0,0,42,0,7,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Akarca,2015,parl15_1,357,322,318,77,0,0,0,181,0,3,0,0,0,7,1,0,0,0,44,0,2,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Akarca,2015,parl15_1,355,302,297,70,0,0,0,165,0,0,0,0,1,10,0,2,0,0,46,0,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Asagihocalar,2015,parl15_1,112,90,84,44,0,0,2,25,1,0,0,0,0,0,0,0,0,0,8,2,1,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Asagikayalidere,2015,parl15_1,147,121,106,61,1,0,1,13,1,3,0,0,0,1,1,0,0,0,16,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Aydinlar,2015,parl15_1,195,174,171,72,0,0,0,60,3,2,0,0,0,0,0,1,3,0,23,1,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,361,308,307,113,1,0,0,132,0,0,0,0,0,4,0,0,0,0,53,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,361,321,315,113,0,0,0,122,1,0,0,0,0,7,0,1,0,0,59,1,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,367,327,324,106,0,0,1,123,0,0,0,0,0,7,0,0,0,0,81,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,311,292,287,115,0,0,1,112,1,1,0,0,0,5,0,0,0,0,46,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,311,275,272,109,0,0,0,104,0,0,0,0,0,9,0,0,0,0,42,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,324,271,264,106,0,0,0,90,1,1,0,0,1,9,0,0,0,0,48,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,377,342,334,143,0,0,0,138,0,1,0,0,1,1,0,0,0,0,43,0,5,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,333,310,310,64,1,0,0,163,1,0,0,0,0,13,0,0,0,0,64,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,333,316,313,74,0,0,0,161,0,0,0,0,0,14,0,0,0,0,56,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Bali,2015,parl15_1,222,200,199,70,0,0,0,96,0,0,0,0,0,0,0,0,0,0,25,1,3,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Belenyeni,2015,parl15_1,324,289,281,143,0,0,0,70,0,1,0,0,1,0,1,0,0,0,56,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Caylioglu,2015,parl15_1,338,288,284,83,2,0,1,131,2,3,0,0,0,1,2,0,0,0,54,1,2,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Cemaller,2015,parl15_1,213,194,187,111,0,0,0,61,1,1,0,0,0,0,0,0,0,0,11,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Cevlik,2015,parl15_1,91,83,81,44,0,0,0,12,1,9,0,0,0,1,1,0,0,0,12,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Daglar,2015,parl15_1,281,249,243,115,0,0,1,75,0,1,0,0,0,0,0,0,0,0,44,2,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Merkez,2015,parl15_1,351,300,296,126,0,0,0,116,0,0,0,0,0,2,0,0,0,0,43,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Daglica,2015,parl15_1,306,271,261,94,0,0,0,102,0,2,1,0,0,0,1,0,0,0,55,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Davutlar,2015,parl15_1,291,246,221,102,0,0,0,69,0,2,0,0,0,2,4,1,3,0,29,2,5,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Duzpelit,2015,parl15_1,156,134,132,61,0,0,0,51,3,0,0,0,1,0,0,0,0,0,13,1,1,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Elma Tepe,2015,parl15_1,375,301,287,141,0,0,1,103,1,3,0,0,1,0,0,0,0,0,28,1,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,369,326,324,146,1,0,1,96,0,2,0,0,0,6,0,0,0,0,63,0,7,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Elma Tepe,2015,parl15_1,374,327,323,129,0,0,0,107,1,0,0,0,1,2,1,0,0,0,73,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Elmaci,2015,parl15_1,207,174,161,103,0,0,0,11,1,2,1,0,0,0,4,0,0,0,31,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Emirali,2015,parl15_1,371,328,323,224,0,0,1,35,0,3,1,0,1,0,2,0,0,0,39,3,13,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Gebe,2015,parl15_1,340,313,307,92,0,0,0,119,0,1,0,0,0,2,1,0,0,0,89,2,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Guluc-Bekyeri,2015,parl15_1,319,284,282,104,0,0,2,98,0,1,0,0,0,1,0,0,0,0,72,0,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Guluc-Merkez,2015,parl15_1,320,268,264,71,0,0,0,124,0,2,0,0,0,1,0,0,1,0,59,0,3,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Guluc-Orencik,2015,parl15_1,259,232,231,100,0,0,0,82,0,0,0,0,1,0,0,0,0,0,45,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Guluc-Orencik,2015,parl15_1,258,226,221,107,0,0,0,86,0,0,0,0,0,0,1,0,0,0,23,1,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Haciuslu,2015,parl15_1,185,154,148,96,1,0,0,26,1,0,1,0,1,2,1,1,2,0,12,2,1,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Hamzafakili,2015,parl15_1,242,229,214,66,1,0,0,65,4,1,2,0,0,1,0,0,1,0,67,0,3,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Iskenderli,2015,parl15_1,141,120,116,76,1,0,2,26,0,0,0,0,0,0,0,0,0,0,10,0,0,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kandilli-Sehitlik,2015,parl15_1,352,292,286,93,0,0,1,111,0,1,1,0,1,16,0,1,0,0,51,2,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kavaklik,2015,parl15_1,315,278,269,88,0,0,1,124,0,1,0,0,0,2,2,0,0,0,40,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kavaklik,2015,parl15_1,314,279,276,84,0,0,0,129,0,1,0,0,0,2,0,0,0,0,57,0,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kaymaklar,2015,parl15_1,282,268,249,134,1,0,1,72,0,0,1,0,4,2,0,0,0,0,29,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kaymaklar,2015,parl15_1,279,243,235,135,0,0,0,44,0,1,1,0,0,0,1,0,0,0,47,1,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,377,331,328,130,0,0,2,121,1,1,0,0,0,3,0,0,0,0,67,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,377,325,320,76,0,0,1,126,1,2,0,0,0,7,0,0,0,0,102,0,2,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,339,296,292,125,1,0,0,86,2,1,0,0,0,2,0,0,0,0,72,0,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,338,299,287,149,1,0,1,71,0,1,0,0,0,9,0,0,1,0,49,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kestaneci,2015,parl15_1,322,299,294,60,0,0,3,179,1,0,0,0,1,9,1,0,0,0,34,0,3,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kirencik,2015,parl15_1,164,149,146,80,0,0,0,38,2,2,0,0,0,0,2,0,1,0,18,0,1,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kirmaci,2015,parl15_1,360,300,296,101,0,0,0,115,1,1,0,0,0,17,0,0,0,0,57,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kirmaci,2015,parl15_1,359,312,301,129,0,0,0,103,0,0,0,0,0,16,1,0,0,0,46,1,3,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kirmaci,2015,parl15_1,359,322,319,95,0,0,0,148,1,0,1,0,0,13,0,0,0,0,59,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kizilca,2015,parl15_1,214,205,199,71,0,0,0,101,1,0,1,0,2,1,0,0,0,0,19,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Korubasi,2015,parl15_1,375,337,335,147,0,0,0,92,2,2,0,0,0,7,0,0,0,0,74,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Muftu,2015,parl15_1,354,305,302,94,0,0,0,135,1,0,0,0,0,8,0,0,0,0,59,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Muftu,2015,parl15_1,353,304,299,80,0,0,0,145,0,0,0,0,0,7,0,0,0,0,57,0,8,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Belediye Sitesi,2015,parl15_1,286,228,224,97,0,0,1,69,3,0,1,0,0,1,0,0,1,0,32,0,17,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Muftu,2015,parl15_1,353,309,303,80,0,0,1,140,1,0,1,0,0,11,2,0,0,0,62,0,3,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,358,311,309,60,0,0,1,169,0,0,0,0,0,14,0,0,0,0,61,0,2,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Murtaza,2015,parl15_1,342,288,286,104,1,0,0,103,1,1,0,0,0,4,1,0,0,0,61,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Omerli,2015,parl15_1,318,278,277,88,0,0,0,97,0,0,0,0,0,10,1,0,0,0,77,1,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Orhanlar,2015,parl15_1,374,315,313,77,0,0,0,190,2,1,0,0,0,8,0,0,0,0,26,0,7,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Orhanlar,2015,parl15_1,376,342,341,67,0,0,1,203,0,1,1,0,0,11,0,1,0,0,44,0,10,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Ormanli-Sarikaya,2015,parl15_1,361,322,309,156,1,0,1,52,1,0,1,0,1,1,0,0,0,0,91,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Ormanli-Sinitli,2015,parl15_1,266,224,216,74,0,0,1,86,0,1,1,0,0,2,0,0,1,0,45,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sarikokmaz,2015,parl15_1,342,282,270,118,0,0,1,86,1,5,2,0,0,8,0,0,0,0,46,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Serintepe,2015,parl15_1,108,93,89,50,0,0,0,24,0,0,0,0,0,0,1,0,0,0,11,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sucullu,2015,parl15_1,234,210,205,68,0,0,2,110,2,1,1,0,0,0,0,0,0,0,18,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Suleymanbeyler,2015,parl15_1,372,329,311,163,0,0,0,69,1,2,1,0,2,1,0,1,1,0,62,1,6,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Suleymanlar,2015,parl15_1,354,281,276,64,2,0,1,179,0,5,0,0,0,2,0,0,0,0,16,0,6,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Suleymanlar,2015,parl15_1,356,313,311,62,0,0,0,186,1,0,0,0,0,11,0,0,1,0,49,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Terzi,2015,parl15_1,225,206,202,28,0,0,0,116,1,2,0,0,0,1,1,0,1,0,49,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Uveyikli,2015,parl15_1,222,196,194,148,0,0,0,20,1,1,0,0,0,0,0,0,0,0,18,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Uveyikli,2015,parl15_1,218,185,182,122,0,0,0,20,0,0,0,0,0,0,2,1,0,0,35,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Uzunmehmet,2015,parl15_1,356,305,304,147,0,0,0,77,1,0,0,0,0,6,0,0,0,0,67,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Velidag,2015,parl15_1,99,93,84,43,4,0,0,29,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Koramanlar,2015,parl15_1,307,282,271,113,0,0,2,99,2,0,0,0,0,2,2,0,0,0,47,1,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Bakirlik,2015,parl15_1,261,237,225,128,0,0,1,38,0,1,1,0,1,0,2,0,1,0,45,1,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Yazicilar,2015,parl15_1,301,276,267,118,1,0,0,53,2,0,0,0,1,0,1,0,0,0,82,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Yunuslu,2015,parl15_1,354,306,300,174,0,0,1,49,4,2,0,0,0,0,3,0,2,0,63,0,1,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Asagisarmasik,2015,parl15_1,221,196,187,39,0,0,0,114,0,0,0,0,0,2,0,0,0,0,24,1,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Aktarla,2015,parl15_1,179,161,145,47,0,0,0,66,3,1,1,0,0,0,2,0,2,0,18,1,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Bakacakkadi-Satibeyler,2015,parl15_1,261,243,239,66,1,0,1,119,1,1,0,0,0,3,0,0,0,0,36,1,0,0,10,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Inagzi,2015,parl15_1,352,294,289,114,0,0,0,103,0,2,0,0,0,5,1,0,0,0,47,0,17,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Bakacakkadi-Satibeyler,2015,parl15_1,261,240,236,54,0,0,5,136,1,0,0,0,0,0,0,0,1,0,37,0,0,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bastarla,2015,parl15_1,326,278,275,83,0,0,1,125,1,1,0,0,0,0,1,0,0,0,45,0,18,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Bakiler,2015,parl15_1,300,279,267,99,0,0,0,142,1,2,1,0,0,1,2,0,0,0,12,1,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Cay,2015,parl15_1,341,287,280,60,0,0,0,149,1,2,0,0,0,2,0,0,0,0,54,1,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Cukur,2015,parl15_1,293,272,251,135,0,0,1,75,0,3,1,0,1,1,1,0,0,0,23,0,5,0,5,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Istasyon,2015,parl15_1,361,313,305,76,1,0,1,165,1,0,1,0,0,2,0,0,1,0,50,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Muharremler,2015,parl15_1,212,189,175,64,2,0,1,73,0,3,2,0,0,1,0,0,2,0,18,1,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Namazgah,2015,parl15_1,317,258,238,69,0,0,0,123,1,6,0,0,1,5,0,0,2,0,21,2,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Onmayis,2015,parl15_1,232,197,188,75,0,0,0,58,1,0,0,0,1,1,1,0,1,0,49,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Ucburgu,2015,parl15_1,302,282,277,112,0,0,1,101,0,2,0,0,0,3,1,0,0,0,51,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Camlik,2015,parl15_1,346,284,276,115,1,0,1,88,1,1,0,0,0,3,0,0,0,0,47,0,19,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Catalagzi-Cuma Yani,2015,parl15_1,314,251,245,47,0,0,0,151,1,0,0,0,0,6,0,0,0,0,36,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Alapliortaci,2015,parl15_1,363,341,338,288,0,0,1,25,1,1,0,0,0,2,1,0,0,0,15,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Karadon,2015,parl15_1,340,277,274,81,1,0,0,97,0,1,0,0,0,3,0,0,0,0,65,0,24,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Muslu-Cumhuriyet,2015,parl15_1,239,202,197,36,0,0,0,111,0,0,0,0,0,0,0,0,0,0,26,0,24,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Filyos-Hisaronu,2015,parl15_1,299,276,274,89,0,0,0,145,1,1,0,0,1,2,1,0,0,0,31,0,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Turkali,2015,parl15_1,354,319,305,71,0,0,1,121,2,1,0,0,0,1,1,0,2,0,93,1,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Akseyh,2015,parl15_1,158,143,136,89,0,0,0,32,1,0,0,0,0,0,1,0,0,0,10,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Asagicayir,2015,parl15_1,122,114,114,94,0,0,1,6,0,0,1,0,0,0,1,0,1,0,9,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Esenkoy,2015,parl15_1,220,188,186,82,0,0,1,58,0,3,0,0,0,2,0,1,0,0,28,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Fatih,2015,parl15_1,367,302,298,113,0,0,0,92,0,0,0,0,0,3,0,0,0,0,74,0,16,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Fatih,2015,parl15_1,366,318,310,66,0,0,0,140,0,1,1,0,0,2,0,0,0,0,80,0,20,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Fatih,2015,parl15_1,365,309,303,73,0,0,0,123,0,1,0,0,0,6,0,0,0,0,79,0,21,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Fatih,2015,parl15_1,342,309,302,103,0,0,0,125,0,0,0,0,0,7,0,0,0,0,56,1,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Guney,2015,parl15_1,354,291,289,62,0,0,1,174,0,0,0,0,0,6,0,0,0,0,38,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Kayikcilar,2015,parl15_1,359,333,322,112,0,0,0,147,0,0,0,0,0,6,1,0,0,0,51,1,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Kilic,2015,parl15_1,368,306,298,122,0,0,0,87,0,2,0,0,0,7,0,0,0,0,60,0,20,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Kozlukoy,2015,parl15_1,230,175,171,84,0,0,1,48,0,1,0,0,0,0,1,0,0,0,33,0,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,340,276,271,95,2,0,0,91,0,1,1,0,0,7,0,0,0,0,63,0,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,380,316,310,109,0,0,0,123,0,0,1,0,1,8,0,0,0,0,62,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,338,269,262,88,0,0,0,92,0,0,0,0,0,5,0,0,0,0,69,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,293,253,252,71,0,0,0,100,0,0,0,0,1,6,0,0,0,0,66,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,359,308,305,121,0,0,0,78,0,1,1,0,0,5,0,0,0,0,72,0,27,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Tasbaca,2015,parl15_1,339,289,283,152,0,0,0,50,1,0,0,0,2,2,0,0,0,0,57,0,19,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Tasbaca,2015,parl15_1,254,196,192,49,0,0,0,103,0,2,0,0,0,1,0,0,0,0,27,0,6,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Uzunguney,2015,parl15_1,330,298,292,180,1,0,1,23,2,2,1,0,0,0,1,0,0,0,74,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Yahma,2015,parl15_1,117,106,103,80,0,0,0,9,0,0,0,0,0,1,0,0,0,0,9,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Alancik,2015,parl15_1,171,143,140,56,1,0,0,71,1,1,1,0,0,0,0,1,0,0,6,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Asma,2015,parl15_1,360,276,268,61,1,0,3,139,0,1,1,0,0,1,0,0,0,0,58,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,358,310,307,63,2,0,0,153,2,1,0,0,0,3,0,1,0,0,73,0,6,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,358,309,305,82,0,0,1,138,0,1,0,0,0,10,0,0,0,0,67,0,3,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,353,293,292,69,0,0,2,144,0,1,0,0,0,17,0,0,0,0,50,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,354,298,297,92,0,0,0,127,0,0,0,0,0,25,0,0,0,0,36,0,16,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Beycuma-Camlik,2015,parl15_1,76,70,66,44,0,0,0,12,0,0,0,0,1,0,0,0,0,0,5,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Beycuma-Kasimlar,2015,parl15_1,187,155,149,52,0,0,0,68,1,1,0,0,0,0,0,0,1,0,16,0,6,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Suleymanlar,2015,parl15_1,354,320,319,63,0,0,0,198,0,0,0,0,0,8,0,0,0,0,43,0,5,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Beycuma-Merkez,2015,parl15_1,219,174,168,72,0,0,4,41,1,0,0,0,0,1,1,0,0,0,36,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Birlik,2015,parl15_1,325,277,275,91,0,0,0,117,0,0,0,0,0,2,0,0,0,0,46,0,18,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Birlik,2015,parl15_1,323,265,257,86,0,0,0,95,1,1,0,0,0,5,0,1,1,0,49,0,18,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Caydamar,2015,parl15_1,362,305,297,75,0,0,0,153,0,0,0,0,0,0,0,0,0,0,53,0,14,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Cinartepe,2015,parl15_1,328,253,247,111,0,0,1,71,1,1,0,0,0,3,0,0,1,0,44,1,13,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Dilaver,2015,parl15_1,315,271,260,73,0,0,0,90,0,0,0,0,1,1,0,0,1,0,90,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Elvanpazarcik-Celepcioglu,2015,parl15_1,165,145,145,74,0,0,0,43,0,1,1,0,0,1,0,1,1,0,18,1,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Elvanpazarcik-Tasmaci,2015,parl15_1,223,201,195,50,0,0,0,93,1,2,0,0,0,2,0,0,0,0,39,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Incivez,2015,parl15_1,365,311,308,106,0,0,2,120,0,3,0,0,0,28,0,0,0,0,37,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karadere,2015,parl15_1,207,179,174,98,0,0,0,42,3,3,1,0,1,0,0,0,1,0,15,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Belen,2015,parl15_1,307,275,271,163,1,0,0,61,4,1,1,0,0,1,0,0,2,0,32,1,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaelmas,2015,parl15_1,378,334,328,122,0,0,2,124,1,1,1,0,0,5,0,0,1,0,63,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaelmas,2015,parl15_1,378,307,306,106,0,0,0,126,1,1,0,0,1,3,0,0,1,0,57,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaelmas,2015,parl15_1,377,320,313,81,0,0,0,145,2,2,0,0,0,5,0,0,0,0,61,0,13,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaman-Karamanlar,2015,parl15_1,366,310,300,92,1,0,2,93,0,0,0,0,0,1,2,0,0,0,99,1,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Keller,2015,parl15_1,274,225,217,74,0,0,0,111,2,5,0,0,0,2,0,0,1,0,15,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mesrutiyet,2015,parl15_1,330,290,282,70,0,0,0,132,2,1,0,0,0,10,0,0,0,0,56,0,8,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mesrutiyet,2015,parl15_1,329,268,265,51,0,0,0,130,0,0,0,0,0,8,0,0,0,0,70,0,4,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mesrutiyet,2015,parl15_1,298,239,236,53,2,0,1,119,0,3,0,0,0,8,0,0,0,0,30,1,15,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mithatpasa,2015,parl15_1,373,274,263,77,0,0,2,150,0,1,0,0,0,2,2,0,0,0,21,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mithatpasa,2015,parl15_1,301,257,254,90,0,0,0,96,0,0,0,0,0,4,0,0,0,0,51,0,10,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mithatpasa,2015,parl15_1,347,285,280,108,0,0,0,104,0,2,0,0,0,2,1,0,0,0,51,0,7,0,5,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Kilic,2015,parl15_1,369,314,311,117,0,0,0,110,0,1,0,0,0,14,0,0,0,0,52,0,14,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mithatpasa,2015,parl15_1,371,320,318,113,0,0,0,136,0,1,0,0,0,1,0,0,0,0,49,0,18,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mithatpasa,2015,parl15_1,325,272,266,89,0,0,0,100,1,4,0,0,1,5,0,0,0,0,49,0,17,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,On Temmuz,2015,parl15_1,279,241,238,64,0,0,0,117,0,0,0,0,0,1,0,0,0,0,37,0,16,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,On Temmuz,2015,parl15_1,363,286,281,112,0,0,0,106,0,1,0,0,1,3,1,0,0,0,44,0,13,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Sarimsak,2015,parl15_1,91,80,77,48,0,0,0,12,1,1,1,0,0,1,0,0,0,0,3,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,351,291,288,80,0,0,0,133,1,2,0,0,0,6,0,0,0,0,54,0,9,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,352,298,296,106,0,0,0,107,0,0,1,0,1,5,1,0,0,0,60,0,12,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,337,284,282,80,0,0,0,119,0,1,0,0,0,3,1,0,0,0,68,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,337,280,279,98,0,0,1,106,0,2,0,0,0,6,0,0,2,0,56,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,340,292,288,39,1,0,0,169,0,1,0,0,0,8,0,0,0,0,62,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Kabalar,2015,parl15_1,187,171,165,114,0,0,0,26,1,1,0,0,1,0,0,0,0,0,15,1,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,354,280,272,78,0,0,0,121,1,0,0,0,0,8,0,0,1,0,48,0,13,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,341,288,284,109,0,0,0,106,0,2,1,0,0,4,0,0,0,0,52,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,347,284,276,101,1,0,2,101,3,2,1,0,0,2,0,0,0,0,53,0,8,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,351,294,286,164,0,0,0,80,2,2,1,0,0,2,0,0,0,0,30,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Yesil,2015,parl15_1,312,263,261,46,0,0,1,151,0,0,0,0,0,6,0,0,1,0,47,1,5,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Sirinkoy,2015,parl15_1,149,136,131,42,0,0,0,68,0,2,0,0,0,2,1,0,0,0,12,1,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Suleymanbeyler,2015,parl15_1,369,314,307,168,1,0,0,62,0,2,0,0,0,3,2,0,1,0,66,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Uveyikli,2015,parl15_1,233,210,199,129,0,0,0,24,1,4,1,0,0,0,1,0,0,0,34,2,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Merkez,2015,parl15_1,347,285,282,75,0,0,0,132,0,1,0,0,0,2,0,1,2,0,53,0,14,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Sapca,2015,parl15_1,212,193,188,79,1,0,0,75,0,1,0,0,2,1,0,0,0,0,19,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,351,297,293,156,1,0,0,66,0,0,0,0,1,3,0,0,0,0,54,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,322,269,263,120,1,0,0,65,0,0,0,0,1,2,0,0,0,0,58,0,12,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Yenikoy,2015,parl15_1,164,145,138,76,1,0,1,22,0,5,0,0,0,0,0,0,2,0,26,0,1,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Merkez,2015,parl15_1,351,311,306,135,0,0,0,93,1,0,0,0,0,5,0,0,0,0,62,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,285,246,244,48,0,0,0,122,0,0,1,0,0,8,0,0,0,0,55,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Elvanpazarcik-Hayat,2015,parl15_1,203,177,176,72,0,0,0,68,2,1,0,0,0,0,0,0,0,0,24,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,360,307,300,153,0,0,0,74,1,0,0,0,0,1,0,0,0,0,42,1,26,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Bozca,2015,parl15_1,213,166,159,105,0,0,0,20,1,0,0,0,0,1,1,1,0,0,11,1,18,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Guzelyurt,2015,parl15_1,153,142,137,62,0,0,1,39,1,7,0,0,2,1,0,1,0,0,14,1,6,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,324,262,259,77,0,0,0,120,0,1,0,0,0,5,1,0,0,0,49,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yeni Siteler,2015,parl15_1,327,287,284,83,0,0,0,132,1,1,0,0,0,1,1,0,1,0,59,0,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Senkoy,2015,parl15_1,238,206,193,72,0,0,4,101,1,0,0,0,0,0,0,0,0,0,9,2,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,356,283,273,70,0,0,0,145,1,1,0,0,0,9,1,0,0,0,36,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Muslu-Emirler,2015,parl15_1,170,158,150,50,0,0,0,88,0,0,1,0,0,0,0,0,0,0,5,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Korubasi,2015,parl15_1,374,336,325,102,0,0,0,135,4,2,1,0,0,6,0,0,1,0,60,2,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Karsiyaka,2015,parl15_1,349,295,289,114,0,0,1,93,1,2,0,0,0,3,0,0,0,0,47,0,27,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,325,274,267,83,0,0,0,108,0,3,0,0,0,2,0,0,0,0,65,0,4,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Cay,2015,parl15_1,343,301,293,107,1,0,0,123,0,0,0,0,0,4,0,0,0,0,50,1,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,324,273,264,68,0,0,0,147,0,0,0,0,0,6,0,0,0,0,39,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Saltukova-Sarikum,2015,parl15_1,278,253,244,76,0,0,1,104,0,0,0,0,0,4,0,0,1,0,50,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Merkez,2015,parl15_1,349,303,295,57,0,0,0,169,1,0,1,0,0,2,0,0,0,0,51,0,10,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Ihsaniye,2015,parl15_1,362,279,269,91,0,0,1,122,0,1,0,0,0,2,0,0,0,0,39,0,9,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Elma Tepe,2015,parl15_1,374,330,324,141,0,0,2,98,0,2,0,0,0,3,1,0,0,0,69,1,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Camlik,2015,parl15_1,129,114,111,28,0,0,0,67,0,0,0,0,0,2,1,0,0,0,6,1,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sarikokmaz,2015,parl15_1,343,288,285,156,0,0,2,53,1,0,0,0,0,4,1,0,0,0,57,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Ormeci,2015,parl15_1,297,283,265,68,0,0,16,113,1,2,1,0,1,1,0,0,0,0,51,0,6,0,5,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Musabeyli,2015,parl15_1,252,226,222,107,0,0,2,67,2,1,0,0,0,0,0,0,0,0,39,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,357,304,299,76,0,0,0,156,0,0,0,0,0,9,0,0,0,0,46,0,10,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Catalagzi-Hacioglu,2015,parl15_1,347,288,283,53,0,0,0,196,0,1,0,0,0,3,0,0,0,0,24,1,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,377,334,330,138,0,0,1,115,0,1,0,0,0,0,1,0,0,0,59,1,12,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Karakoclu,2015,parl15_1,279,226,199,125,0,0,1,39,1,0,1,0,0,0,3,0,2,0,19,1,5,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Corak,2015,parl15_1,257,213,206,66,0,0,1,99,1,1,1,0,0,1,0,0,1,0,30,1,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yeni,2015,parl15_1,369,282,278,112,0,0,0,111,1,2,1,0,0,1,2,0,0,0,31,0,17,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kandilli-Pazaryeri,2015,parl15_1,200,172,169,97,1,0,0,51,0,2,0,0,0,1,0,0,0,0,16,0,0,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yeni Siteler,2015,parl15_1,374,335,326,112,0,0,2,130,1,1,0,0,0,2,0,0,0,0,68,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kandilli-Pazaryeri,2015,parl15_1,200,169,166,80,0,0,0,49,1,2,0,0,0,1,0,0,0,0,25,0,6,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Gelik-Gelik Merkez,2015,parl15_1,298,243,238,95,0,0,4,44,0,2,3,0,0,2,1,0,1,0,70,0,15,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,347,263,257,81,0,0,0,116,2,0,0,0,0,2,1,0,1,0,43,0,9,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Kaleoglu,2015,parl15_1,258,199,195,85,0,0,0,65,1,2,0,0,0,1,0,0,2,0,37,1,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Gumuspinar,2015,parl15_1,277,259,253,128,0,0,2,90,0,1,1,0,0,0,0,0,0,0,21,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Akarca,2015,parl15_1,356,309,305,56,0,0,2,201,0,3,0,0,0,1,0,0,0,0,39,0,0,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Ormanli-Merkez,2015,parl15_1,195,177,174,82,0,0,1,44,1,0,0,0,0,1,0,0,0,0,42,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Ortaci,2015,parl15_1,296,256,231,143,0,0,0,43,1,2,1,0,0,2,4,0,2,0,29,0,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,19 Mayis,2015,parl15_1,369,303,294,152,1,0,1,80,1,3,1,0,1,5,0,0,0,0,39,1,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Incivez,2015,parl15_1,363,287,285,61,0,0,0,137,1,1,0,0,0,18,1,0,0,0,54,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,369,324,318,93,0,0,0,158,0,1,0,0,0,8,0,0,0,0,50,0,6,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Karsiyaka,2015,parl15_1,326,299,297,151,0,0,0,82,0,0,0,0,0,4,0,0,0,0,49,0,7,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Yalnizcam,2015,parl15_1,205,176,169,100,0,0,1,28,1,4,0,0,1,2,1,0,1,0,27,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Yenidogancilar,2015,parl15_1,216,176,163,70,0,0,1,63,0,1,0,0,1,1,0,0,1,0,20,1,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mithatpasa,2015,parl15_1,374,330,327,73,0,0,0,138,1,0,0,0,0,3,1,0,0,0,100,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,361,313,306,108,0,0,0,123,1,2,1,0,0,6,1,0,1,0,59,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,354,310,298,85,0,0,1,131,4,1,0,0,0,5,0,0,0,0,62,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Osmanlar,2015,parl15_1,309,281,276,131,3,0,1,69,0,0,1,0,1,0,0,0,0,0,68,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,357,282,277,66,0,0,0,149,0,0,0,0,0,13,0,0,0,0,45,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kavaklik,2015,parl15_1,354,310,305,88,0,0,0,132,0,2,0,0,0,2,0,0,0,0,73,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Akarca,2015,parl15_1,355,326,320,61,0,0,0,211,0,0,0,0,0,5,0,0,0,0,35,0,4,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Aydin,2015,parl15_1,303,233,223,110,0,0,0,78,0,2,0,0,0,0,1,0,1,0,30,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Bilik,2015,parl15_1,399,339,324,165,0,0,0,52,6,1,0,0,1,0,3,0,1,0,59,1,33,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Alioglu,2015,parl15_1,260,234,226,96,0,0,1,91,3,1,0,0,0,1,0,0,1,0,30,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Cukur,2015,parl15_1,292,265,255,99,0,0,0,110,3,1,0,0,0,1,0,0,0,0,30,2,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Catalagzi-Merkez,2015,parl15_1,338,288,286,64,0,0,0,165,1,1,0,0,0,2,1,0,0,0,46,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kiyicak,2015,parl15_1,246,219,216,136,0,0,0,28,0,2,0,0,0,2,2,0,0,0,40,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Uzunmehmet,2015,parl15_1,357,300,290,174,1,0,0,55,0,0,1,0,0,3,1,0,0,0,44,0,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kisla,2015,parl15_1,352,321,315,97,0,0,1,146,0,1,0,0,0,1,1,0,1,0,62,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Orhanlar,2015,parl15_1,334,288,282,49,0,0,0,172,0,4,0,0,0,8,0,0,0,0,44,1,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Catalagzi-Dogancilar,2015,parl15_1,297,256,252,69,0,0,0,137,0,1,0,0,0,2,0,0,0,0,30,0,11,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaman-Satikli,2015,parl15_1,265,229,220,80,0,0,1,86,0,3,0,0,0,1,1,0,0,0,42,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Hacimusa,2015,parl15_1,268,227,206,72,3,0,1,65,2,4,0,0,0,3,3,0,2,0,41,1,6,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Ortaci,2015,parl15_1,295,272,249,132,0,0,0,38,1,0,1,0,0,0,0,0,0,0,68,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Saltuklu,2015,parl15_1,104,93,89,16,0,0,0,56,0,2,1,0,0,1,0,0,0,0,11,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Findikli,2015,parl15_1,216,197,189,89,0,0,0,81,0,0,0,0,1,1,4,1,0,0,8,1,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yeni Siteler,2015,parl15_1,305,259,252,101,0,0,1,104,0,1,0,0,0,4,0,0,0,0,36,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Yesil,2015,parl15_1,312,264,264,67,0,0,0,146,1,0,0,0,0,5,0,0,0,0,34,0,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Hacihasan,2015,parl15_1,230,196,178,108,0,0,0,30,1,1,1,0,0,0,0,0,0,0,23,0,14,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Murtaza,2015,parl15_1,344,295,291,79,0,0,0,140,1,2,1,0,0,7,0,0,1,0,60,0,0,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Pehlivanlar,2015,parl15_1,358,297,285,76,0,0,1,120,2,0,0,0,0,4,0,0,0,0,60,2,20,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Pehlivanlar,2015,parl15_1,358,310,304,89,1,0,1,136,0,0,0,0,0,1,0,0,0,0,59,0,15,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kandilli-Gokceler,2015,parl15_1,362,326,319,133,0,0,0,135,1,2,0,0,0,0,0,0,0,0,32,0,5,0,11,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Pazarlioglu,2015,parl15_1,278,243,230,142,0,0,1,39,3,3,1,0,4,2,1,0,0,0,14,0,19,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Karsiyaka,2015,parl15_1,324,269,265,103,0,0,0,77,0,1,0,0,0,11,1,0,0,0,62,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yukarigoynuk,2015,parl15_1,252,237,233,101,0,0,0,78,2,2,0,0,0,0,1,0,1,0,30,3,15,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Yesil,2015,parl15_1,294,246,241,31,0,0,0,168,0,0,0,0,0,1,0,0,0,0,28,0,10,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Filyos-Sefercik,2015,parl15_1,153,148,143,44,0,0,0,70,1,0,1,0,0,1,0,0,1,0,18,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,359,276,265,118,0,0,0,80,1,0,0,0,0,3,1,0,0,0,43,0,18,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Ayvatlar,2015,parl15_1,323,254,236,124,2,0,2,35,5,2,0,0,1,2,0,0,2,0,41,1,19,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Ulukoy,2015,parl15_1,235,209,201,73,0,0,1,100,2,0,2,0,0,0,1,0,1,0,20,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Guluc-Merkez,2015,parl15_1,321,285,282,81,0,0,1,151,0,0,0,0,0,3,0,0,0,0,41,0,3,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,350,284,282,66,0,0,1,121,0,1,0,0,0,5,0,0,0,0,78,0,8,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Omerli,2015,parl15_1,318,292,286,89,0,0,0,134,0,0,0,0,0,18,0,0,1,0,39,0,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Beycuma-Beytepe,2015,parl15_1,96,84,76,47,0,0,0,12,0,0,0,0,1,0,0,0,0,0,7,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,378,323,315,130,1,0,1,106,0,0,0,0,0,3,0,0,0,0,63,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Elvanpazarcik-Tasmaci,2015,parl15_1,221,189,184,52,0,0,1,86,0,1,0,0,1,0,1,0,1,0,31,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Karapinar-Torlaklar,2015,parl15_1,210,198,193,114,0,0,1,45,1,5,0,0,0,0,0,0,0,0,17,0,8,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Suleymanlar,2015,parl15_1,355,317,313,67,0,0,0,170,1,0,0,0,0,3,0,0,0,0,62,1,7,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,296,256,253,63,0,0,0,120,0,0,0,0,0,4,0,0,0,0,58,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,310,275,270,71,0,0,0,117,0,2,2,0,0,1,0,0,0,0,71,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Saltukova-Kokaksu,2015,parl15_1,315,290,289,98,0,0,0,142,0,1,0,0,1,2,0,0,0,0,42,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Karsiyaka,2015,parl15_1,352,290,282,131,0,0,0,92,1,0,1,0,0,0,1,0,0,0,40,0,16,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yazibasi,2015,parl15_1,221,204,197,62,1,0,0,108,0,1,0,0,0,1,1,0,0,0,17,1,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Nebioglu-Karaevligeris,2015,parl15_1,286,255,240,92,0,0,1,89,1,2,0,0,0,2,4,0,0,0,40,2,5,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Coburlar,2015,parl15_1,210,176,168,75,0,0,0,65,0,0,0,0,0,0,2,0,0,0,25,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Guney,2015,parl15_1,353,316,314,69,1,0,0,149,0,0,0,0,0,16,0,0,0,0,73,0,3,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ismet Pasa,2015,parl15_1,360,299,297,85,0,0,0,136,0,0,0,0,0,2,0,0,0,0,58,0,15,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Elvanpazarcik-Elvan,2015,parl15_1,282,245,236,134,0,0,0,56,3,1,1,0,0,0,0,0,2,0,37,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Kabalakli,2015,parl15_1,304,265,261,133,0,0,0,103,1,1,0,0,1,0,1,0,2,0,13,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,291,257,249,70,0,0,0,138,0,0,0,0,0,4,0,0,0,0,28,0,6,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Cay,2015,parl15_1,257,221,219,49,1,0,0,125,0,0,0,0,0,1,0,0,0,0,37,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kocaali,2015,parl15_1,175,169,166,50,0,0,0,77,0,0,1,0,1,2,0,0,0,0,28,2,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Pehlivanlar,2015,parl15_1,359,303,296,89,1,0,2,124,0,1,0,0,0,4,0,0,0,0,65,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ismet Pasa,2015,parl15_1,361,301,294,111,1,0,0,122,1,1,1,0,0,5,0,0,0,0,40,0,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Catak,2015,parl15_1,270,254,246,197,0,0,1,15,0,2,0,0,0,1,0,0,0,0,17,0,13,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Esenler,2015,parl15_1,285,272,269,133,0,0,2,89,0,0,0,0,0,1,0,0,0,0,41,0,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Beycuma-Merkez,2015,parl15_1,218,182,180,65,0,0,0,57,1,0,0,0,0,2,0,0,0,0,31,1,21,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Belediye Sitesi,2015,parl15_1,315,254,247,103,0,0,1,77,0,0,1,0,0,2,0,0,0,0,52,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Akkaya,2015,parl15_1,158,117,102,52,0,0,0,42,1,0,0,0,0,1,0,0,0,0,2,1,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Uzunguney,2015,parl15_1,329,301,296,176,0,0,0,26,0,2,0,0,0,0,1,0,0,0,86,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sarikokmaz,2015,parl15_1,307,283,280,78,0,0,0,137,0,0,0,0,0,9,0,0,0,0,47,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Karakavuz,2015,parl15_1,334,316,312,7,0,0,0,294,0,1,0,0,0,4,0,0,0,0,4,1,0,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Haciibadi,2015,parl15_1,349,312,293,149,0,0,2,96,1,2,0,0,0,0,1,0,0,0,32,2,6,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Ebegumeci,2015,parl15_1,138,113,107,70,0,0,1,16,0,0,0,0,0,0,1,0,0,0,15,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Saraycik,2015,parl15_1,278,216,212,130,0,0,0,46,0,1,0,0,2,1,0,0,1,0,22,1,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Gudullu,2015,parl15_1,184,159,152,49,0,0,0,85,2,0,0,0,0,1,0,0,0,0,12,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Comlekci,2015,parl15_1,279,257,256,72,0,0,0,124,2,0,0,0,1,1,1,0,0,0,50,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Haciali,2015,parl15_1,252,201,190,101,0,0,0,58,3,1,0,0,2,0,0,0,1,0,18,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Elvanpazarcik-Merkez,2015,parl15_1,354,286,279,122,0,0,0,78,0,1,1,0,0,0,2,0,1,0,58,0,16,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,19 Mayis,2015,parl15_1,369,316,305,167,0,0,1,64,0,0,1,0,0,0,0,0,0,0,68,0,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Kalafatli,2015,parl15_1,214,182,167,78,0,0,0,61,1,2,0,0,0,0,0,0,2,0,3,1,18,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Subatan,2015,parl15_1,345,290,283,127,1,0,0,83,1,1,2,0,0,0,1,0,0,0,55,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,308,267,260,64,0,0,0,128,0,0,0,0,0,6,1,0,0,0,56,0,2,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Abdi,2015,parl15_1,276,253,244,130,0,0,1,65,2,2,1,0,1,2,3,0,2,0,28,0,5,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,292,255,247,77,0,0,0,100,0,2,1,0,0,5,0,0,0,0,51,0,9,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Pehlivanlar,2015,parl15_1,359,307,304,92,0,0,0,132,0,0,0,0,0,5,0,0,0,0,67,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,359,295,291,141,0,0,1,74,0,1,0,0,0,0,0,0,1,0,49,0,23,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Elvanpazarcik-Merkez,2015,parl15_1,356,296,289,121,0,0,2,107,1,1,0,0,0,0,0,0,0,0,40,1,16,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Inagzi,2015,parl15_1,350,306,299,111,0,0,0,113,0,2,0,0,0,2,0,0,0,0,59,0,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Persembe-Haci Kadi,2015,parl15_1,327,284,274,104,0,0,0,126,0,0,0,0,0,2,1,0,0,0,29,0,8,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Camlibel,2015,parl15_1,241,234,228,122,0,0,1,48,1,0,1,0,0,0,1,0,0,0,48,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Asagitekke,2015,parl15_1,149,137,133,39,0,0,1,56,1,0,0,0,1,0,1,0,1,0,32,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Suleymanbeyler,2015,parl15_1,370,337,329,162,0,0,0,79,1,0,0,0,0,2,0,0,1,0,74,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yesiltepe,2015,parl15_1,275,257,228,46,0,0,0,147,1,0,0,0,0,1,1,0,0,0,17,0,15,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Suleymanlar,2015,parl15_1,355,307,303,88,0,0,0,171,0,1,0,0,0,5,0,0,1,0,35,0,0,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Muftu,2015,parl15_1,353,315,311,100,0,0,0,154,1,0,0,0,0,5,0,0,1,0,44,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Kilcak,2015,parl15_1,301,250,246,111,0,0,0,62,0,1,1,0,0,9,0,0,1,0,44,0,16,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Muftu,2015,parl15_1,354,308,303,100,0,0,1,109,0,0,1,0,0,7,1,0,0,0,75,0,3,0,6,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mithatpasa,2015,parl15_1,326,272,268,103,0,0,1,97,1,1,0,0,0,1,0,0,0,0,58,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Gumeli-Merkez,2015,parl15_1,264,238,236,23,0,0,0,138,1,0,0,0,1,10,1,0,0,0,60,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,304,248,247,50,0,0,1,136,1,0,0,0,0,4,0,0,0,0,46,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,266,251,249,48,0,0,0,139,1,0,0,0,0,11,0,0,0,0,46,0,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Inagzi,2015,parl15_1,350,268,263,102,0,0,0,96,0,1,0,0,1,4,2,0,1,0,45,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Uzunahmetler,2015,parl15_1,217,191,177,45,1,0,2,68,3,0,1,0,0,1,2,0,0,0,48,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sarikaya,2015,parl15_1,365,324,318,182,0,0,1,64,2,0,1,0,1,1,0,0,1,0,52,1,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Cayir,2015,parl15_1,364,289,285,76,0,0,0,182,1,1,1,0,1,0,1,0,0,0,14,1,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Beycuma-Yeni,2015,parl15_1,159,140,137,35,0,0,0,56,0,0,0,0,0,0,0,0,0,0,36,0,6,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Sabunlar,2015,parl15_1,116,104,98,35,0,0,0,33,0,2,0,0,0,2,1,0,1,0,20,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Incivez,2015,parl15_1,364,305,301,65,0,0,0,148,1,0,0,0,0,7,0,0,0,0,73,1,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Esenyurt,2015,parl15_1,79,75,72,36,0,0,0,23,1,0,0,0,0,0,0,0,0,0,10,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Belediye Sitesi,2015,parl15_1,314,255,245,145,0,0,0,59,0,0,0,0,0,3,2,0,0,0,21,0,15,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Goktepe,2015,parl15_1,243,210,209,85,0,0,1,74,2,0,2,0,0,1,0,0,0,0,38,1,3,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Osmanli,2015,parl15_1,191,168,163,84,0,0,0,56,0,2,0,0,0,1,1,0,0,0,14,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Halli,2015,parl15_1,202,187,179,125,1,0,0,31,0,1,0,0,0,1,0,0,0,0,18,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mesrutiyet,2015,parl15_1,322,281,280,68,0,0,1,158,0,0,0,0,0,3,0,2,0,0,37,0,9,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Derecikoren,2015,parl15_1,239,223,212,49,0,0,1,95,1,0,0,0,0,1,0,0,0,0,58,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Muslu-Merkez,2015,parl15_1,307,292,284,50,0,0,0,193,0,1,0,0,0,3,1,0,0,0,23,0,11,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Corak,2015,parl15_1,235,213,207,96,0,0,0,69,2,1,0,0,0,1,0,0,0,0,35,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Belediye Sitesi,2015,parl15_1,314,258,254,136,0,0,2,77,0,0,1,0,1,5,0,0,0,0,21,0,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Kalafatli,2015,parl15_1,215,170,158,59,1,0,0,60,1,2,1,0,0,1,1,0,3,0,12,1,16,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Komsular,2015,parl15_1,266,235,225,94,0,0,0,81,3,0,3,0,2,0,0,0,0,0,35,1,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Gelik-Ayici Merkez,2015,parl15_1,321,263,256,102,0,0,0,93,0,1,0,0,0,1,0,0,0,0,40,0,18,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,369,334,312,112,0,0,1,135,0,0,0,0,1,4,1,0,1,0,49,1,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Istasyon,2015,parl15_1,351,302,292,110,0,0,2,116,0,2,0,0,0,0,0,0,0,0,52,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,307,250,246,45,0,0,0,118,0,1,0,0,0,19,0,0,0,0,53,0,7,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Dagdemirciler,2015,parl15_1,333,291,281,130,0,0,2,69,0,1,2,0,1,4,2,0,0,0,13,0,50,0,7,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yesilyurt,2015,parl15_1,157,138,128,64,1,0,2,39,0,0,1,0,0,1,2,0,0,0,16,1,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Koserecik,2015,parl15_1,162,136,131,80,0,0,1,16,0,3,1,0,0,0,2,0,1,0,17,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Suleymanlar,2015,parl15_1,355,316,313,65,1,0,2,178,0,0,0,0,0,11,0,0,0,0,54,0,0,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Cinartepe,2015,parl15_1,379,294,285,70,0,0,0,131,0,1,1,0,0,0,0,0,0,0,64,0,17,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Uzunmehmet,2015,parl15_1,357,311,305,149,0,0,1,93,0,0,0,0,0,12,0,0,0,0,44,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Merkez,2015,parl15_1,285,247,241,68,0,0,1,113,1,2,0,0,0,0,0,0,1,0,45,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,348,299,296,67,0,0,0,168,0,1,0,0,0,4,1,1,0,0,46,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Kilcak,2015,parl15_1,303,266,256,139,0,0,0,62,0,0,0,0,0,5,1,0,0,0,41,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Cay,2015,parl15_1,295,258,256,102,0,0,1,82,1,0,0,0,0,2,0,0,0,0,62,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Orhanlar,2015,parl15_1,334,286,286,60,0,0,0,170,0,0,0,0,0,11,0,0,0,0,41,0,2,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Sarikadi,2015,parl15_1,236,213,206,139,1,0,0,38,0,2,0,0,0,1,0,0,1,0,23,0,0,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaelmas,2015,parl15_1,339,250,238,86,0,0,0,116,0,5,0,0,1,2,1,0,0,0,21,1,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Bolucek,2015,parl15_1,281,249,234,102,0,0,1,74,2,2,0,0,1,1,0,0,1,0,22,0,28,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Yeni,2015,parl15_1,376,300,296,78,0,0,0,145,0,2,1,0,0,4,0,0,0,0,54,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Guney,2015,parl15_1,354,313,309,60,0,0,0,146,1,2,0,0,0,7,1,0,0,0,87,0,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,378,330,324,112,0,0,0,114,0,0,0,0,1,5,1,0,0,0,72,0,19,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Agalar,2015,parl15_1,345,299,291,147,0,0,1,78,1,1,0,0,1,4,2,0,0,0,42,2,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Aliusta,2015,parl15_1,252,224,192,64,1,0,0,96,1,2,1,0,0,0,4,0,1,0,12,4,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Imranlar,2015,parl15_1,211,194,188,98,0,0,1,38,3,1,0,0,1,0,1,0,0,0,43,0,1,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Pehlivanlar,2015,parl15_1,358,300,292,102,0,0,0,110,0,1,0,0,0,2,1,0,0,0,53,0,21,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,359,281,272,85,0,0,0,94,2,1,0,0,0,1,0,1,1,0,71,0,16,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Merkez,2015,parl15_1,351,293,290,114,0,0,0,135,2,0,0,0,0,1,0,0,0,0,34,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,347,292,287,80,0,0,0,136,0,0,0,0,0,8,0,0,0,0,58,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Comlekci,2015,parl15_1,279,240,233,62,0,0,0,118,2,2,2,0,0,2,2,0,0,0,39,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaelmas,2015,parl15_1,338,276,271,107,0,0,0,88,1,0,1,0,0,6,0,0,0,0,57,0,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Oren,2015,parl15_1,351,304,295,136,0,0,0,74,0,3,0,0,1,0,1,0,0,0,70,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Muftu,2015,parl15_1,354,309,306,87,0,0,0,150,0,0,0,0,0,4,1,0,0,0,60,1,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,353,299,293,64,0,0,0,109,0,1,0,0,0,18,0,0,0,0,88,0,12,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,340,277,276,94,0,0,0,105,0,4,0,0,0,5,0,0,0,0,59,0,7,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Hacilar,2015,parl15_1,331,303,286,98,0,0,0,105,3,1,0,0,0,0,1,1,1,0,57,1,18,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Duhancilar,2015,parl15_1,141,119,110,77,1,0,0,12,0,1,1,0,0,0,2,0,0,0,12,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Karadon,2015,parl15_1,341,288,281,100,0,0,0,100,2,0,0,0,0,4,0,0,0,0,44,0,30,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,369,331,327,112,2,0,0,126,0,0,0,0,0,4,0,0,0,0,77,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Filyos-Oteyuz,2015,parl15_1,362,322,315,77,0,0,0,167,0,2,0,0,0,3,0,2,0,0,58,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Keskek,2015,parl15_1,142,134,130,57,0,0,0,54,0,2,0,0,1,0,0,0,0,0,15,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Subatan,2015,parl15_1,345,251,233,67,0,0,0,102,3,2,0,0,0,4,0,0,1,0,40,0,13,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Gobu,2015,parl15_1,298,256,252,49,0,0,0,138,0,0,0,0,1,1,2,1,0,0,50,1,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Istasyon,2015,parl15_1,363,328,323,85,0,0,1,190,0,1,0,0,0,2,0,0,0,0,37,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Karapinar-Yukari Cukur,2015,parl15_1,244,212,198,89,0,0,0,84,1,1,0,0,0,1,3,0,0,0,11,0,7,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Tasbaca,2015,parl15_1,254,226,216,69,0,0,1,103,0,1,0,0,0,1,1,0,0,0,35,0,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Alparslan,2015,parl15_1,241,208,198,114,0,0,0,45,1,0,0,0,0,0,1,0,2,0,25,0,8,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Dilaver,2015,parl15_1,315,271,264,116,0,0,3,72,1,0,0,0,0,0,0,0,0,0,63,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Birlik,2015,parl15_1,372,287,280,104,0,0,2,122,0,0,0,0,0,0,1,0,0,0,42,1,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,342,259,256,114,0,0,0,71,0,0,1,0,0,2,0,0,0,0,63,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Haciali,2015,parl15_1,253,230,218,73,0,0,0,86,1,1,0,0,0,1,0,0,0,0,48,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Aydinyayla,2015,parl15_1,277,236,227,125,0,0,3,33,0,0,0,0,0,4,1,0,0,0,56,1,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Gobu,2015,parl15_1,298,244,237,66,0,0,1,108,2,0,0,0,0,0,1,1,0,0,50,0,6,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Yarasliyoruk,2015,parl15_1,264,242,238,86,0,0,1,76,0,1,0,0,0,1,1,0,0,0,65,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Saltukova-Sarikum,2015,parl15_1,351,305,293,118,0,0,0,94,2,1,0,0,0,1,0,0,1,0,66,1,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Tepekoy,2015,parl15_1,360,285,279,112,0,0,0,88,0,2,1,0,0,10,0,0,0,0,61,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Uzunmehmet,2015,parl15_1,356,305,291,130,0,0,0,86,1,0,0,0,0,5,1,0,1,0,64,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Birlik,2015,parl15_1,324,269,264,102,1,0,1,102,0,1,0,0,0,6,0,0,0,0,39,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Mustakimler,2015,parl15_1,103,96,96,68,1,0,0,5,1,0,0,0,0,0,0,0,1,0,9,0,9,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Balcikli,2015,parl15_1,106,96,94,45,0,0,1,33,0,0,0,0,0,1,1,0,0,0,9,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Cigdemli,2015,parl15_1,277,256,247,113,0,0,2,64,1,4,1,0,1,0,1,0,2,0,53,0,3,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaelmas,2015,parl15_1,339,240,230,102,0,0,0,98,2,2,0,0,0,0,0,0,1,0,19,0,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Pembeciler,2015,parl15_1,350,320,293,138,1,0,0,86,4,1,0,0,1,0,0,0,1,0,51,3,4,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Uzuncayir,2015,parl15_1,255,228,221,60,0,0,0,87,0,1,0,0,0,3,1,0,1,0,64,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Keskek,2015,parl15_1,101,91,88,71,0,0,0,2,0,1,0,0,0,1,1,0,0,0,9,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Alikoy,2015,parl15_1,247,211,203,72,0,0,0,109,0,1,1,0,0,1,0,0,0,0,13,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Merkez,2015,parl15_1,285,230,224,55,0,0,0,111,0,4,0,0,0,0,1,0,0,0,39,0,12,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Zindancilar,2015,parl15_1,241,222,211,114,0,0,0,63,0,0,0,0,1,0,0,0,1,0,25,1,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,361,309,309,88,0,0,0,156,0,0,0,0,0,7,0,0,0,0,51,0,5,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Olukyani,2015,parl15_1,184,169,163,92,0,0,0,36,1,1,0,0,0,1,0,0,0,0,27,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Karalar,2015,parl15_1,350,307,304,91,1,0,1,132,0,0,0,0,0,0,0,0,0,0,61,0,16,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Kozlucay,2015,parl15_1,232,215,192,123,0,0,1,36,0,1,0,0,0,5,2,0,1,0,15,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Baglik,2015,parl15_1,341,281,274,95,0,0,1,108,1,6,0,0,0,6,0,0,0,0,45,0,10,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Uzunmehmet,2015,parl15_1,357,320,311,186,0,0,0,40,0,1,0,0,0,4,0,0,0,0,63,0,17,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Caydegirmeni-Merkez,2015,parl15_1,313,259,247,92,0,0,1,89,0,1,0,0,2,1,0,0,1,0,55,0,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Nebioglu-Yesilyurt,2015,parl15_1,210,190,185,84,0,0,1,54,0,1,2,0,0,5,1,0,0,0,32,0,2,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Pinarcik,2015,parl15_1,365,330,324,121,0,0,1,133,0,0,0,0,0,1,0,0,0,0,61,1,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Basoren,2015,parl15_1,314,280,269,152,2,0,0,50,2,1,1,0,0,1,0,2,0,0,54,1,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Hatipler,2015,parl15_1,208,176,165,108,3,0,0,14,3,2,0,0,0,0,3,0,0,0,16,1,12,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Oguzhan,2015,parl15_1,161,134,134,64,0,0,0,40,2,1,1,0,0,0,0,0,0,0,23,0,2,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Catalagzi-Kokurdan,2015,parl15_1,344,317,314,43,1,0,1,215,0,1,0,0,0,0,1,0,0,0,39,0,13,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,308,259,258,74,0,0,0,129,0,1,0,0,0,3,0,0,0,0,40,0,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yeni Siteler,2015,parl15_1,304,260,257,69,0,0,1,123,0,2,0,0,0,3,0,0,0,0,51,0,5,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,19 Mayis,2015,parl15_1,356,289,279,82,0,0,0,118,1,2,1,0,0,1,1,0,0,0,62,0,7,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,367,337,335,80,0,0,1,179,0,1,0,0,1,5,0,0,1,0,57,0,7,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Bektasli,2015,parl15_1,345,302,292,170,1,0,1,47,3,3,1,0,0,1,3,0,0,0,55,1,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,358,280,274,58,0,0,0,170,0,0,0,0,0,6,0,0,0,0,36,0,2,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Basat,2015,parl15_1,393,325,307,133,0,0,2,101,2,3,2,0,1,2,2,0,1,0,47,0,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bastarla,2015,parl15_1,325,245,244,77,0,0,0,125,1,3,0,0,0,2,0,0,0,0,31,0,3,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Himmetoglu,2015,parl15_1,349,279,266,93,0,0,0,139,0,0,1,0,1,1,0,0,1,0,21,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Catak,2015,parl15_1,271,248,238,172,0,0,0,23,0,0,1,0,1,0,0,0,1,0,24,0,15,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ismet Pasa,2015,parl15_1,362,321,312,128,0,0,0,126,0,1,0,0,0,2,0,0,0,0,45,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Asma,2015,parl15_1,360,262,261,86,0,0,2,100,0,2,1,0,0,0,0,0,0,0,55,0,12,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Mahmutoglu,2015,parl15_1,393,345,318,186,2,0,1,58,0,1,1,0,2,1,5,0,0,0,41,6,10,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Murtaza,2015,parl15_1,342,291,287,94,0,0,0,114,0,0,0,0,2,16,0,0,0,0,53,1,6,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Oren,2015,parl15_1,351,288,283,134,0,0,0,73,1,1,0,0,0,3,0,0,0,0,67,0,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Helvacilar,2015,parl15_1,356,296,280,175,0,0,1,53,6,1,1,0,0,1,2,0,0,0,28,0,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Ramazanli,2015,parl15_1,214,197,188,59,0,0,0,67,2,1,1,0,0,1,3,0,1,0,49,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Karamusa,2015,parl15_1,214,186,176,48,0,0,0,107,1,2,0,0,0,0,1,0,0,0,11,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Sarnaz,2015,parl15_1,84,70,66,34,0,0,0,11,0,3,0,0,0,0,0,0,1,0,10,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Filyos-Hisaronu,2015,parl15_1,299,252,248,76,1,0,0,138,0,0,1,0,0,4,0,1,0,0,22,1,2,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,349,289,280,122,0,0,0,84,2,2,0,0,0,3,1,0,0,0,52,0,14,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Duhancilar,2015,parl15_1,155,138,124,89,0,0,1,8,0,1,1,0,0,2,0,1,0,0,13,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaelmas,2015,parl15_1,338,265,260,105,0,0,0,101,1,1,1,0,0,0,0,0,1,0,43,1,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Sabirli,2015,parl15_1,247,223,221,128,0,0,0,62,0,1,2,0,0,0,0,0,0,0,23,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Baglik,2015,parl15_1,377,328,327,137,0,0,0,118,0,1,0,0,0,6,1,0,0,0,54,0,4,0,6,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Gudullu,2015,parl15_1,117,112,107,39,0,0,0,57,1,0,0,0,0,0,0,1,0,0,6,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Korubasi,2015,parl15_1,374,332,325,98,0,0,1,167,1,0,0,0,1,3,0,0,0,0,46,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Halli,2015,parl15_1,202,183,179,114,0,0,0,24,2,2,0,0,0,0,0,0,1,0,31,1,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Akarca,2015,parl15_1,351,300,295,66,0,0,0,164,5,1,0,0,0,2,0,1,0,0,52,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Himmetoglu,2015,parl15_1,350,297,291,90,1,0,2,162,1,3,0,0,1,4,1,0,0,0,18,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mithatpasa,2015,parl15_1,266,215,209,82,1,0,0,71,0,2,0,0,1,2,0,0,0,0,40,1,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yagmurca,2015,parl15_1,332,286,279,114,1,0,0,119,1,7,0,0,0,3,1,0,0,0,25,2,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sarikokmaz,2015,parl15_1,263,230,225,122,0,0,0,56,1,0,1,0,0,5,1,0,0,0,30,0,6,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Camkoy,2015,parl15_1,177,167,155,99,1,0,1,37,0,0,1,0,0,0,1,0,0,0,12,1,1,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,292,248,238,63,0,0,0,126,0,0,2,0,0,9,0,0,0,0,26,0,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Kayabasi,2015,parl15_1,294,249,246,55,0,0,0,142,3,3,0,0,1,2,2,0,1,0,32,1,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tascilar,2015,parl15_1,185,150,143,65,0,0,0,59,1,2,0,0,0,1,0,0,0,0,10,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Ihsaniye,2015,parl15_1,361,300,295,115,0,0,0,103,0,0,0,0,0,0,0,0,1,0,57,1,18,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yazicik,2015,parl15_1,267,224,208,72,1,0,3,88,2,2,3,0,1,0,2,0,1,0,18,1,6,0,8,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Guney,2015,parl15_1,376,330,326,131,0,0,0,97,1,0,0,0,0,1,2,0,0,0,53,0,40,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Camlik,2015,parl15_1,344,294,280,93,0,0,1,116,1,4,0,0,0,0,0,0,0,0,52,0,12,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Orhanlar,2015,parl15_1,373,325,324,57,0,0,0,209,0,0,1,0,1,11,0,0,0,0,36,0,5,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Ulukoy,2015,parl15_1,234,214,201,25,0,0,1,148,0,2,0,0,0,0,0,0,0,0,21,1,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kocaali,2015,parl15_1,329,308,297,119,1,0,0,100,1,3,0,0,0,1,0,0,0,0,69,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sarikokmaz,2015,parl15_1,263,221,215,133,0,0,0,42,0,1,0,0,0,1,0,0,0,0,28,2,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Karadon,2015,parl15_1,341,278,275,86,0,0,0,90,1,1,0,0,1,2,0,0,0,0,69,0,25,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Kalaycioglu,2015,parl15_1,377,339,315,122,1,0,1,125,2,3,0,0,0,1,1,1,0,0,45,0,11,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Merkez,2015,parl15_1,376,319,310,125,0,0,0,81,0,2,0,0,0,2,3,0,0,0,90,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mithatpasa,2015,parl15_1,370,311,308,101,0,0,0,131,0,0,3,0,0,1,0,0,0,0,63,0,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yeni Siteler,2015,parl15_1,326,288,283,89,0,0,1,123,0,0,0,0,0,5,2,0,0,0,59,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Alaplikocaali,2015,parl15_1,328,303,290,130,0,0,2,69,7,1,3,0,0,0,2,2,0,0,61,0,11,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Caydamar,2015,parl15_1,363,320,314,132,0,0,4,118,1,1,1,0,0,0,0,0,0,0,47,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Istasyon,2015,parl15_1,350,302,293,133,0,0,1,76,0,1,0,0,0,2,0,0,1,0,62,0,13,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sarikokmaz,2015,parl15_1,343,288,282,137,0,0,0,89,4,1,1,0,1,12,1,0,0,0,26,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,19 Mayis,2015,parl15_1,355,296,289,154,1,0,0,87,0,1,1,0,1,1,0,0,0,0,29,0,13,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yeni,2015,parl15_1,369,316,310,108,0,0,1,137,1,1,0,0,0,2,3,0,1,0,49,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yazibasi,2015,parl15_1,222,180,174,66,0,0,1,85,1,1,1,0,0,0,0,0,0,0,13,1,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Alioglu,2015,parl15_1,259,223,217,99,0,0,0,84,2,0,0,0,0,0,1,0,0,0,22,0,7,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Madenler,2015,parl15_1,212,193,174,58,0,0,2,78,1,3,1,0,0,0,1,0,2,0,12,1,14,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Gurpinar,2015,parl15_1,256,219,210,137,0,0,0,31,0,1,0,0,0,0,1,0,0,0,31,1,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,On Temmuz,2015,parl15_1,364,293,285,95,1,0,1,121,1,0,1,0,0,3,1,0,0,0,51,1,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Sakakoy,2015,parl15_1,130,118,114,66,0,0,1,28,1,0,0,0,0,0,0,0,0,0,14,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Caglar,2015,parl15_1,316,278,267,169,1,0,0,49,2,8,2,0,3,2,2,0,1,0,21,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Kahvecioglu,2015,parl15_1,308,265,257,110,0,0,1,104,4,4,1,0,0,0,2,0,1,0,22,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Buyuktekke,2015,parl15_1,168,160,158,73,0,0,1,37,1,1,0,0,0,0,0,0,0,0,40,1,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Karamusa,2015,parl15_1,268,244,226,119,0,0,0,65,1,1,0,0,0,0,0,0,0,0,32,0,6,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Yesilkoy,2015,parl15_1,380,336,327,219,0,0,1,61,2,1,0,0,0,2,0,0,0,0,32,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ismet Pasa,2015,parl15_1,359,295,289,108,0,0,0,121,0,0,0,0,0,7,0,0,0,0,44,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Bakacakkadi-Merkez,2015,parl15_1,329,298,291,140,0,0,1,93,1,0,0,0,0,10,1,0,0,0,41,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,359,294,290,105,0,0,0,101,0,0,0,0,0,8,0,0,0,0,54,1,21,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Sirinkoy,2015,parl15_1,153,140,131,37,1,0,0,65,0,0,0,0,0,1,0,0,0,0,23,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Velioglu,2015,parl15_1,297,260,252,102,0,0,1,98,0,2,0,0,0,1,1,0,0,0,35,0,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mithatpasa,2015,parl15_1,327,264,259,98,0,0,0,88,1,0,0,0,0,1,1,0,0,0,58,0,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yenimahalle,2015,parl15_1,279,237,232,113,0,0,0,69,0,1,1,0,0,2,0,0,0,0,41,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,351,296,288,91,0,0,0,118,0,1,0,0,0,1,1,0,0,0,63,0,12,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sofular,2015,parl15_1,299,266,252,131,0,0,0,81,1,3,0,0,0,1,0,0,0,0,28,0,6,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Caydamar,2015,parl15_1,363,307,300,121,0,0,1,129,0,1,0,0,0,1,2,0,0,0,33,1,4,0,7,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaelmas,2015,parl15_1,293,252,244,87,0,0,1,95,0,3,0,0,0,4,1,0,0,0,49,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Caydegirmeni-Cay,2015,parl15_1,330,290,279,108,1,0,0,89,0,2,1,0,2,1,0,0,0,0,63,0,9,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Fatih,2015,parl15_1,366,310,305,70,0,0,1,159,0,0,0,0,0,11,0,1,0,0,41,0,22,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sarikokmaz,2015,parl15_1,369,323,316,123,0,0,0,128,0,1,0,0,0,4,0,0,0,0,58,0,1,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mesrutiyet,2015,parl15_1,364,314,306,76,0,0,1,167,1,0,0,0,0,2,1,0,0,0,49,0,5,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Murtaza,2015,parl15_1,4,8,8,3,0,0,0,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Karapinar-Merkez,2015,parl15_1,276,239,229,97,0,0,0,88,0,0,0,0,1,2,0,0,1,0,27,1,11,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Karakoc,2015,parl15_1,288,251,243,102,0,0,1,91,2,0,0,0,0,1,3,0,3,0,36,2,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Yeni Siteler,2015,parl15_1,328,280,272,104,0,0,0,96,6,2,0,0,0,3,1,0,0,0,50,0,9,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,334,281,278,151,0,0,0,74,1,1,1,0,0,0,0,0,0,0,44,1,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Eski,2015,parl15_1,349,292,288,82,0,0,1,139,1,1,0,0,0,2,0,0,2,0,52,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Sandallar,2015,parl15_1,370,313,300,59,0,0,0,126,5,5,0,0,2,1,2,0,2,0,89,2,5,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Yesil,2015,parl15_1,313,254,252,69,0,0,0,123,0,1,1,0,0,4,0,0,0,0,47,1,5,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Torlaklar,2015,parl15_1,225,212,199,79,0,0,2,86,0,0,2,0,0,2,1,0,1,0,18,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Fatih,2015,parl15_1,366,321,315,69,0,0,0,157,1,0,0,0,1,7,0,0,0,0,62,0,13,0,5,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sarikokmaz,2015,parl15_1,307,251,242,86,0,0,0,97,1,0,0,0,0,1,0,0,0,0,52,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Karadon,2015,parl15_1,341,271,266,89,0,0,0,102,0,1,0,0,0,1,1,0,1,0,47,0,23,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Kaleoglu,2015,parl15_1,259,208,198,71,2,0,0,89,1,3,0,0,0,2,0,0,1,0,21,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaelmas,2015,parl15_1,299,249,248,92,0,0,1,83,0,4,0,0,0,5,0,0,1,0,51,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Guluc-Merkez,2015,parl15_1,320,274,269,116,0,0,1,97,2,0,0,0,0,1,0,0,2,0,38,1,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Karaelmas,2015,parl15_1,337,268,263,121,0,0,0,85,1,1,1,0,0,1,1,1,0,0,41,1,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Merkez,2015,parl15_1,285,246,240,66,0,0,1,115,0,0,1,0,0,1,1,0,1,0,37,0,13,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Terakki,2015,parl15_1,354,287,280,72,0,0,0,128,0,0,0,0,0,3,1,0,0,0,67,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Uzunmehmet,2015,parl15_1,323,279,275,64,0,0,0,138,0,1,0,0,0,18,0,0,0,0,50,0,4,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,291,252,245,70,0,0,1,122,0,2,1,0,0,12,0,0,0,0,26,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Catalagzi-Dogancilar,2015,parl15_1,298,271,263,77,0,0,0,138,4,0,0,0,1,0,0,0,0,0,30,0,8,0,5,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yassioren,2015,parl15_1,299,239,225,155,0,0,0,37,4,2,0,0,2,0,1,0,1,0,11,1,10,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yeni,2015,parl15_1,369,313,299,105,0,0,1,106,0,0,1,0,0,2,1,0,0,0,70,0,13,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Basaran,2015,parl15_1,221,208,200,55,0,0,1,83,0,1,0,0,2,1,2,0,3,0,41,1,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Belenyeni,2015,parl15_1,328,271,267,95,0,0,2,124,0,3,0,0,0,3,0,0,0,0,36,1,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Artiklar,2015,parl15_1,206,185,182,112,0,0,0,41,1,0,0,0,0,0,1,0,1,0,21,0,4,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Karsiyaka,2015,parl15_1,350,282,277,127,0,0,0,77,1,1,1,0,0,3,1,0,1,0,44,0,20,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Carsi,2015,parl15_1,320,297,292,62,0,0,1,177,0,1,1,0,0,4,0,0,0,0,43,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Uludag,2015,parl15_1,99,89,87,63,0,0,0,8,0,1,0,0,1,1,0,0,0,0,13,0,0,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,338,304,299,121,0,0,1,76,0,1,0,0,0,16,0,0,0,0,67,0,11,0,6,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Yayla,2015,parl15_1,354,304,301,52,0,0,1,178,0,0,0,0,0,10,1,0,0,0,50,0,7,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ismet Pasa,2015,parl15_1,360,305,295,113,0,0,1,99,0,0,0,0,0,8,1,0,0,0,56,1,14,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Cay,2015,parl15_1,312,255,249,74,0,0,0,126,0,0,0,0,0,7,0,0,0,0,35,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Asma,2015,parl15_1,361,304,295,92,0,0,0,104,0,3,0,0,1,1,0,0,0,0,74,0,16,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Kilic,2015,parl15_1,369,310,305,109,0,0,0,143,0,0,0,0,0,0,0,0,0,0,42,0,11,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Kumtarla,2015,parl15_1,176,140,134,60,0,0,1,43,2,2,0,0,0,0,1,0,0,0,21,0,3,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Bahcelievler,2015,parl15_1,353,297,294,71,0,0,0,125,0,0,1,0,0,13,0,0,0,0,81,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kurtlar,2015,parl15_1,221,206,201,97,0,0,0,73,0,2,0,0,0,1,0,0,0,0,26,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sarikokmaz,2015,parl15_1,346,295,290,131,0,0,0,96,0,0,0,0,0,11,0,0,0,0,47,0,1,0,4,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Bakacakkadi-Kadioglu,2015,parl15_1,334,308,297,107,1,0,0,139,0,0,0,0,0,0,1,0,0,0,48,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Hisar Arkasi,2015,parl15_1,351,292,286,87,0,0,2,128,0,0,0,0,0,1,0,0,0,0,55,0,12,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Elma Tepe,2015,parl15_1,375,327,324,139,1,0,4,101,0,2,1,0,0,2,0,0,1,0,67,0,6,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Karsiyaka,2015,parl15_1,350,299,292,147,0,0,0,92,1,0,0,0,0,2,0,0,0,0,31,0,18,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Cay,2015,parl15_1,325,280,276,70,0,0,0,148,0,0,0,0,0,8,0,0,0,0,45,0,3,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Cay,2015,parl15_1,296,259,249,83,0,0,1,113,0,1,0,0,0,2,0,0,1,0,38,1,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Ortaci,2015,parl15_1,294,258,246,136,1,0,1,49,1,2,0,0,0,1,1,0,1,0,52,0,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,19 Mayis,2015,parl15_1,356,290,284,116,0,0,0,84,0,0,0,0,0,0,0,0,0,0,58,2,22,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Filyos-Kocaali,2015,parl15_1,259,224,214,61,0,0,0,106,0,0,0,0,0,0,0,0,0,0,40,0,7,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kepez,2015,parl15_1,338,292,286,111,0,0,0,91,0,1,0,0,0,6,0,0,0,0,63,0,14,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Burhanoglu,2015,parl15_1,277,233,220,60,1,0,0,105,3,3,0,0,0,1,1,0,0,0,38,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Istasyon,2015,parl15_1,351,316,308,127,0,0,0,112,0,2,1,0,0,4,1,0,0,0,46,0,14,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mithatpasa,2015,parl15_1,373,321,316,91,0,0,0,159,2,2,0,0,0,5,0,0,1,0,46,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Danismentli,2015,parl15_1,348,316,307,109,0,0,1,137,2,3,0,0,1,1,0,0,0,0,46,1,4,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Yesiloz,2015,parl15_1,258,223,217,159,2,0,0,20,1,3,0,0,1,2,2,0,2,0,14,1,8,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sarikokmaz,2015,parl15_1,274,243,235,85,0,0,0,67,2,0,0,0,0,6,0,1,0,0,65,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Adakoy,2015,parl15_1,289,262,258,126,0,0,0,96,3,2,0,0,0,0,1,0,1,0,17,1,9,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mesrutiyet,2015,parl15_1,297,244,243,62,0,0,0,116,0,1,0,0,0,18,0,0,0,0,40,0,3,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Eski,2015,parl15_1,349,285,274,103,0,0,0,111,1,1,1,0,0,4,0,0,0,0,33,0,17,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Alapli,Gurpinar,2015,parl15_1,254,226,219,144,0,0,1,37,1,2,0,0,1,1,2,0,0,0,20,1,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Karadon,2015,parl15_1,341,285,284,92,0,0,0,108,1,0,1,0,0,0,0,0,1,0,51,0,27,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Topalli,2015,parl15_1,262,234,229,120,0,0,1,69,0,0,1,0,0,0,1,0,2,0,30,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Durupinar,2015,parl15_1,279,227,224,132,0,0,2,41,4,2,0,0,4,1,2,0,1,0,21,0,13,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Cukuroren,2015,parl15_1,209,182,179,56,2,0,0,86,0,2,0,0,0,3,0,0,1,0,23,0,4,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Beycuma-Merkez,2015,parl15_1,143,149,144,33,0,0,1,53,0,0,0,0,0,38,1,0,0,0,15,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yeni,2015,parl15_1,289,247,237,64,0,0,0,124,0,1,0,0,0,4,0,0,0,0,36,0,6,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Ahatli,2015,parl15_1,217,196,177,82,0,0,1,34,1,2,0,0,0,0,1,0,0,0,43,0,13,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Catalagzi-Kuzyaka,2015,parl15_1,300,251,250,52,0,0,0,119,1,0,1,0,0,2,0,0,0,0,65,0,10,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Mithatpasa,2015,parl15_1,326,261,250,84,0,0,0,94,0,1,0,0,0,3,0,0,0,0,54,0,11,0,3,0,2015_6_Zonguldak
+2015_6,Zonguldak,Devrek,Ismet Pasa,2015,parl15_1,360,302,298,126,0,0,0,102,0,0,1,0,0,1,0,0,0,0,51,1,16,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Ormanli Ormanli,2015,parl15_1,309,259,246,133,0,0,1,86,0,0,0,0,0,1,1,0,0,0,19,0,5,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Guluc-Bekyeri,2015,parl15_1,319,266,262,104,0,0,0,91,0,1,0,0,0,7,1,0,0,0,54,1,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Zonguldak Merkez,Tepebasi,2015,parl15_1,352,274,272,80,0,0,0,102,0,1,0,0,0,7,0,0,0,0,65,0,16,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Uzunahmetler,2015,parl15_1,215,187,177,57,0,0,3,71,0,1,1,0,1,1,1,0,0,0,32,0,9,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Kavaklik,2015,parl15_1,353,299,295,90,0,0,0,105,0,1,0,0,0,4,0,0,0,0,83,0,12,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Tepeoren,2015,parl15_1,124,119,116,62,0,0,1,41,0,0,0,0,0,0,0,0,0,0,10,0,2,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kozlu,Fatih,2015,parl15_1,367,313,310,48,0,0,0,190,0,0,0,0,0,9,1,0,0,0,53,0,7,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Kurtkoy,2015,parl15_1,157,128,121,62,0,0,0,45,0,2,0,0,0,0,1,0,0,0,8,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Sucullu,2015,parl15_1,233,204,198,72,1,0,0,97,2,2,0,0,0,1,0,0,1,0,19,2,1,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Filyos-Hisaronu,2015,parl15_1,299,253,245,58,0,0,0,138,0,0,0,0,0,4,0,0,0,0,37,0,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Istasyon,2015,parl15_1,351,312,296,131,0,0,0,113,0,4,0,0,0,0,1,0,1,0,36,1,8,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Gokcebey,Karapinar,2015,parl15_1,392,358,337,147,2,0,2,138,1,3,2,0,1,0,2,0,0,0,17,0,20,0,2,0,2015_6_Zonguldak
+2015_6,Zonguldak,Eregli,Guluc-Bekyeri,2015,parl15_1,319,282,278,92,0,0,1,84,1,0,0,0,0,3,0,0,0,0,88,1,8,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Kilimli,Merkez,2015,parl15_1,347,292,291,66,0,0,0,137,0,0,0,0,0,5,0,0,0,0,63,0,19,0,1,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Haciosmanlar,2015,parl15_1,106,101,95,63,0,0,1,16,1,0,3,0,0,2,0,0,0,0,6,0,3,0,0,0,2015_6_Zonguldak
+2015_6,Zonguldak,Caycuma,Yesilyayla,2015,parl15_1,121,113,112,58,0,0,0,21,1,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,2015_6_Zonguldak
