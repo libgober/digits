@@ -1,3 +1,4 @@
+from joblib import Parallel, delayed
 import sys
 import os
 if sys.platform =="darwin":
@@ -13,7 +14,7 @@ import scipy as sp
 if sys.platform == "darwin":
     datalocation = os.path.expanduser("~/TurkishSimStorage_prov.h5") 
 if sys.platform != "darwin":
-    datalocation = "/scratch/blibgober/TurkishSimStorage_prov.h5"
+    datalocation = "/nfs/projects/b/blibgober/digits/Results/TurkishSimStorage_prov.h5"
 store = pd.HDFStore(datalocation)
 election_directory = split_key_names(store)
 #fix some misalignment
@@ -82,7 +83,7 @@ for Race in Races:
         parties = panel.minor_axis[col]
         for party in parties:
             ### load somee data
-            party_panel =  (panel.ix[:,:,party])
+            party_panel =  (panel.ix[:,:,party]).fillna(0)
             real_raw = party_panel.real
             digits_table = digit_aggregate(party_panel)
             real_digits = digits_table.real
@@ -138,10 +139,10 @@ for Race in Races:
             ilcerows = panel.real.ilce == Ilce
             for Party in Parties:
                 ### load somee dat
-                party_panel =  (panel.ix[:,ilcerows,Party])
+                party_panel =  (panel.ix[:,ilcerows,Party]).fillna(0)
                 if np.shape(party_panel)[0] == 0:
                     continue
-                real_raw = party_panel.real
+                real_raw = party_panel.real.fillna(0)
                 digits_table = digit_aggregate(party_panel)
                 real_digits = digits_table.real
                 sim_digits = digits_table.drop("real",axis=1)

@@ -16,10 +16,11 @@ import time
 join = os.path.join
 
 #### START R SESSION AND LOAD R FUNCTIONS
-import rpy2.robjects as ro
-from rpy2.robjects.packages import SignatureTranslatedAnonymousPackage,importr
-
-string = """freq = function(x){
+try:
+    import rpy2.robjects as ro
+    from rpy2.robjects.packages import SignatureTranslatedAnonymousPackage,importr
+    
+    string = """freq = function(x){
     x/sum(x)
   }
   cumulate <- function(x){
@@ -30,9 +31,13 @@ string = """freq = function(x){
     sto
   }
   """
-powerpack = SignatureTranslatedAnonymousPackage(string, "powerpack")
-stats = importr("stats")
-dgof =  importr("dgof")
+    powerpack = SignatureTranslatedAnonymousPackage(string, "powerpack")
+    stats = importr("stats")
+    dgof =  importr("dgof")
+
+except:
+    Warning("Failed to Load RPython")
+    
 
 
 
@@ -64,6 +69,7 @@ def digit_aggregate(table):
     """
     Takes a table of returns and produces a table with frequency of digits
     """
+    table = table.fillna(0)
     table = table % 10
     digits = table.apply(lambda x: x.value_counts(sort=False),axis='index')
     for i in np.arange(0,10):
@@ -275,19 +281,45 @@ def ks_exact(null_distro,empirical_distro,n,method="two-sided"):
     return(t)
         
 
-def r_kstest(raw,expected_count=None):
+def r_tests(raw,expected_count=None):
+    """
+    Performs all the tests contained in the Discrete Goodness of Fit R package.
+    Returns an array [ks_pvalue,w2_pvalue,a2_pvalue,u2_pvalue] 
+    """
     obs = ro.vectors.IntVector([i % 10 for i in raw])
     if expected_count is None:
         expected_count = 10*[0.1*np.shape(raw)[0]]
     null_expected = ro.vectors.FloatVector(expected_count)
     p = powerpack.cumulate(powerpack.freq(null_expected))
     sim_ecdf = stats.stepfun(ro.vectors.IntVector(range(0,10)),p)
-    test = dgof.ks_test(B=100,simulate_p_value=True,y=sim_ecdf,x=obs)
-    pvalue = float(np.array(test.rx('p.value')))
-    return(float(pvalue))
+    try:
+        ks = dgof.ks_test(B=100,simulate_p_value=True,y=sim_ecdf,x=obs)
+        ks_pvalue = float(np.array(ks.rx('p.value')))
+    except:
+        Warning("KS failed")
+        ks_pvalue = np.nan
+    try:
+        w2 = dgof.cvm_test(B=100,simulate_p_value = True,y=sim_ecdf,x=obs,type="W2")
+        w2_pvalue = float(np.array(w2.rx('p.value')))
+    except:
+        Warning("W2 failed")
+        w2_pvalue = np.nan
+    try:
+         a2 = dgof.cvm_test(B=100,simulate_p_value = True,y=sim_ecdf,x=obs,type="A2")
+         a2_pvalue = float(np.array(a2.rx('p.value')))
+    except:
+        Warning("A2 failed")
+        a2_pvalue = np.nan
+    try:
+        u2 =  dgof.cvm_test(B=100,simulate_p_value = True,y=sim_ecdf,x=obs,type="U2")
+        u2_pvalue = float(np.array(u2.rx('p.value')))
+    except:
+        Warning("U2 failed")
+        u2_pvalue = np.nan
+    return([ks_pvalue,w2_pvalue,a2_pvalue,u2_pvalue])
     
 
-def stat_battery(real_digits,real_raw,mean_sim_digit,sim_digits):
+def stat_battery(real_digits,real_raw,mean_sim_digit,sim_digits,rtests=True):
     statistics = {}
     lookup_test = {"chi2" : "pearson" ,
     "Gtest" :"log-likelihood",
@@ -311,10 +343,15 @@ def stat_battery(real_digits,real_raw,mean_sim_digit,sim_digits):
                                     lookup_null[null],
                                     lambda_=lookup_test[testname])
 
-    ######## KS-tests
-    for null in lookup_null.keys(): 
-        statistics["KS-"+null] = r_kstest(real_raw,lookup_null[null])
-        
+    ######## Tests from R
+    if rtests:
+        for null in lookup_null.keys(): 
+            [ks_pvalue,w2_pvalue,a2_pvalue,u2_pvalue] = r_tests(real_raw,lookup_null[null])
+            statistics["KS-"+null]  = ks_pvalue
+            statistics["W2-"+null]  = w2_pvalue
+            statistics["A2-"+null]  = a2_pvalue
+            statistics["U2-"+null]  = u2_pvalue
+            
     _ , statistics["lilliefors-type-test"] = lilliefors_type(mean_sim_digit,sim_digits,real_digits)
     return(statistics)
   

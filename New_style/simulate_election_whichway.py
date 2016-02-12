@@ -74,7 +74,7 @@ def mle(data):
     exp(result.x) #should be close to alpha, i.e. [10,20,30,40]
     """
     #0 columns make it go insane, so let's drop those
-    mle = pd.Series(np.shape(data)[1]*[np.nan])
+    mle = pd.Series(np.shape(data)[1]*[np.nan],index=data.columns)
     nonzero_columns = (data != 0).any()
     data = data.ix[:,nonzero_columns]
     a = np.array(data.mean(0))
@@ -127,17 +127,30 @@ def simulate_box(counts,inflate_mode='mean',debug_mode=False):
     Returns a random draw from a multinomial. 
     
     The parameter of the multinomial is taken directly from the input vector.
-    If inflate is on, 1/# parties is added to every entry to prevent a 0 chance of any party.
+    If inflate_mode=mean, 1/# parties is added to every entry to prevent a 0 chance of any party.
+    So if inflate_mode=mean, the proportion for AKP would be 117.25/252. 
     
-    If inflate is turned on, the proportion for AKP would be 117.25/252. 
+    If inflate_mode = dirichelt, we draw from a posterior corresponding to a jeffry's dirichlet prior
+    
+    If inflate_mode is a pandas Series, for example an object returned by the MLE function in this script
+    then we treat inflate_mode as a vector of prior counts.
+    
     If inflate is turned off, the proportion for AKP would be 117/251.
     
+    
+    
     NOTE THAT WHATEVER IS FED TO THIS FUNCTION MUST ALREADY BE CLEAN.
+    
+    *** counts = to_simulate.iloc[1,:]
+
     """
     if debug_mode:
         print counts
     Total = float(sum(counts))
-    if inflate_mode == 'mean':
+    if isinstance(inflate_mode,pd.Series):
+        pseudo_counts = counts + inflate_mode
+        p = np.random.dirichlet(pseudo_counts,1)[0]
+    elif inflate_mode == 'mean':
         #inflate to give some small chance of 0 entries to be non-zero
         counts = counts + 1./len(counts)
         p = counts/(Total+1.)
@@ -169,7 +182,7 @@ def simulate_election(returns,inflate_mode='mean',debug_mode=False):
     return(returns.apply(simulate_box,
     axis='columns',
     broadcast=False,
-    inflate_mode='mean',
+    inflate_mode=inflate_mode,
     debug_mode=debug_mode,
     raw=False)) #note axis is columns applies to each row
 
@@ -182,21 +195,52 @@ try:
     nsims = int(sys.argv[3])
 except:
     nsims = 1
-
     
-    
+column_to_group = "ilce" #sys.argv[4]
+  
 ## BREAK APART DATA INTO A PART TO SIMULATE AND PART TO SAVE AS META DATA
+""""
+cd ~/Dropbox/Digit_stats/RawData/Turkey_national/csv_prov/
+fin = 'y2007_Agri.csv'
+data.columns = list(data.columns[:1]) + list("m_"+data.columns[1:3]) + list(data.columns[3:])
+
+"""
+
 data = pd.read_csv(fin)
 is_data_column = data.columns.str.slice(0,2) == "p_"
 meta = data.ix[:,~is_data_column]
-to_simulate = data.ix[:,is_data_column].astype('float64').fillna(0)
+
+sims = pd.Panel(items=["sim_" + str(i) for i in range(nsims)],
+            major_axis=meta.index,minor_axis=data.columns)
+
+if column_to_group is not "None":
+    #first precompute the mles, this was necessary because merging was awkward for unclear reasons
+    thetas = {}
+    for unit in np.unique(meta[column_to_group]):
+        rows_selected = meta[column_to_group] == unit
+        to_simulate = data.ix[rows_selected,is_data_column].astype('float64').fillna(0)
+        thetas[unit] = mle(to_simulate)
+    #now do the sims
+    sims = {}
+    for i in range(nsims):
+        results = []
+        for unit in np.unique(meta[column_to_group]):
+            rows_selected = meta[column_to_group] == unit
+            to_simulate = data.ix[rows_selected,is_data_column].astype('float64').fillna(0)
+            simulated = simulate_election(to_simulate,inflate_mode=thetas[unit],debug_mode=False)
+            results.append(simulated)
+        sim = meta.join(pd.concat(results))
+        sims["sim_"+str(i)] = sim
+    sims = pd.Panel(sims,minor_axis=data.columns)
+    
+else:
+    to_simulate = data.ix[:,is_data_column].astype('float64').fillna(0)
+    sims = {}
+    for i in range(nsims):
+        sims["sim_"+str(i)] = meta.join(simulate_election(to_simulate,inflate_mode='dirichlet',debug_mode=False))
+    sims = pd.Panel(sims)
 
 
-sims = {}
-for i in range(nsims):
-    sims["sim_"+str(i)] = meta.join(simulate_election(to_simulate,inflate_mode='dirichlet',debug_mode=False))
-
-sims = pd.Panel(sims)
 sims.to_pickle(fout + "_" + "nsims"+str(nsims) + ".pkl")
 
 

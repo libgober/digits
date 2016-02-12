@@ -6,7 +6,7 @@
 # cdfstring = paste(rep(.1*n,10),collapse="---")
 # raw_digits_string = paste(sample(n),collapse ="---")
 
-  suppressMessages(require(dgof))
+  suppressMessages(require(BenfordTests))
   cdfstring = commandArgs(trailingOnly=TRUE)[1]
   null_expected = as.numeric(strsplit(cdfstring,"---")[[1]])
   if (sum(null_expected) != 0){

@@ -16,7 +16,7 @@ if sys.platform != "darwin":
     datalocation = "/nfs/projects/b/blibgober/digits/Results/US_Sim_Storage.h5"
 store = pd.HDFStore(datalocation)
 election_directory = split_key_names(store)
-election_directory.columns = ["Race","Year","State","Keys"] #may need to change this given reorganized naming convetion
+election_directory.columns = ["Year","State","Race","Keys"] #may need to change this given reorganized naming convetion
 Years = np.unique(election_directory.Year)
 States = np.unique(election_directory.State)
 Races = np.unique(election_directory.Race)
@@ -69,6 +69,7 @@ for Race in Races:
                 to_add = pd.DataFrame(statistics,index=[index])
                 Results_State = Results_State.append(to_add)
                 index += 1
+                print index
 
 print "Finished States"
 
@@ -89,7 +90,7 @@ print "Collecting data for USP country wide"
 for Year in Years:
     for State in States:
         #select the row to get the key
-        key =  get_key(election_directory,["Race","State","Year"])
+        key = get_key(election_directory,["Race","State","Year"])
         try:
             panel = store[key]
         except KeyError:
@@ -159,7 +160,7 @@ for Race in Races:
     for Year in Years:
         for State in States:
             #select the row to get the key
-            key =  get_key(election_directory,["Race","State","Year"])
+            key = get_key(election_directory,["Race","State","Year"])
             try:
                 panel = store[key]
             except KeyError:
@@ -185,6 +186,7 @@ for Race in Races:
                     to_add = pd.DataFrame(statistics,index=[index])
                     Results_County = Results_County.append(to_add)
                     index += 1
+                    print index
                     
 ###############
 #### OUTPUT ###
