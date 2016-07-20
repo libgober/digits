@@ -1,0 +1,947 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{anyt/global/}
+    \entry{Arnold2011}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f691adfed2ab27f386d7eac3ecba5539}{%
+           family={Arnold},
+           family_i={A\bibinitperiod},
+           given={Tb},
+           given_i={T\bibinitperiod}}}%
+        {{hash=427906de5044954d0f83c1d86ce7068c}{%
+           family={Emerson},
+           family_i={E\bibinitperiod},
+           given={Jw},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{14c35db81d647c8e29c1cc2ced86f19a}
+      \strng{fullhash}{14c35db81d647c8e29c1cc2ced86f19a}
+      \field{labelalpha}{AE11}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Methodology extending nonparamet- ric goodness-of-fit tests to discrete null distribu- tions has existed for several decades. However, modern statistical software has generally failed to provide this methodology to users. We of- fer a revision of Rs ks.test() function and a new cvm.test() function that fill this need in the R language for two of the most popular non- parametric goodness-of-fit tests. This paper de- scribes these contributions and provides exam- ples of their usage. Particular attention is given to various numerical issues that arise in their im- plementation}
+      \field{issn}{2073-4859}
+      \field{journaltitle}{The R Journal}
+      \field{title}{{Nonparametric Goodness-of-Fit Tests for Discrete Null Distributions}}
+      \field{year}{2011}
+      \field{pages}{34\bibrangedash 39}
+      \range{pages}{6}
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/The R Journal/Arnold, Emerson/2011/Arnold, Emerson - 2011 - Nonparametric Goodness-of-Fit Tests for Discrete Null Distributions - The R Journal.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://journal.r-project.org/archive/2011-2/RJournal%7B%5C_%7D2011-2%7B%5C_%7DArnold+Emerson.pdf
+      \endverb
+    \endentry
+    \entry{Breunig2011}{article}{}
+      \name{author}{2}{}{%
+        {{hash=dbe0a32df950658ebbf8c4d44c150517}{%
+           family={Breunig},
+           family_i={B\bibinitperiod},
+           given={Christian},
+           given_i={C\bibinitperiod}}}%
+        {{hash=a34e89c2ee242da4167648e5f66dc6c2}{%
+           family={Goerres},
+           family_i={G\bibinitperiod},
+           given={Achim},
+           given_i={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{662f37fbc7befcf90ce542eb8b0c5e44}
+      \strng{fullhash}{662f37fbc7befcf90ce542eb8b0c5e44}
+      \field{labelalpha}{BG11}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article investigates electoral irregularities in the 1990 to 2005 Bundestag elections of unified Germany. Drawing on the Second Digit Benford Law (2BL) by Mebane (2006), the analysis consists of comparing the observed frequencies of numerals of candidate votes and party votes at the precinct level against the expected frequencies according to Benford's Law. Four central findings stand out. First, there is no evidence for systematic fraud or mismanagement with regard to candidate votes from districts where fraud would be most instrumental. Second, at the state level (Bundesland), there are 51 violations in 190 tests of the party list votes. Third, East German states are not more prone to violations than Western ones. This finding refutes the notion that the East's more recent transition to democracy poses problems in electoral management. Fourth, a strong variation in patterns of violation across Bundesl\"{a}nder exists: states with dominant party control are more likely to display irregularities. The article concludes by hypothesizing and exploring the notion that partisan composition of nominees involved in the counting may produce a higher likelihood of violation and be a cause of L\"{a}nder variation. This may especially be the case when a party dominates in a Bundesland or opponents to the former socialist regime party are involved in the counting. {{$\copyright$}} 2011 Elsevier Ltd.}
+      \field{isbn}{0261-3794}
+      \field{issn}{02613794}
+      \field{journaltitle}{Electoral Studies}
+      \field{number}{3}
+      \field{title}{{Searching for electoral irregularities in an established democracy: Applying Benford's Law tests to Bundestag elections in Unified Germany}}
+      \field{volume}{30}
+      \field{year}{2011}
+      \field{pages}{534\bibrangedash 545}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.electstud.2011.03.005
+      \endverb
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/Electoral Studies/Breunig, Goerres/2011/Breunig, Goerres - 2011 - Searching for electoral irregularities in an established democracy Applying Benford's Law tests to Bundestag e.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.electstud.2011.03.005
+      \endverb
+      \keyw{Benford's law,Bundestag,Fraud,Germany}
+    \endentry
+    \entry{Bickel2010a}{book}{}
+      \name{author}{8}{}{%
+        {{hash=36e33dc9053507bcfba560310f2164ed}{%
+           family={Bickel},
+           family_i={B\bibinitperiod},
+           given={P},
+           given_i={P\bibinitperiod}}}%
+        {{hash=7e3711d06245161f61f741ed5e28e20d}{%
+           family={Diggle},
+           family_i={D\bibinitperiod},
+           given={P},
+           given_i={P\bibinitperiod}}}%
+        {{hash=21b3f9f0a7eba7bf19966ce824e990ca}{%
+           family={Fienberg},
+           family_i={F\bibinitperiod},
+           given={S},
+           given_i={S\bibinitperiod}}}%
+        {{hash=bcfab77e1daf456fc5b93c9b248eecca}{%
+           family={Gather},
+           family_i={G\bibinitperiod},
+           given={U},
+           given_i={U\bibinitperiod}}}%
+        {{hash=0718a853dd27e58032e945c82cf21fb9}{%
+           family={Olkin},
+           family_i={O\bibinitperiod},
+           given={I},
+           given_i={I\bibinitperiod}}}%
+        {{hash=8b17ec161a22aa9032e139a1444571a2}{%
+           family={Zeger},
+           family_i={Z\bibinitperiod},
+           given={S},
+           given_i={S\bibinitperiod}}}%
+        {{hash=f74d424d1853d98f4b01af350a44392d}{%
+           family={Spencer},
+           family_i={S\bibinitperiod},
+           given={Alho},
+           given_i={A\bibinitperiod}}}%
+        {{hash=f9810963f104ed7f0cc65658425a7a11}{%
+           family={Demography},
+           family_i={D\bibinitperiod},
+           given={Statistical},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e3e621392db141dbe02298132c338395}
+      \strng{fullhash}{d1e5ff4594b26f10160460d360729067}
+      \field{labelalpha}{Bic+10}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780387775005}
+      \field{issn}{01727397}
+      \field{title}{{Springer Series in Statistics Springer Series in Statistics}}
+      \field{year}{2010}
+      \field{pages}{1\bibrangedash 656}
+      \range{pages}{656}
+      \verb{doi}
+      \verb 10.1007/978-0-387-98135-2
+      \endverb
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/Unknown/Bickel et al/2010/Bickel et al. - 2010 - Springer Series in Statistics Springer Series in Statistics - Unknown.pdf:pdf
+      \endverb
+      \keyw{inger series in statistics}
+    \endentry
+    \entry{Beber2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ee0747f7f8f1449cd94cd52788e88108}{%
+           family={Beber},
+           family_i={B\bibinitperiod},
+           given={Bernd},
+           given_i={B\bibinitperiod}}}%
+        {{hash=79e5a2ca1a62a8993d953c553909527c}{%
+           family={Scacco},
+           family_i={S\bibinitperiod},
+           given={Alexandra},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{08086fdab5f420e139d527bb28f19dc9}
+      \strng{fullhash}{08086fdab5f420e139d527bb28f19dc9}
+      \field{labelalpha}{BS12}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Is it possible to detect manipulation by looking only at electoral returns? Drawing on work in psychology, we exploit individuals' biases in generating numbers to highlight suspicious digit patterns in reported vote counts. First, we show that fair election procedures produce returns where last digits occur with equal frequency, but laboratory experiments indicate that individuals tend to favor some numerals over others, even when subjects have incentives to properly randomize. Second, individuals underestimate the likelihood of digit repetition in sequences of random integers, so we should observe relatively few instances of repeated numbers in manipulated vote tallies. Third, laboratory experiments demonstrate a preference for pairs of adjacent digits, which suggests that such pairs should be abundant on fraudulent return sheets. Fourth, subjects avoid pairs of distant numerals, so those should appear with lower frequency on tainted returns. We test for deviations in digit patterns using data from Sweden's 2002 parliamentary elections, Senegal's 2000 and 2007 presidential elections, and previously unavailable results from Nigeria's 2003 presidential election. In line with observers' expectations, we find substantial evidence that manipulation occurred in Nigeria as well as in Senegal in 2007.}
+      \field{issn}{10471987}
+      \field{journaltitle}{Political Analysis}
+      \field{number}{2}
+      \field{title}{{What the numbers say: A digit-based test for election fraud}}
+      \field{volume}{20}
+      \field{year}{2012}
+      \field{pages}{211\bibrangedash 234}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1093/pan/mps003
+      \endverb
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/Political Analysis/Beber, Scacco/2012/Beber, Scacco - 2012 - What the numbers say A digit-based test for election fraud - Political Analysis.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Cantu2014}{article}{}
+      \name{author}{1}{}{%
+        {{hash=72f1edabc73bce763032bf02f9f5d923}{%
+           family={Cantu},
+           family_i={C\bibinitperiod},
+           given={Francisco},
+           given_i={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{72f1edabc73bce763032bf02f9f5d923}
+      \strng{fullhash}{72f1edabc73bce763032bf02f9f5d923}
+      \field{labelalpha}{Can14}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A generalized distrust inMexican local elections raises the question of whether electoral corruption has vanished or remains a prevalent practice in the country. To answer this question, I analyze the 2010 gubernatorial elections, exploiting a feature of the country's electoral system: within each electoral precinct, voters are assigned to polling stations according to their childhood surname. Consequently, the only difference between voters in contiguous polling stations should be their last names. Given that political preferences are seldom correlatedwith voters' names, I use suspicious differences in turnout levels across contiguous polling stations to identify fraudulent practices. The findings of this article indicate that nondemocratic enclaves that actively obstruct the completion ofMexico's democratic transition still remain today.}
+      \field{isbn}{00925853}
+      \field{issn}{15405907}
+      \field{journaltitle}{American Journal of Political Science}
+      \field{number}{4}
+      \field{title}{{Identifying irregularities in Mexican local elections}}
+      \field{volume}{58}
+      \field{year}{2014}
+      \field{pages}{936\bibrangedash 951}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1111/ajps.12097
+      \endverb
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/American Journal of Political Science/Cantu/2014/Cantu - 2014 - Identifying irregularities in Mexican local elections - American Journal of Political Science.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Chaseling2012}{incollection}{}
+      \name{author}{4}{}{%
+        {{hash=00ea86cb66663bb925a15c5d99a831e9}{%
+           family={Chaseling},
+           family_i={C\bibinitperiod},
+           given={Janet},
+           given_i={J\bibinitperiod}}}%
+        {{hash=9cf99a1df26266887759feaa1d5cbe72}{%
+           family={Steele},
+           family_i={S\bibinitperiod},
+           given={Michael},
+           given_i={M\bibinitperiod}}}%
+        {{hash=4dc24dedeb6c7aa89d04cd770c09afdb}{%
+           family={Smart},
+           family_i={S\bibinitperiod},
+           given={Neil},
+           given_i={N\bibinitperiod}}}%
+        {{hash=58643dc045936c9f9503da3af02695b0}{%
+           family={Hurst},
+           family_i={H\bibinitperiod},
+           given={Cameron\bibnamedelima P},
+           given_i={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=489ebd9aed1b5b46e9a55338625880cb}{%
+           family={Kumar},
+           family_i={K\bibinitperiod},
+           given={K.},
+           given_i={K\bibinitperiod}}}%
+        {{hash=88213d6469585501381e9f3e5f7d40c6}{%
+           family={Chaturvedi},
+           family_i={C\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boca Raton, FL}%
+      }
+      \list{publisher}{1}{%
+        {Brown Walker Press}%
+      }
+      \strng{namehash}{ccb4ee1fae1f6c1e9d2200a98712033e}
+      \strng{fullhash}{c4298be5a8c824404ceb22f53fc3297e}
+      \field{labelalpha}{Cha+12}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Some Recent Developments in Statistical Theory and Applications}
+      \field{title}{{A comparison of the power of the discrete Kolmorgorov-Smirnov and Chi-Square Goodness of Fit tests}}
+      \field{year}{2012}
+      \field{pages}{104\bibrangedash 109}
+      \range{pages}{6}
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/Some Recent Developments in Statistical Theory and Applications/Chaseling et al/2012/Chaseling et al. - 2012 - A comparison of the power of the discrete Kolmorgorov-Smirnov and Chi-Square Goodness of Fit tests - Some Rece.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Conover1972}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e7375092c527c597134a967d38d47272}{%
+           family={Conover},
+           family_i={C\bibinitperiod},
+           given={William\bibnamedelima J},
+           given_i={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7375092c527c597134a967d38d47272}
+      \strng{fullhash}{e7375092c527c597134a967d38d47272}
+      \field{labelalpha}{Con72}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{1972}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Kolmogorov goodness-of-fit test is known to be conservative when the hypothesized distribution function is not continuous. A method for finding the exact critical level (approximate in the two-sided case) and the power in such cases is derived. Thus the Kolmogorov test may be used as an exact goodness-of-fit test for all completely specified distribution functions, whether continuous or not continuous. Several examples of the application of this extension of the Kolmogorov test are also included.}
+      \field{issn}{01621459}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{number}{339}
+      \field{title}{{A Kolmogorov Goodness-of-Fit Test for Discontinuous Distributions}}
+      \field{volume}{67}
+      \field{year}{1972}
+      \field{pages}{591\bibrangedash 596}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1080/01621459.1972.10481254
+      \endverb
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/Journal of the American Statistical Association/Conover/1972/Conover - 1972 - A Kolmogorov Goodness-of-Fit Test for Discontinuous Distributions - Journal of the American Statistical Association.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/2284444
+      \endverb
+    \endentry
+    \entry{Cantu2011}{article}{}
+      \name{author}{2}{}{%
+        {{hash=72f1edabc73bce763032bf02f9f5d923}{%
+           family={Cantu},
+           family_i={C\bibinitperiod},
+           given={Francisco},
+           given_i={F\bibinitperiod}}}%
+        {{hash=34e6a8bbe4647818110cede29e8be2b9}{%
+           family={Saiegh},
+           family_i={S\bibinitperiod},
+           given={Sebastian\bibnamedelima M.},
+           given_i={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f4c003638b9f2691891d34bdb1b3896}
+      \strng{fullhash}{3f4c003638b9f2691891d34bdb1b3896}
+      \field{labelalpha}{CS11}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we introduce an innovative method to diagnose electoral fraud using vote counts. Specifically, we use synthetic data to develop and train a fraud detection prototype. We employ a naive Bayes classifier as our learning algorithm and rely on digital analysis to identify the features that are most informative about class distinctions. To evaluate the detection capability of the classifier, we use authentic data drawn from a novel data set of district-level vote counts in the province of Buenos Aires (Argentina) between 1931 and 1941, a period with a checkered history of fraud. Our results corroborate the validity of our approach: The elections considered to be irregular (legitimate) by most historical accounts are unambiguously classified as fraudulent (clean) by the learner. More generally, our findings demonstrate the feasibility of generating and using synthetic data for training and testing an electoral fraud detection system.}
+      \field{issn}{10471987}
+      \field{journaltitle}{Political Analysis}
+      \field{number}{4}
+      \field{title}{{Fraudulent Democracy? An analysis of Argentina's Infamous Decade using supervised machine learning}}
+      \field{volume}{19}
+      \field{year}{2011}
+      \field{pages}{409\bibrangedash 433}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1093/pan/mpr033
+      \endverb
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/Political Analysis/Cantu, Saiegh/2011/Cantu, Saiegh - 2011 - Fraudulent Democracy An analysis of Argentina's Infamous Decade using supervised machine learning - Political Ana.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Carruth2012}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c12dd841c7a70e99986e6f5bffdd91ae}{%
+           family={Carruth},
+           family_i={C\bibinitperiod},
+           given={Jacob},
+           given_i={J\bibinitperiod}}}%
+        {{hash=2819e0b8695bce9c0aa1ebe4d1012ace}{%
+           family={Tygert},
+           family_i={T\bibinitperiod},
+           given={Mark},
+           given_i={M\bibinitperiod}}}%
+        {{hash=4ddb6996bd47eabf820620ea28aa9140}{%
+           family={Ward},
+           family_i={W\bibinitperiod},
+           given={Rachel},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{e282e17545449b880ab81bb65d43cd29}
+      \strng{fullhash}{cf16e973c8f3c337901a58e9d7326f99}
+      \field{labelalpha}{CTW12}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Goodness-of-fit tests gauge whether a given set of observations is consistent (up to expected random fluctuations) with arising as independent and identically distributed (i.i.d.) draws from a user-specified probability distribution known as the "model." The standard gauges involve the discrepancy between the model and the empirical distribution of the observed draws. Some measures of discrepancy are cumulative; others are not. The most popular cumulative measure is the Kolmogorov-Smirnov statistic; when all probability distributions under consideration are discrete, a natural noncumulative measure is the Euclidean distance between the model and the empirical distributions. In the present paper, both mathematical analysis and its illustration via various data sets indicate that the Kolmogorov-Smirnov statistic tends to be more powerful than the Euclidean distance when there is a natural ordering for the values that the draws can take -- that is, when the data is ordinal -- whereas the Euclidean distance is more reliable and more easily understood than the Kolmogorov-Smirnov statistic when there is no natural ordering (or partial order) -- that is, when the data is nominal.}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Wine}
+      \field{title}{{A comparison of the discrete Kolmogorov-Smirnov statistic and the Euclidean distance}}
+      \field{volume}{stat.ME}
+      \field{year}{2012}
+      \verb{eprint}
+      \verb 1206.6367
+      \endverb
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/Wine/Carruth, Tygert, Ward/2012/Carruth, Tygert, Ward - 2012 - A comparison of the discrete Kolmogorov-Smirnov statistic and the Euclidean distance - Wine.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1206.6367v1
+      \endverb
+      \keyw{chi-square,hypothesis,mean-square,root-mean-square,significance}
+    \endentry
+    \entry{Collier2014}{article}{}
+      \name{author}{2}{}{%
+        {{hash=27c0d70e2ccc0d27aad2e650cc1a8f50}{%
+           family={Collier},
+           family_i={C\bibinitperiod},
+           given={Paul},
+           given_i={P\bibinitperiod}}}%
+        {{hash=c90af6c574be5e6c1d40aaf14c1aea80}{%
+           family={Vicente},
+           family_i={V\bibinitperiod},
+           given={Pedro\bibnamedelima C.},
+           given_i={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{def2455104b8c3b7919d03041cc6a7ed}
+      \strng{fullhash}{def2455104b8c3b7919d03041cc6a7ed}
+      \field{labelalpha}{CV14}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Following the wave of democratization during the 1990s, elections are now common in low-income societies. However, these elections are frequently flawed. We investigate the Nigerian general election of 2007, which is to date the largest election held in Africa and one seriously marred by violence. We designed and conducted a nationwide field experiment based on randomized anti-violence grassroots campaigning. We find direct effects on violence outcomes from exploring both subject-surveying and independent data sources. Crucially, we establish that voter intimidation is effective in reducing voter turnout, and that the violence was systematically dissociated from incumbents. We suggest that incumbents have a comparative advantage in alternative strategies, vote buying and ballot fraud. Voter intimidation may be a strategy of the weak analogous to terrorism}
+      \field{isbn}{9780511510458}
+      \field{issn}{00130133}
+      \field{journaltitle}{Economic Journal}
+      \field{number}{574}
+      \field{title}{{Votes and violence: Evidence from a field experiment in Nigeria}}
+      \field{volume}{124}
+      \field{year}{2014}
+      \field{pages}{327\bibrangedash 355}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1111/ecoj.12109
+      \endverb
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/Economic Journal/Collier, Vicente/2014/Collier, Vicente - 2014 - Votes and violence Evidence from a field experiment in Nigeria - Economic Journal.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Deckert2011}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ee61fa8f11755311b85f2f41e0022d33}{%
+           family={Deckert},
+           family_i={D\bibinitperiod},
+           given={Joseph},
+           given_i={J\bibinitperiod}}}%
+        {{hash=74afaeff822c089cdd1635b987f10e47}{%
+           family={Myagkov},
+           family_i={M\bibinitperiod},
+           given={Mikhail},
+           given_i={M\bibinitperiod}}}%
+        {{hash=846cc36b625257614d8acf4ac70752fb}{%
+           family={Ordeshook},
+           family_i={O\bibinitperiod},
+           given={Peter\bibnamedelima C.},
+           given_i={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{2502bf6f58474e84a55a40c2fbe300ff}
+      \strng{fullhash}{db9d070cf4192dc2ae9f90df7e112e68}
+      \field{labelalpha}{DMO11}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The proliferation of elections in even those states that are arguably anything but democratic has given rise to a focused interest on developing methods for detecting fraud in the official statistics of a state's election returns. Among these efforts are those that employ Benford's Law, with the most common application being an attempt to proclaim some election or another fraud free or replete with fraud. This essay, however, argues that, despite its apparent utility in looking at other phenomena, Benford's Law is problematical at best as a forensic tool when applied to elections. Looking at simulations designed to model both fair and fraudulent contests as well as data drawn from elections we know, on the basis of other investigations, were either permeated by fraud or unlikely to have experienced any measurable malfeasance, we find that conformity with and deviations from Benford's Law follow no pattern. It is not simply that the Law occasionally judges a fraudulent election fair or a fair election fraudulent. Its \x{fffd}\x{fffd}\x{fffd}\x{fffd}\x{fffd}\x{fffd}success rate'' either way is essentially equivalent to a toss of a coin, thereby rendering it problematical at best as a forensic tool and wholly misleading at worst.}
+      \field{issn}{10471987}
+      \field{journaltitle}{Political Analysis}
+      \field{number}{3}
+      \field{title}{{Benford's Law and the detection of election fraud}}
+      \field{volume}{19}
+      \field{year}{2011}
+      \field{pages}{245\bibrangedash 268}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1093/pan/mpr014
+      \endverb
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/Political Analysis/Deckert, Myagkov, Ordeshook/2011/Deckert, Myagkov, Ordeshook - 2011 - Benford's Law and the detection of election fraud - Political Analysis.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Gleser2014}{article}{}
+      \name{author}{1}{}{%
+        {{hash=be1a9ba5534057394e414609fd4476da}{%
+           family={Gleser},
+           family_i={G\bibinitperiod},
+           given={Leon\bibnamedelima Jay},
+           given_i={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{be1a9ba5534057394e414609fd4476da}
+      \strng{fullhash}{be1a9ba5534057394e414609fd4476da}
+      \field{labelalpha}{Gle85}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelyear}{1985}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{number}{392}
+      \field{title}{{Exact Power of Goodness-of-Fit Tests of Kolmogorov Type for Discontinuous Distributions}}
+      \field{volume}{80}
+      \field{year}{1985}
+      \field{pages}{954\bibrangedash 958}
+      \range{pages}{5}
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/Journal of the American Statistical Association/Gleser/1985/Gleser - 1985 - Exact Power of Goodness-of-Fit Tests of Kolmogorov Type for Discontinuous Distributions - Journal of the American Statis.pdf:pdf
+      \endverb
+      \keyw{finite sample probabilities}
+    \endentry
+    \entry{Hill1995}{article}{}
+      \name{author}{1}{}{%
+        {{hash=66e7dca7c21b907d9001fe10dca8b3ac}{%
+           family={Hill},
+           family_i={H\bibinitperiod},
+           given={Theodore\bibnamedelima P.},
+           given_i={T\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{66e7dca7c21b907d9001fe10dca8b3ac}
+      \strng{fullhash}{66e7dca7c21b907d9001fe10dca8b3ac}
+      \field{labelalpha}{Hil95}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{1995}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The history, empirical evidence and classical explanations of the significant - digit (or Benford's) law are reviewed, followed by a summary of recent invariant-measure characterizations. Then a new statistical derivation of the law in the form of a CLT-like ... $\backslash$n}
+      \field{isbn}{0883-4237}
+      \field{issn}{0883-4237}
+      \field{journaltitle}{Statistical Science}
+      \field{number}{4}
+      \field{title}{{A statistical derivation of the significant-digit law}}
+      \field{volume}{10}
+      \field{year}{1995}
+      \field{pages}{354\bibrangedash 363}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.2307/2246134
+      \endverb
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/Statistical Science/Hill/1995/Hill - 1995 - A statistical derivation of the significant-digit law - Statistical Science.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/10.2307/2246134$%5Cbackslash$npapers3://publication/doi/10.2307/2246134
+      \endverb
+      \keyw{and phrases,base invariance,benford,first-digit law,law,logarithmic law,mantissa,mantissa sigma algebra,probability measures,random,random distributions,random k-samples,s law,scale invariance,significant-digit}
+    \endentry
+    \entry{Hicken2015}{unpublished}{}
+      \name{author}{2}{}{%
+        {{hash=f9ce0a9c28924ca7fde07b4a5bc2625a}{%
+           family={Hicken},
+           family_i={H\bibinitperiod},
+           given={Allen},
+           given_i={A\bibinitperiod}}}%
+        {{hash=70189270ac3fdd2bc1fb87911ea8db67}{%
+           family={Mebane},
+           family_i={M\bibinitperiod},
+           given={Walter\bibnamedelima R},
+           given_i={W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{be45f17987e38c200003e8ddee97683b}
+      \strng{fullhash}{be45f17987e38c200003e8ddee97683b}
+      \field{labelalpha}{HM15}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{A Guide to Election Forensics}}
+      \field{volume}{1045}
+      \field{year}{2015}
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/Unknown/Hicken, Mebane/2015/Hicken, Mebane - 2015 - A Guide to Election Forensics - Unknown.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Klimek2012}{article}{}
+      \name{author}{4}{}{%
+        {{hash=4f079d66cdeaa43d0f9296aad64e2c51}{%
+           family={Klimek},
+           family_i={K\bibinitperiod},
+           given={Peter},
+           given_i={P\bibinitperiod}}}%
+        {{hash=c194d50de514ab5aa8e761315d2f7695}{%
+           family={Yegorov},
+           family_i={Y\bibinitperiod},
+           given={Yuri},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=43c0b74fa4ebf674546696760b97ff71}{%
+           family={Hanel},
+           family_i={H\bibinitperiod},
+           given={Rudolf},
+           given_i={R\bibinitperiod}}}%
+        {{hash=4fa19d0ca5a4eb853a39db621ae6d005}{%
+           family={Thurner},
+           family_i={T\bibinitperiod},
+           given={Stefan},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4a87be7d294bcbc1b66abc466c8e8d1d}
+      \strng{fullhash}{76f77766a4de1a40f53bb0783d1c6e78}
+      \field{labelalpha}{Kli+12}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Democratic societies are built around the principle of free and fair elections, and that each citizen's vote should count equally. National elections can be regarded as large-scale social experiments, where people are grouped into usually large numbers of electoral districts and vote according to their preferences. The large number of samples implies statistical consequences for the polling results, which can be used to identify election irregularities. Using a suitable data representation, we find that vote distributions of elections with alleged fraud show a kurtosis substantially exceeding the kurtosis of normal elections, depending on the level of data aggregation. As an example, we show that reported irregularities in recent Russian elections are, indeed, well-explained by systematic ballot stuffing. We develop a parametric model quantifying the extent to which fraudulent mechanisms are present. We formulate a parametric test detecting these statistical properties in election results. Remarkably, this technique produces robust outcomes with respect to the resolution of the data and therefore, allows for cross-country comparisons.}
+      \field{eprinttype}{arXiv}
+      \field{isbn}{1091-6490 (Electronic)$\backslash$n0027-8424 (Linking)}
+      \field{issn}{1091-6490}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences of the United States of America}
+      \field{number}{41}
+      \field{title}{{Statistical detection of systematic election irregularities.}}
+      \field{volume}{109}
+      \field{year}{2012}
+      \field{pages}{16469\bibrangedash 73}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1073/pnas.1210722109
+      \endverb
+      \verb{eprint}
+      \verb 1201.3087
+      \endverb
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/Proceedings of the National Academy of Sciences of the United States of America/Klimek et al/2012/Klimek et al. - 2012 - Statistical detection of systematic election irregularities. - Proceedings of the National Academy of Sciences of.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.pnas.org/content/109/41/16469.abstract
+      \endverb
+      \keyw{Algorithms,Choice Behavior,Civil Rights,Civil Rights: standards,Civil Rights: statistics {\&} numerical data,Humans,Models,Statistical,Politics,Public Opinion,Public Policy,Reproducibility of Results}
+    \endentry
+    \entry{Lehoucq2003}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2f2bfb0fb2e3c90aa1fb6218a55038bd}{%
+           family={Lehoucq},
+           family_i={L\bibinitperiod},
+           given={Fabrice},
+           given_i={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f2bfb0fb2e3c90aa1fb6218a55038bd}
+      \strng{fullhash}{2f2bfb0fb2e3c90aa1fb6218a55038bd}
+      \field{labelalpha}{Leh03}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelyear}{2003}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1094-2939}
+      \field{journaltitle}{Annual Review of Political Science}
+      \field{number}{1}
+      \field{title}{{Electoral Fraud: Causes, Types, and Consequences}}
+      \field{volume}{6}
+      \field{year}{2003}
+      \field{pages}{233\bibrangedash 256}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1146/annurev.polisci.6.121901.085655
+      \endverb
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/Annual Review of Political Science/Lehoucq/2003/Lehoucq - 2003 - Electoral Fraud Causes, Types, and Consequences - Annual Review of Political Science.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.annualreviews.org/doi/abs/10.1146/annurev.polisci.6.121901.085655
+      \endverb
+      \keyw{and causes,at the,ballot rigging,clandestine and illegal,efforts to shape election,electoral,electoral corruption,electoral laws,fraud,fraud to identify its,magnitude,nature,only a handful of,results,reviews research on electoral,s abstract this article,this review therefore looks,vote buying,works classify reports on}
+    \endentry
+    \entry{Mebane2011}{article}{}
+      \name{author}{1}{}{%
+        {{hash=70189270ac3fdd2bc1fb87911ea8db67}{%
+           family={Mebane},
+           family_i={M\bibinitperiod},
+           given={Walter\bibnamedelima R},
+           given_i={W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{70189270ac3fdd2bc1fb87911ea8db67}
+      \strng{fullhash}{70189270ac3fdd2bc1fb87911ea8db67}
+      \field{labelalpha}{Meb11}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1047-1987, 1476-4989}
+      \field{title}{{Comment on \x{fffd}\x{fffd}\x{fffd} Benford ' s Law and the Detection of Election Fraud \x{fffd}\x{fffd}\x{fffd}}}
+      \field{year}{2011}
+      \field{pages}{269\bibrangedash 272}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1093/pan/mpr024
+      \endverb
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/Unknown/Mebane/2011/Mebane - 2011 - Comment on \x{fffd}\x{fffd}\x{fffd} Benford ' s Law and the Detection of Election Fraud \x{fffd}\x{fffd}\x{fffd} - Unknown.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Medzihorsky2015}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4df7df35ab799dc8598534b36b65094b}{%
+           family={Medzihorsky},
+           family_i={M\bibinitperiod},
+           given={Juraj},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4df7df35ab799dc8598534b36b65094b}
+      \strng{fullhash}{4df7df35ab799dc8598534b36b65094b}
+      \field{labelalpha}{Med15}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Digit-based election forensics (DBEF) typically relies on null hypothesis significance testing, with undesirable effects on substantive conclusions. This article proposes an alternative free of this problem. It rests on decomposing the observed numeral distribution into the "no fraud" and "fraud" latent classes, by finding the smallest fraction of numerals that needs to be either removed or reallocated to achieve a perfect fit of the "no fraud" model. The size of this fraction can be interpreted as a measure of fraudulence. Both alternatives are special cases of measures of model fit--the{\{}pi{\}} * mixture index of fit and the {\{}Delta{\}} dissimilarity index, respectively. Furthermore, independently of the latent class framework, the distributional assumptions of DBEF can be relaxed in some contexts. Independently or jointly, the latent class framework and the relaxed distributional assumptions allow us to dissect the observed distributions using models more flexible than those of existing DBEF. Reanalysis of Beber and Scacco's (2012) data shows that the approach can lead to new substantive conclusions.}
+      \field{issn}{14764989}
+      \field{journaltitle}{Political Analysis}
+      \field{number}{4}
+      \field{title}{{Election Fraud: A Latent Class Framework for Digit-Based Tests}}
+      \field{volume}{23}
+      \field{year}{2015}
+      \field{pages}{506\bibrangedash 517}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1093/pan/mpv021
+      \endverb
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/Political Analysis/Medzihorsky/2015/Medzihorsky - 2015 - Election Fraud A Latent Class Framework for Digit-Based Tests - Political Analysis.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Mebane}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=70189270ac3fdd2bc1fb87911ea8db67}{%
+           family={Mebane},
+           family_i={M\bibinitperiod},
+           given={Walter\bibnamedelima R},
+           given_i={W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=f9ce0a9c28924ca7fde07b4a5bc2625a}{%
+           family={Hicken},
+           family_i={H\bibinitperiod},
+           given={Allen},
+           given_i={A\bibinitperiod}}}%
+        {{hash=98745dc18a955d8e34c55f061548e85b}{%
+           family={Kollman},
+           family_i={K\bibinitperiod},
+           given={Ken},
+           given_i={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{301dfe16c958504a84d1450a6eafd6c9}
+      \strng{fullhash}{4665776e4a4be72fcbe4937f3547f9f9}
+      \field{labelalpha}{MHK}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Were there irregularities in Turkey's 2015 elections? We used this new forensic toolkit to check.}}
+    \endentry
+    \entry{Mosimann1995}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d375072196e2054db00c78feb3100760}{%
+           family={Mosimann},
+           family_i={M\bibinitperiod},
+           given={James\bibnamedelima E},
+           given_i={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=ab6663d23eb4f8cbbbdd31b8d9bae582}{%
+           family={Wiseman},
+           family_i={W\bibinitperiod},
+           given={Claire\bibnamedelima V},
+           given_i={C\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=218ef8b3a8e3e137dfe8537b314ce67b}{%
+           family={Edelman},
+           family_i={E\bibinitperiod},
+           given={Ruth\bibnamedelima E},
+           given_i={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc1894e88e2eaaca9a02733b8a7a6f68}
+      \strng{fullhash}{3554d54dbe8eaa7dfb94cc3d4dce17f4}
+      \field{labelalpha}{MWE95}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{1995}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many people have difficulty in generating random numbers. This difficulty suggests that potentially fabricated numbers encountered in investigations of scientific misconduct be examined for nonrandom behavior. The present paper shows that even with a conscious effort to construct random digits, many subjects are unable to produce digits with a uniform distribution. For this study, subjects were directed to try to produce random digits in three places in order to fabricate a series of ?pick 3?; lottery numbers. Subjects were most successful at producing a random (uniform) distribution of digits for the leftmost place; however, success at one place was not associated with success at another. In addition, subjects did not select all digits with equal frequency. Of 8,280 digits chosen in this study, the order from most to least chosen was 1, 2, 3, 6, 4, 9, 7, 0, 8, 5. Finally, no strong correlations among subjects? digit choices were found. The conscious effort by these subjects to produce random digits stands in contrast with the usual case of data fabrication in which the fabricator must devote a conscious effort to choose leftmost digits so the number has the magnitude desired and pays little or no attention to the fact that the rightmost digits should be random. The results of the present paper indicate that even if a data?fabricator were aware that error digits would be examined for uniformity, success in constructing uniform error distributions is not guaranteed. The difficulty that people have in creating random error digits supports the utility of examining such digits in investigations of scientific misconduct.}
+      \field{isbn}{0898-9621}
+      \field{issn}{0898-9621}
+      \field{journaltitle}{Account Res}
+      \field{number}{1}
+      \field{title}{{Data fabrication: Can people generate random digits?}}
+      \field{volume}{4}
+      \field{year}{1995}
+      \field{pages}{31\bibrangedash 55}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1080/08989629508573866
+      \endverb
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/Account Res/Mosimann, Wiseman, Edelman/1995/Mosimann, Wiseman, Edelman - 1995 - Data fabrication Can people generate random digits - Account Res.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Pettitt1977}{article}{}
+      \name{author}{2}{}{%
+        {{hash=84f11a9b63fe41d4b2f8784ba76c8832}{%
+           family={Pettitt},
+           family_i={P\bibinitperiod},
+           given={A.N},
+           given_i={A\bibinitperiod}}}%
+        {{hash=a23aa7ea002b39370a7a9b38c3789d3d}{%
+           family={Stephens},
+           family_i={S\bibinitperiod},
+           given={M.A.},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{686bb7e69b0b3c8f3f26a915861b910a}
+      \strng{fullhash}{686bb7e69b0b3c8f3f26a915861b910a}
+      \field{labelalpha}{PS77}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{1977}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Technometrics}
+      \field{number}{2}
+      \field{title}{{The Kolmogorov-Smirnov Discrete Statistic with and Grouped Data}}
+      \field{volume}{19}
+      \field{year}{1977}
+      \field{pages}{205\bibrangedash 210}
+      \range{pages}{6}
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/Technometrics/Pettitt, Stephens/1977/Pettitt, Stephens - 1977 - The Kolmogorov-Smirnov Discrete Statistic with and Grouped Data - Technometrics.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/1268631
+      \endverb
+    \endentry
+    \entry{Pericchi2011}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0faf5fb0b97b4d988d10a5c7cfc344c8}{%
+           family={Pericchi},
+           family_i={P\bibinitperiod},
+           given={Luis},
+           given_i={L\bibinitperiod}}}%
+        {{hash=8be19eb366911046166339c43972ec2d}{%
+           family={Torres},
+           family_i={T\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{4df2e472eef2af9afc4d3287af9b6d53}
+      \strng{fullhash}{4df2e472eef2af9afc4d3287af9b6d53}
+      \field{labelalpha}{PT11}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A simple and quick general test to screen for numerical anom- alies is presented. It can be applied, for example, to electoral processes, both electronic and manual. It uses vote counts in officially published vot- ing units, which are typically widely available and institutionally backed. The test examines the frequencies of digits on voting counts and rests on the First (NBL1) and Second Digit Newcomb\x{fffd}\x{fffd}\x{fffd}Benford Law (NBL2), and in a novel generalization of the law under restrictions of the maximum number of voters per unit (RNBL2). We apply the test to the 2004 USA presiden- tial elections, the Puerto Rico (1996, 2000 and 2004) governor elections, the 2004Venezuelan presidential recall referendum (RRP) and the previous 2000 Venezuelan Presidential election. The NBL2 is compellingly rejected only in the Venezuelan referendum and only for electronic voting units. Our origi- nal suggestion on the RRP (Pericchi and Torres, 2004) was criticized by The Carter Center report (2005). Acknowledging this, Mebane (2006) and The Economist (US) (2007) presented voting models and case studies in favor of NBL2. Further evidence is presented here. Moreover, under the RNBL2, Mebane's voting models are valid under wider conditions. The adequacy of the law is assessed through Bayes Factors (and corrections of p-values) in- stead of significance testing, since for large sample sizes and fixed $\alpha$ levels the null hypothesis is over rejected. Our tests are extremely simple and can become a standard screening that a fair electoral process should pass}
+      \field{eprinttype}{arXiv}
+      \field{issn}{0883-4237}
+      \field{journaltitle}{Statistical Science}
+      \field{number}{4}
+      \field{title}{{Quick Anomaly Detection by the Newcomb\x{fffd}\x{fffd}\x{fffd}Benford Law, with Applications to Electoral Processes Data from the USA, Puerto Rico and Venezuela}}
+      \field{volume}{26}
+      \field{year}{2011}
+      \field{pages}{502\bibrangedash 516}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1214/09-STS296
+      \endverb
+      \verb{eprint}
+      \verb arXiv:1205.3290v1
+      \endverb
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/Statistical Science/Pericchi, Torres/2011/Pericchi, Torres - 2011 - Quick Anomaly Detection by the Newcomb\x{fffd}\x{fffd}\x{fffd}Benford Law, with Applications to Electoral Processes Data from the U.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://projecteuclid.org/euclid.ss/1330437932
+      \endverb
+      \keyw{2bl,Newcomb-Benford Second Digit Law 2BL,Restricted Newcomb-Benford Law,and phrases,bayes factors,benford law,benford second digit law,elec-,election forensics,electronic elections,newcomb,p-value corrections,quick anomaly detection,restricted newcomb,tronic elections,universal,universal lower bound}
+    \endentry
+    \entry{Shikano2011}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8deeea746bbaf891e63741af46dd811a}{%
+           family={Shikano},
+           family_i={S\bibinitperiod},
+           given={Susumu},
+           given_i={S\bibinitperiod}}}%
+        {{hash=08e0c21d198d2787766564365b45aa17}{%
+           family={Mack},
+           family_i={M\bibinitperiod},
+           given={Verena},
+           given_i={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{da2b70bdcca132906bbab0d029bc2734}
+      \strng{fullhash}{da2b70bdcca132906bbab0d029bc2734}
+      \field{labelalpha}{SM11}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Detecting election fraud with a simple statistical method and minimal information makes the application of Benford's Law quite promising for a wide range of researchers. Whilst its specific form, the Second-Digit Benford's Law (2BL)-test, is increasingly applied to fraud suspected elections, concerns about the validity of its test results have been raised. One important caveat of this kind of research is that the 2BL-test has been applied mostly to fraud suspected elections. Therefore, this article will apply the test to the 2009 German Federal Parliamentary Election against which no serious allegation of fraud has been raised. Surprisingly, the test results indicate that there should be electoral fraud in a number of constituencies. These counterintuitive results might be due to the naive application of the 2BL-test which is based on the conventional v[superscript 2] distribution. If we use an alternative distribution based on simulated election data, the 2BL-test indicates no significant deviation. Using the simulated election data, we also identified under which circumstances the naive application of the 2BL-test is inappropriate. Accordingly, constituencies with homogeneous precincts and a specific range of vote counts tend to have a higher value for the 2BL statistic.}
+      \field{issn}{00214027}
+      \field{journaltitle}{Jahrbucher fur Nationalokonomie und Statistik}
+      \field{number}{5-6}
+      \field{title}{{When does the second-digit benford's law-test signal an election fraud?: Facts or misleading test results}}
+      \field{volume}{231}
+      \field{year}{2011}
+      \field{pages}{719\bibrangedash 732}
+      \range{pages}{14}
+      \verb{doi}
+      \verb ????
+      \endverb
+      \verb{file}
+      \verb :Users/brianlibgober/Documents/Mendeley Desktop/Jahrbucher fur Nationalokonomie und Statistik/Shikano, Mack/2011/Shikano, Mack - 2011 - When does the second-digit benford's law-test signal an election fraud Facts or misleading test results - Jahrbuc.pdf:pdf
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

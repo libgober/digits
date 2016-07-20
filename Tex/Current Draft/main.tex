@@ -1,0 +1,89 @@
+%%document
+\documentclass[11.0pt]{article}
+\usepackage[top=1.0in, bottom=1.0in, left=1.0in, right=1.0in]{geometry}
+
+%symbols and math
+\usepackage{amssymb}
+\usepackage{amsmath}
+%%setup for figure environments and graphics
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{multirow}
+%captions 
+\usepackage[textfont=it]{caption}
+\usepackage[textfont=it]{subcaption}
+\usepackage[sf]{titlesec}
+
+%%Title and Author
+\usepackage{authblk}% for correct display of affiliations 
+\title{ \sf{A Bayesian Approach to Detecting Election Fraud}
+\thanks{All errors our are own}
+}
+
+\author[1]{ \sf Brian Libgober}
+
+\author[2]{ \sf Erik Meyersson}
+
+\affil[1]{ \sf Department of Government and Institute for Quantitative Social Science
+\authorcr \sf Terence M. Considine Fellow in Law and Social Science
+\authorcr \sf Harvard University, 1737 Cambridge Street, Cambridge MA 02138
+\authorcr \sf e-mail: blibgober@g.harvard.edu}
+
+\affil[2]{ \sf Stockholm Institute for Transition Economics (SITE)
+\authorcr \sf Stockholm School of Economics, SE-113 83 Stockholm, Sweden
+\authorcr  \sf e-mail: erik.meyersson@hhs.se \vspace{0.6cm}} 
+
+
+\date{}
+\renewcommand\footnotemark{} %kills the * next to title in thanks
+\renewcommand\footnoterule{}  %kills the * next to title in thanks
+
+
+%%%Headers and Footers
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+
+\lhead{\sf{  Libgober \& Meyersson }}
+\chead{}
+\rhead{\sf{A Bayesian Approach to Detecting Election Fraud} }
+\lfoot{}
+\cfoot{\arabic{page} }
+\rfoot{}
+
+\fancypagestyle{plain}{%
+  \renewcommand{\headrulewidth}{0pt}%
+  \fancyhead{}%
+  \fancyfoot[C]{\footnotesize \thepage\ }%
+}
+
+
+%setup bibliography 
+\usepackage[backend=biber,style=alphabetic,citestyle=authoryear,maxcitenames=2,uniquename=false,uniquelist=false]{biblatex}
+\bibliography{DigitStats.bib}
+% 
+%%miscelaneous
+\usepackage{nicefrac}
+\usepackage{varioref} %for better cross referencing, using vref to include page numbers if not on same page
+\newcommand{\pderiv}[2]{\frac{\partial #1}{\partial #2}} %simple partial derivatives
+
+\begin{document}
+
+\maketitle
+%\input{Sections/Abstract.tex}
+%\input{Sections/Introduction.tex}
+\input{Sections/LitReview.tex}
+\input{Sections/RD2.tex}
+%\input{Sections/Discussion.tex}
+%\input{Sections/Conclusion.tex}
+%\input{Sections/Appendix.tex}
+
+\nocite{*}
+
+
+
+\end{document}
+
+
+
+%OVERALL: fixed voteshare or vote share 
+%make consistent IV threshold and big graph 
